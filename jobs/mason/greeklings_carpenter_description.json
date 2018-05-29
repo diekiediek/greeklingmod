@@ -1,7 +1,0 @@
-{
-   "type": "job",
-   "mixins": "stonehearth:jobs:carpenter",
-   "crafter": {
-      "recipe_list": "/greeklingmod/jobs/carpenter/recipes/recipes.json"
-   }
-}
