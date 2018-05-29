@@ -1,4 +1,10 @@
 {
 	"mixins": "/stonehearth/jobs/carpenter/recipes/recipes.json",
-	"craftable_recipes": {}
+	"craftable_recipes": {
+		"armor" : {
+			"wooden_aspis" : {
+				"recipe" : "file(wooden_aspis_recipe)"
+			}
+		}
+	}
 }
