@@ -20,6 +20,7 @@
 	  "jobs:footman"							: "file(jobs/footman/greekings_footman_description.json)",
 	  "jobs:herbalist"							: "file(jobs/herbalist/greeklings_herbalist_description.json)",
 	  "jobs:blacksmith"							: "file(jobs/blacksmith/greeklings_blacksmith_description.json)",
+	  "jobs:mason"								: "file(jobs/mason/greeklings_mason_description.json)",
 	  "gm_index"								: "file(data/gm/gm_index.json)",
 	  "banner:cunning"							: "file(entities/gizmos/greeklings_town_banner_guardian/greeklings_town_banner_guardian.json)",
       "banner:cunning:token"					: "file(entities/gizmos/greeklings_town_banner_guardian/greeklings_town_banner_guardian_token.json)",
@@ -39,7 +40,9 @@
 	  "plants:olive_tree:sprout"				: "file(entities/plants/olive_tree/sprout/olive_tree_sprout.json)",
 	  "plants:olive_tree:stem"					: "file(entities/plants/olive_tree/stem/olive_tree_stem.json)",
 	  "bronze_aspis"							: "file(entities/armor/bronze_aspis/bronze_aspis.json)",
-	  "wooden_sword_greeklings"					: "file(entities/weapons/wooden_sword_greeklings/wooden_sword_greeklings.json)"
+	  "wooden_aspis"							: "file(entities/armor/wooden_aspis/wooden_aspis.json)",
+	  "iron_aspis"								: "file(entities/armour/iron_aspisp/iron_aspis.json)",
+	  "stone_spear"								: "file(entities/weapons/stone_spear/stone_spear.json)"
    }, 
    "mixintos" : {
       "stonehearth:playable_kingdom_index"							: "file(data/greeklings_playable_kingdom_index.json)",

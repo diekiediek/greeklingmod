@@ -115,7 +115,7 @@
 		 },
 	"armor": {
 		"bronze_aspis": {
-            "display_name": "Aspis",
+            "display_name": "Bronze Aspis",
             "description": "Useful for blocking attacks",
             "bronze_aspis_iconic": {
                "display_name": "Bronze Shield",
@@ -126,7 +126,12 @@
 			},
 "jobs" : {
 	"carpenter": {
-		"recipes": {}
+		"recipes": {
+			"wooden_aspis_recipe": {
+               "description": "A typical Greek shield, it will protect you",
+               "flavor": "Management not acountable for failure",
+               "recipe_name": "Wooden Aspis"
+		}
 					},
 	"cook": {
 		"olive_oil_recipe": {
@@ -153,10 +158,25 @@
 		"recipes": {
 			"bronze_aspis_recipe": {
                "description": "A sturdy and shiny shield",
-               "flavor": "'Buck up, recruit! Better the shield dent than you!' -Threddius, Man at Arms",
+               "flavor": "'Come back with your shield or on it' - Plutarch",
                "recipe_name": "Bronze Aspis"
-            }
+            },
+			"iron_aspis_recipe": {
+               "description": "A sturdier and shinier shield",
+               "flavor": "'Come back with your shield or on it again!' - Plutarch's Wife",
+               "recipe_name": "Iron Aspis"
 			}
-}				
-}
+},
+	"mason": {
+		"recipes": {
+			"stone_spear_recipe":{
+				"description": "A stone spear",
+               "flavor": "For those who enjoy close combat but not to close",
+               "recipe_name": "Stone Spear"
+								}
+					}
+			   }
+				}
+				}
+		}
 }
