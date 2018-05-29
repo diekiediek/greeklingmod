@@ -4,7 +4,7 @@
 		"workbenches": {
 			"recipes" : {
 				"cook_press": {
-					"recipe": "file(cook_mill_recipe.json)"
+					"recipe": "file(cook_press_recipe.json)"
             }
 			}
 	},
