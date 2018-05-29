@@ -1,0 +1,35 @@
+{
+   "type": "camp_piece",
+   "entities": {
+      "orc_tent_1": {
+         "uri": "stonehearth:monsters:orcs:orc_tent",
+         "force_iconic": false,
+         "location": {
+            "x": -7,
+            "y": 0,
+            "z": -7
+         },
+         "rotation": 180
+      },
+      "orc_tent_2": {
+         "uri": "stonehearth:monsters:orcs:orc_tent",
+         "force_iconic": false,
+         "location": {
+            "x": 7,
+            "y": 0,
+            "z": 7
+         },
+         "rotation": 90
+      },
+      "bling_hat": {
+         "uri": "stonehearth:monsters:kobolds:loot:elite_bling_hat",
+         "force_iconic": true,
+         "lootable": true,
+         "location": {
+            "x": 2,
+            "y": 0,
+            "z": 3
+         }
+      }
+   }
+}

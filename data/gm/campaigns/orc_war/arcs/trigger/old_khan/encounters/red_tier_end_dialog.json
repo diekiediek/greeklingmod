@@ -1,0 +1,24 @@
+{
+   "type": "encounter",
+   "encounter_type": "dialog_tree",
+   "rarity": "common",
+   "in_edge": "red_tier_end_dialog",
+   "dialog_tree_info": {
+      "start_node": "msg1",
+      "nodes": {
+         "msg1": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.red_tier_end_dialog.dialog_tree_info.dialog_nodes.msg1.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.red_tier_end_dialog.dialog_tree_info.dialog_nodes.msg1.dialog_title)",
+               "portrait": "file(encounter_data/ogre_chief_portrait.png)",
+               "message": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.red_tier_end_dialog.dialog_tree_info.dialog_nodes.msg1.bulletin_message.00)",
+               "choices": {
+                  "stonehearth:ui.game.common.ok": {
+                     "out_edge": "unlock_purple_token_recipe"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

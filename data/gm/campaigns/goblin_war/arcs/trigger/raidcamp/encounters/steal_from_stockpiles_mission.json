@@ -1,0 +1,52 @@
+{
+   "type": "encounter",
+   "encounter_type": "city_raid",
+   "rarity": "common",
+   "in_edge": "city_raid",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "wait_to_destroy_city_raid",
+         "wait_for_moving_on_to_destroy_raids"
+      ]
+   },
+   "city_raid_info": {
+      "missions": {
+         "raid_stockpiles": {
+            "raid_timeout_minutes": 300,
+            "raid_timeout_variance_minutes": 60,
+            "ctx_entity_registration_path": "chieftain_camp_city_raid",
+            "require_free_stockpile_space": true,
+            "role": "raid_stockpiles",
+            "offset": { "x": 0, "y": 0, "z": 0 },
+            "sighted_bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.steal_from_stockpiles_mission.missions.raid_stockpiles.sighted_bulletin.title)",
+               "message": "i18n(stonehearth:data.gm.campaigns.goblin_war.steal_from_stockpiles_mission.missions.raid_stockpiles.sighted_bulletin.message)"
+            },
+            "members": {
+               "thiefs": {
+                  "from_population": {
+                     "min": 3,
+                     "max": 4,
+                     "location": { "x": 3, "z": -3 },
+                     "range": 4
+                  },
+                  "tuning": "stonehearth:monster_tuning:goblins:worker_thief"
+               },
+               "escorts": {
+                  "from_population": {
+                     "min": 2,
+                     "max": 2,
+                     "location": { "x": 1, "z": -1 },
+                     "range": 4,
+                     "scale_with_run": {
+                        "encounter_cap": 5
+                     }
+                  },
+                  "tuning": "stonehearth:monster_tuning:goblins:guard"
+               }
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,25 @@
+{
+   "type": "camp_piece",
+   "entities": {
+      "tent": {
+         "uri": "stonehearth:monsters:goblins:goblin_tent",
+         "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+         }
+      }
+   },
+   "citizens": {
+      "banner_goblin": {
+         "from_population": {
+            "location": {
+               "x": 5,
+               "z": -5
+            }
+         },
+         "combat_leash_range": 30,
+         "tuning": "stonehearth:monster_tuning:goblins:miniboss"
+      }
+   }
+}

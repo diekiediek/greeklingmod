@@ -1,0 +1,224 @@
+{
+   "type": "camp_piece",
+   "entities": {
+      "sarcophagus_1": {
+         "uri": "stonehearth:monsters:undead:sarcophagus",
+         "force_iconic": false,
+         "location": {
+            "x": 13,
+            "y": 0,
+            "z": -4
+         },
+         "unit_info": {
+            "display_name": "i18n(stonehearth:data.gm.campaigns.ambient_threats.arcs.trigger.ambient_threats.encounters.create_necromancer_crypt.sarcophagus.display_name)",
+            "description": "i18n(stonehearth:data.gm.campaigns.ambient_threats.arcs.trigger.ambient_threats.encounters.create_necromancer_crypt.sarcophagus.description)"
+         },
+         "loot_drops": {
+            "entries": {
+               "default": {
+                  "num_rolls": {
+                     "min": 1,
+                     "max": 2
+                  },
+                  "items": {
+                     "stone": {
+                        "uri": "stonehearth:resources:stone:hunk_of_stone",
+                        "weight": 5
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "sarcophagus_2": {
+         "uri": "stonehearth:monsters:undead:sarcophagus",
+         "force_iconic": false,
+         "location": {
+            "x": -10,
+            "y": 0,
+            "z": 9
+         },
+         "unit_info": {
+            "display_name": "i18n(stonehearth:data.gm.campaigns.ambient_threats.arcs.trigger.ambient_threats.encounters.create_necromancer_crypt.sarcophagus.display_name)",
+            "description": "i18n(stonehearth:data.gm.campaigns.ambient_threats.arcs.trigger.ambient_threats.encounters.create_necromancer_crypt.sarcophagus.description)"
+         },
+         "loot_drops": {
+            "entries": {
+               "default": {
+                  "num_rolls": {
+                     "min": 1,
+                     "max": 2
+                  },
+                  "items": {
+                     "stone": {
+                        "uri": "stonehearth:resources:stone:hunk_of_stone",
+                        "weight": 5
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "large_crypt": {
+         "uri": "stonehearth:monsters:undead:crypt",
+         "force_iconic": false,
+         "location": {
+            "x": 0,
+            "y": 0,
+            "z": -7
+         },
+         "rotation": 180,
+         "unit_info": {
+            "display_name": "i18n(stonehearth:data.gm.campaigns.ambient_threats.arcs.trigger.ambient_threats.encounters.create_necromancer_crypt.crypt.display_name)",
+            "description": "i18n(stonehearth:data.gm.campaigns.ambient_threats.arcs.trigger.ambient_threats.encounters.create_necromancer_crypt.crypt.description)"
+         }
+      },
+      "floor_candle_1": {
+         "uri": "stonehearth:decoration:stone_floor_candle_holder",
+         "force_iconic": false,
+         "location": {
+            "x": 3,
+            "y": 0,
+            "z": 3
+         },
+         "unit_info": {
+            "description": "i18n(stonehearth:data.gm.campaigns.ambient_threats.arcs.trigger.ambient_threats.encounters.create_necromancer_crypt.crypt_structures.floor_candle.description)"
+         }
+      },
+      "floor_candle_2": {
+         "uri": "stonehearth:decoration:stone_floor_candle_holder",
+         "force_iconic": false,
+         "location": {
+            "x": -4,
+            "y": 0,
+            "z": 3
+         },
+         "unit_info": {
+            "description": "i18n(stonehearth:data.gm.campaigns.ambient_threats.arcs.trigger.ambient_threats.encounters.create_necromancer_crypt.crypt_structures.floor_candle.description)"
+         }
+      },
+      "tombstone_1": {
+         "uri": "stonehearth:monsters:undead:tombstone",
+         "force_iconic": false,
+         "location": {
+            "x": -11,
+            "y": 0,
+            "z": -9
+         },
+         "loot_drops": {
+            "entries": {
+               "default": {
+                  "items": {
+                     "stone": {
+                        "uri": "stonehearth:resources:stone:hunk_of_stone"
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "tombstone_2": {
+         "uri": "stonehearth:monsters:undead:tombstone",
+         "force_iconic": false,
+         "location": {
+            "x": -15,
+            "y": 0,
+            "z": -11
+         },
+         "loot_drops": {
+            "entries": {
+               "default": {
+                  "items": {
+                     "stone": {
+                        "uri": "stonehearth:resources:stone:hunk_of_stone"
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "tombstone_3": {
+         "uri": "stonehearth:monsters:undead:tombstone",
+         "force_iconic": false,
+         "location": {
+            "x": -13,
+            "y": 0,
+            "z": -5
+         },
+         "loot_drops": {
+            "entries": {
+               "default": {
+                  "items": {
+                     "stone": {
+                        "uri": "stonehearth:resources:stone:hunk_of_stone"
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "tombstone_4": {
+         "uri": "stonehearth:monsters:undead:tombstone",
+         "force_iconic": false,
+         "location": {
+            "x": 17,
+            "y": 0,
+            "z": 14
+         },
+         "loot_drops": {
+            "entries": {
+               "default": {
+                  "items": {
+                     "stone": {
+                        "uri": "stonehearth:resources:stone:hunk_of_stone"
+                     }
+                  }
+               }
+            }
+         },
+         "rotation": 90
+      },
+      "tombstone_5": {
+         "uri": "stonehearth:monsters:undead:tombstone",
+         "force_iconic": false,
+         "location": {
+            "x": 14,
+            "y": 0,
+            "z": 7
+         },
+         "loot_drops": {
+            "entries": {
+               "default": {
+                  "items": {
+                     "stone": {
+                        "uri": "stonehearth:resources:stone:hunk_of_stone"
+                     }
+                  }
+               }
+            }
+         },
+         "rotation": 90
+      },
+      "tombstone_6": {
+         "uri": "stonehearth:monsters:undead:tombstone",
+         "force_iconic": false,
+         "location": {
+            "x": 10,
+            "y": 0,
+            "z": 10
+         },
+         "loot_drops": {
+            "entries": {
+               "default": {
+                  "items": {
+                     "stone": {
+                        "uri": "stonehearth:resources:stone:hunk_of_stone"
+                     }
+                  }
+               }
+            }
+         },
+         "rotation": 90
+      }
+   }
+}

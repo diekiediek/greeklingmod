@@ -1,0 +1,12 @@
+{
+   "type" : "encounter",
+   "encounter_type" : "wait_for_event",
+
+   "in_edge"  : "wait_for_golem_killed",
+   "out_edge" : "spawn_stonelings",
+
+   "wait_for_event_info" :  {
+      "source" : "golem_raid.golems",
+      "event"  : "stonehearth:kill_event"
+   }
+}

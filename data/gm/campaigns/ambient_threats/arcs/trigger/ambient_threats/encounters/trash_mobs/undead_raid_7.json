@@ -1,0 +1,28 @@
+{
+   "type": "encounter",
+   "mixins": "stonehearth:mixins:encounter:undead_raid",
+   "encounter_type": "create_mission",
+   "in_edge": "undead_raid_7",
+   "out_edge": "wait_to_destroy_raiding_party",
+   "create_mission_info": {
+      "mission": {
+         "ctx_entity_registration_path": "undead_raid_7",
+         "members": {
+            "zombies": {
+               "from_population": {
+                  "min": 2,
+                  "max": 3
+               },
+               "tuning": "stonehearth:monster_tuning:undead:insane_undead"
+            },
+            "skeletons": {
+               "from_population": {
+                  "min": 3,
+                  "max": 3
+               },
+               "tuning": "stonehearth:monster_tuning:undead:insane_undead"
+            }
+         }
+      }
+   }
+}

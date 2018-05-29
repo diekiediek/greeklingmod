@@ -1,0 +1,108 @@
+{
+   "type": "encounter",
+   "encounter_type": "collection_quest",
+   "rarity": "common",
+   "in_edge": "shakedown",
+   "collection_quest_info": {
+      "out_edges": {
+         "refuse": "spawn_city_raids",
+         "fail": "spawn_city_raids",
+         "success": "shakedown_success_counter"
+      },
+      "filler_material": {
+         "stonehearth:biome:temperate": "stonehearth:resources:wood:oak_log",
+         "stonehearth:biome:desert": "stonehearth:resources:clay:clay_mound"
+      },
+      "script": "stonehearth:game_master:script:collection_quest_shakedown",
+      "source_entity": "goblin_raiding_camp_1.boss",
+      "duration": "1d",
+      "i18n_data": {
+         "boss_display_name": "boss_display_name",
+         "boss_custom_name": "boss_custom_name"
+      },
+      "nodes": {
+         "shakedown": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.shakedown.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.shakedown.dialog_title)",
+               "portrait": "file(shakedown/boss_portrait.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.shakedown.bulletin_message.000)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.shakedown.bulletin_message.001)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.shakedown.bulletin_message.002)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.shakedown.bulletin_message.003)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.shakedown.bulletin_message.004)"
+               ]
+            }
+         },
+         "shakedown_refused": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.shakedown_refused.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.shakedown_refused.dialog_title)",
+               "portrait": "file(shakedown/boss_portrait.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.shakedown_refused.bulletin_message.000)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.shakedown_refused.bulletin_message.001)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.shakedown_refused.bulletin_message.002)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.shakedown_refused.bulletin_message.003)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.shakedown_refused.bulletin_message.004)"
+               ]
+            }
+         },
+         "collection_progress": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.collection_progress.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.collection_progress.dialog_title)",
+               "portrait": "file(shakedown/boss_portrait.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.collection_progress.bulletin_message.000)"
+               ]
+            }
+         },
+         "collection_due": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.collection_due.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.collection_due.dialog_title)",
+               "portrait": "file(shakedown/boss_portrait.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.collection_due.bulletin_message.000)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.collection_due.bulletin_message.001)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.collection_due.bulletin_message.002)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.collection_due.bulletin_message.003)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.collection_due.bulletin_message.004)"
+               ]
+            }
+         },
+         "collection_failed": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.collection_failed.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.collection_failed.dialog_title)",
+               "portrait": "file(shakedown/boss_portrait.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.collection_failed.bulletin_message.000)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.collection_failed.bulletin_message.001)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.collection_failed.bulletin_message.002)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.collection_failed.bulletin_message.003)"
+               ]
+            }
+         },
+         "collection_success": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.collection_success.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.collection_success.dialog_title)",
+               "portrait": "file(shakedown/boss_portrait.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.collection_success.bulletin_message.000)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.collection_success.bulletin_message.001)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.collection_success.bulletin_message.002)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.collection_success.bulletin_message.003)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.collection_success.bulletin_message.004)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.collection_success.bulletin_message.005)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.collection_success.bulletin_message.006)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.shakedown.collection_quest_info.dialog_nodes.collection_success.bulletin_message.007)"
+               ]
+            }
+         }
+      }
+   }
+}

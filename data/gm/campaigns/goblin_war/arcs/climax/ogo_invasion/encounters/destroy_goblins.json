@@ -1,0 +1,22 @@
+{
+   "type" : "encounter",
+   "encounter_type" : "destroy_entity",
+
+   "in_edge"  : "destroy_goblins",
+   "destroy_entity_info" :  {
+      "target_entities" : [
+         "ogo_army_raid.ogo_skullbonker",
+         "ogo_army_raid.mountain_ogre",
+         "ogo_army_raid.marauders",
+         "ogo_army_raid.wolves",
+         "ogo_army_raid.guards"
+         ], 
+      "effect" : "stonehearth:effects:object_destroyed", 
+      "random_delay" : {
+            "min" : 60, 
+            "max" : 150 
+      },
+      "continue_always" : true, 
+      "script" : "file(destroy_goblins.lua)"
+   }
+}

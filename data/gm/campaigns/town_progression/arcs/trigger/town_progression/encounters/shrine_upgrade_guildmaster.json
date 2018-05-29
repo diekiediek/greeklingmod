@@ -1,0 +1,112 @@
+{
+   "type": "encounter",
+   "encounter_type": "town_upgrade",
+   "in_edge": "shrine_upgrade_guildmaster",
+   "town_upgrade_info": {
+      "old_facility_uri": "stonehearth:decoration:craftsman_statue",
+      "new_facility_uri": "stonehearth:decoration:craftsman_statue:blessed",
+      "facility_upgrade_effect": "stonehearth:effects:level_up:monument",
+      "town_bonus": "stonehearth:town_bonus:guildmaster",
+      "tier_achieved": 3,
+      "conversation_subjects": [
+         "stonehearth:subjects:town_status",
+         "stonehearth:food:cake",
+         "stonehearth:decoration:craftsman_statue",
+         "stonehearth:decoration:craftsman_statue:fountain",
+         "stonehearth:decoration:craftsman_statue:fountain_garden",
+         "stonehearth:decoration:craftsman_statue:fountain_tiered",
+         "stonehearth:decoration:craftsman_statue:statue_rabbit",
+         "stonehearth:decoration:craftsman_statue:statue_rabbit_flat",
+         "stonehearth:decoration:craftsman_statue:wall_hanging_berrywreath",
+         "stonehearth:decoration:craftsman_statue:topiary_rabbit",
+         "stonehearth:decoration:craftsman_statue:topiary_fox",
+         "stonehearth:decoration:craftsman_statue:topiary_mammoth",
+         "stonehearth:decoration:craftsman_statue:pot_berry_bush",
+         "stonehearth:decoration:craftsman_statue:fence_brightbell",
+         "stonehearth:decoration:craftsman_statue:fence_frostsnap",
+         "stonehearth:decoration:craftsman_statue:fence_gate_iron",
+         "stonehearth:decoration:craftsman_statue:candle_iron_double",
+         "stonehearth:decoration:craftsman_statue:lamppost_rustic_double",
+         "stonehearth:decoration:craftsman_statue:lantern_iron"
+      ],
+      "thought": "stonehearth:thoughts:town:progression:town",
+      "celebration_duration": "2h30m+10m",
+      "has_fireworks": true,
+      "dialog": {
+         "title": "i18n(stonehearth:data.gm.campaigns.trader.valor_tier_2_reached.title)",
+         "dialog_title": "i18n(stonehearth:data.gm.campaigns.trader.valor_tier_2_reached.dialog_title)",
+         "tier_title": "i18n(stonehearth:data.gm.campaigns.trader.valor_tier_2_reached.tier_title)",
+         "reward_message": "i18n(stonehearth:data.gm.campaigns.trader.valor_tier_2_reached.reward_message)",
+         "reward_message_ctd": "i18n(stonehearth:data.gm.campaigns.trader.crafting_tier_2_reached.reward_message_ctd)",
+         "achievements": [
+            {
+               "id": "craftsman_bonus",
+               "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.shrine_upgrade_guildmaster.achievements.000)",
+               "icon": "file(/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png)",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            },
+            {
+               "id": "craftsman_decorations_1",
+               "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.shrine_upgrade_guildmaster.achievements.001)",
+               "icon": "file(/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png)",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            },
+            {
+               "id": "craftsman_decorations_2",
+               "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.shrine_upgrade_guildmaster.achievements.002)",
+               "icon": "file(/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png)",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            },
+            {
+               "id": "craftsman_decorations_3",
+               "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.shrine_upgrade_guildmaster.achievements.003)",
+               "icon": "file(/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png)",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            },
+            {
+               "id": "tier_3_bgm",
+               "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.shrine_upgrade_guildmaster.achievements.004)",
+               "icon": "file(/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png)",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            }
+         ]
+      },
+      "npcs": [
+         {
+            "faction": "human_npcs",
+            "role": "herald_harold",
+            "gender": "male"
+         },
+         {
+            "faction": "human_npcs",
+            "role": "herald_mer",
+            "gender": "male"
+         },
+         {
+            "faction": "human_npcs",
+            "role": "herald_isabelle",
+            "gender": "female"
+         },
+         {
+            "faction": "human_npcs",
+            "role": "herald_marak",
+            "gender": "male"
+         },
+         {
+            "faction": "human_npcs",
+            "role": "party_goblin",
+            "gender": "male"
+         },
+         {
+            "faction": "rabbit_biped_npcs",
+            "role": "herald_sasha",
+            "gender": "female"
+         },
+         {
+            "faction": "orc_npcs",
+            "role": "herald_erdene",
+            "gender": "female"
+         }
+      ]
+   }
+}

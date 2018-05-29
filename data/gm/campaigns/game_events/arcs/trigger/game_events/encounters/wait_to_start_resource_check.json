@@ -1,0 +1,18 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "can_start": {
+      "test_1": {
+         "game_mode_check": {
+            "type": "deny_if",
+            "item": "game_mode",
+            "value": "stonehearth:game_mode:peaceful"
+         }
+      }
+   },
+   "in_edge": "wait_to_start_resource_check",
+   "out_edge": "resource_check_encounter",
+   "wait_info": {
+      "duration": "3d+1d"
+   }
+}

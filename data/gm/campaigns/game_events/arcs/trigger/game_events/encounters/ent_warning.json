@@ -1,0 +1,80 @@
+{
+   "type": "encounter",
+   "encounter_type": "collection_quest",
+   "rarity": "common",
+   "in_edge": "ent_warning",
+   "collection_quest_info": {
+      "out_edges": {
+         "fail": "wait_to_start_ent_wrath",
+         "refuse": "wait_to_start_ent_wrath",
+         "success": "ent_donation_dialog"
+      },
+      "filler_material": {
+         "stonehearth:biome:temperate": "stonehearth:resources:wood:oak_log",
+         "stonehearth:biome:desert": "stonehearth:resources:clay:clay_mound"
+      },
+      "skip_return_trip": true,
+      "script": "file(excess_resource_shakedown.lua)",
+      "dialog_view": "portrait",
+      "i18n_data": {
+         "town_name": "town_name"
+      },
+      "nodes": {
+         "introduction": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.game_events.arcs.trigger.game_events.encounters.ent_warning.collection_quest_info.dialog_nodes.introduction.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.game_events.arcs.trigger.game_events.encounters.ent_warning.collection_quest_info.dialog_nodes.introduction.dialog_title)",
+               "portrait": "file(images/ent_portrait.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.game_events.arcs.trigger.game_events.encounters.ent_warning.collection_quest_info.dialog_nodes.introduction.bulletin_message.000)",
+                  "i18n(stonehearth:data.gm.campaigns.game_events.arcs.trigger.game_events.encounters.ent_warning.collection_quest_info.dialog_nodes.introduction.bulletin_message.001)"
+               ]
+            }
+         },
+         "collection_due": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.game_events.arcs.trigger.game_events.encounters.ent_warning.collection_quest_info.dialog_nodes.collection_due.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.game_events.arcs.trigger.game_events.encounters.ent_warning.collection_quest_info.dialog_nodes.collection_due.dialog_title)",
+               "portrait": "file(images/ent_portrait.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.game_events.arcs.trigger.game_events.encounters.ent_warning.collection_quest_info.dialog_nodes.collection_due.bulletin_message.000)",
+                  "i18n(stonehearth:data.gm.campaigns.game_events.arcs.trigger.game_events.encounters.ent_warning.collection_quest_info.dialog_nodes.collection_due.bulletin_message.001)",
+                  "i18n(stonehearth:data.gm.campaigns.game_events.arcs.trigger.game_events.encounters.ent_warning.collection_quest_info.dialog_nodes.collection_due.bulletin_message.002)",
+                  "i18n(stonehearth:data.gm.campaigns.game_events.arcs.trigger.game_events.encounters.ent_warning.collection_quest_info.dialog_nodes.collection_due.bulletin_message.003)"
+               ]
+            }
+         },
+         "collection_failed": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.game_events.arcs.trigger.game_events.encounters.ent_warning.collection_quest_info.dialog_nodes.collection_failed.bulletin_title)",
+               "dialog_title": "",
+               "portrait": "file(images/ent_portrait.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.game_events.arcs.trigger.game_events.encounters.ent_warning.collection_quest_info.dialog_nodes.collection_failed.bulletin_message.000)"
+               ]
+            }
+         },
+         "collection_success": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.game_events.arcs.trigger.game_events.encounters.ent_warning.collection_quest_info.dialog_nodes.collection_success.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.game_events.arcs.trigger.game_events.encounters.ent_warning.collection_quest_info.dialog_nodes.collection_success.dialog_title)",
+               "portrait": "file(images/ent_portrait.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.game_events.arcs.trigger.game_events.encounters.ent_warning.collection_quest_info.dialog_nodes.collection_success.bulletin_message.000)"
+               ]
+            }
+         },
+         "revenge": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.game_events.arcs.trigger.game_events.encounters.ent_warning.collection_quest_info.dialog_nodes.revenge.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.game_events.arcs.trigger.game_events.encounters.ent_warning.collection_quest_info.dialog_nodes.revenge.dialog_title)",
+               "portrait": "file(images/ent_portrait.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.game_events.arcs.trigger.game_events.encounters.ent_warning.collection_quest_info.dialog_nodes.revenge.bulletin_message.000)"
+               ]
+            },
+            "tribute_percentage": 0.25
+         }
+      }
+   }
+}

@@ -1,0 +1,16 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "start",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "generate_daily_threat",
+         "wait_to_start_raiding_parties"
+      ]
+   },
+   "wait_info": {
+      "duration": "48h",
+      "game_mode_tuning": true
+   }
+}

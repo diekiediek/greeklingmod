@@ -1,0 +1,53 @@
+{
+   "type": "encounter",
+   "encounter_type": "dialog_tree",
+   "rarity": "common",
+   "in_edge": "boss_death_dialog",
+   "dialog_tree_info": {
+      "start_node": "msg1",
+      "script": "file(boss_death_script.lua)",
+      "i18n_data": {
+         "boss_display_name": "boss_display_name",
+         "boss_custom_name": "boss_custom_name"
+      },
+      "nodes": {
+         "msg1": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.boss_death_dialog.dialog_tree_info.dialog_nodes.msg1.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.boss_death_dialog.dialog_tree_info.dialog_nodes.msg1.dialog_title)",
+               "portrait": "file(shakedown/boss_portrait.png)",
+               "message": "i18n(stonehearth:data.gm.campaigns.goblin_war.boss_death_dialog.dialog_tree_info.dialog_nodes.msg1.bulletin_message.00)",
+               "choices": {
+                  "stonehearth:ui.game.common.next": {
+                     "next_node": "msg2"
+                  }
+               }
+            }
+         },
+         "msg2": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.boss_death_dialog.dialog_tree_info.dialog_nodes.msg2.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.boss_death_dialog.dialog_tree_info.dialog_nodes.msg2.dialog_title)",
+               "portrait": "file(shakedown/boss_portrait.png)",
+               "message": "i18n(stonehearth:data.gm.campaigns.goblin_war.boss_death_dialog.dialog_tree_info.dialog_nodes.msg2.bulletin_message.00)",
+               "choices": {
+                  "stonehearth:ui.game.common.next": {
+                     "next_node": "msg3"
+                  }
+               }
+            }
+         },
+         "msg3": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.boss_death_dialog.dialog_tree_info.dialog_nodes.msg3.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.boss_death_dialog.dialog_tree_info.dialog_nodes.msg3.dialog_title)",
+               "portrait": "file(shakedown/boss_portrait.png)",
+               "message": "i18n(stonehearth:data.gm.campaigns.goblin_war.boss_death_dialog.dialog_tree_info.dialog_nodes.msg3.bulletin_message.00)",
+               "choices": {
+                  "stonehearth:ui.game.common.ok": {}
+               }
+            }
+         }
+      }
+   }
+}

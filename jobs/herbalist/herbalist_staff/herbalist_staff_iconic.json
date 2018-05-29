@@ -1,0 +1,23 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(herbalist_staff.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(greeklingmod:jobs.herbalist.herbalist_staff.herbalist_staff_iconic.display_name)",
+         "description": "i18n(greeklingmod:jobs.herbalist.herbalist_staff.herbalist_staff_iconic.description)",
+         "icon": "file(herbalist_staff.png)",
+         "is_item": true,
+         "category": "tools",
+         "material_tags": "tool"
+      }
+   }
+}

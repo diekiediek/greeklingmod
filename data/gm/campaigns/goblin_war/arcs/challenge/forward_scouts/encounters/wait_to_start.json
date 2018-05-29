@@ -1,0 +1,14 @@
+{
+   "type" : "encounter",
+   "encounter_type" : "wait",
+
+   "in_edge"  : "start",
+   "out_edge" : {
+      "type" : "trigger_many",
+      "out_edges" : [ "inital_warning", "wait_to_create_camps"]
+   },
+
+   "wait_info" :  {
+      "duration" : "1d"
+   }
+}

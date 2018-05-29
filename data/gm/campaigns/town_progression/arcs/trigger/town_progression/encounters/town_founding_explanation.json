@@ -1,0 +1,70 @@
+{
+   "type": "encounter",
+   "encounter_type": "dialog_tree",
+   "rarity": "common",
+   "in_edge": "town_founding_explanation",
+   "dialog_tree_info": {
+      "start_node": "open_letter",
+      "script": "file(town_progression_i18n_data.lua)",
+      "i18n_data": {
+         "town_name": "town_name",
+         "town_serial_number": "town_serial_number",
+         "english_town_ordinal_suffix": "english_town_ordinal_suffix"
+      },
+      "nodes": {
+         "open_letter": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.town_progression.town_founding_explanation.dialog_tree_info.dialog_nodes.open_letter.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.town_progression.town_founding_explanation.dialog_tree_info.dialog_nodes.open_letter.dialog_title)",
+               "portrait": "file(images/herald_harold.png)",
+               "portrait_offset": 45,
+               "message": "i18n(stonehearth:data.gm.campaigns.town_progression.town_founding_explanation.dialog_tree_info.dialog_nodes.open_letter.bulletin_message.00)",
+               "choices": {
+                  "stonehearth:data.gm.campaigns.town_progression.town_founding_explanation.dialog_tree_info.dialog_nodes.open_letter.choice_000": {
+                     "next_node": "read_letter"
+                  }
+               }
+            }
+         },
+         "read_letter": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.town_progression.town_founding_explanation.dialog_tree_info.dialog_nodes.read_letter.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.town_progression.town_founding_explanation.dialog_tree_info.dialog_nodes.read_letter.dialog_title)",
+               "portrait": "file(images/mer_burlyhands_letter.png)",
+               "message": "i18n(stonehearth:data.gm.campaigns.town_progression.town_founding_explanation.dialog_tree_info.dialog_nodes.read_letter.bulletin_message.00)",
+               "choices": {
+                  "stonehearth:data.gm.campaigns.town_progression.town_founding_explanation.dialog_tree_info.dialog_nodes.read_letter.choice_000": {
+                     "next_node": "read_letter2"
+                  }
+               }
+            }
+         },
+         "read_letter2": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.town_progression.town_founding_explanation.dialog_tree_info.dialog_nodes.read_letter2.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.town_progression.town_founding_explanation.dialog_tree_info.dialog_nodes.read_letter2.dialog_title)",
+               "portrait": "file(images/mer_burlyhands_letter.png)",
+               "message": "i18n(stonehearth:data.gm.campaigns.town_progression.town_founding_explanation.dialog_tree_info.dialog_nodes.read_letter2.bulletin_message.00)",
+               "choices": {
+                  "stonehearth:data.gm.campaigns.town_progression.town_founding_explanation.dialog_tree_info.dialog_nodes.read_letter2.choice_000": {
+                     "next_node": "read_letter3"
+                  }
+               }
+            }
+         },
+         "read_letter3": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.town_progression.town_founding_explanation.dialog_tree_info.dialog_nodes.read_letter3.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.town_progression.town_founding_explanation.dialog_tree_info.dialog_nodes.read_letter3.dialog_title)",
+               "portrait": "file(images/mer_burlyhands_letter.png)",
+               "message": "i18n(stonehearth:data.gm.campaigns.town_progression.town_founding_explanation.dialog_tree_info.dialog_nodes.read_letter3.bulletin_message.00)",
+               "choices": {
+                  "stonehearth:data.gm.campaigns.town_progression.town_founding_explanation.dialog_tree_info.dialog_nodes.read_letter3.choice_000": {
+                     "out_edge": "town_founding"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

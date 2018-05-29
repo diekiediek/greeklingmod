@@ -1,0 +1,27 @@
+{
+   "type": "encounter",
+   "encounter_type": "delivery_quest",
+   "in_edge": "shrine_quest_guildmaster",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "shrine_upgrade_guildmaster",
+         "guild_dialog_wait"
+      ]
+   },
+   "delivery_quest_info": {
+      "title": "i18n(stonehearth:data.gm.campaigns.town_progression.shrine_quest_guildmaster.title)",
+      "dialog_title": "i18n(stonehearth:data.gm.campaigns.town_progression.shrine_quest_guildmaster.dialog_title)",
+      "requirements": [
+         {
+            "type": "net_worth",
+            "value": 6000
+         },
+         {
+            "type": "placed_item",
+            "uri": "stonehearth:decoration:craftsman_statue"
+         }
+      ],
+      "abandon_out_edge": "shrine_abandon"
+   }
+}

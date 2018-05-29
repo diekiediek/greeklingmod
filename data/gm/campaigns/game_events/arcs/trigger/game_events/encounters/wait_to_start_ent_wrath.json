@@ -1,0 +1,9 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "wait_to_start_ent_wrath",
+   "out_edge": "ent_wrath",
+   "wait_info": {
+      "duration": "10m+20m"
+   }
+}

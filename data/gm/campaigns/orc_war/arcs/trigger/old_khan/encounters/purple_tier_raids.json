@@ -1,0 +1,15 @@
+{
+   "type": "encounter",
+   "encounter_type": "none",
+   "in_edge": "purple_tier_raids",
+   "out_edge": {
+      "type": "trigger_one",
+      "out_edges": [
+         {
+            "type": "weighted_edge",
+            "out_edge": "purple_orc_raid_11",
+            "weight": 1
+         }
+      ]
+   }
+}

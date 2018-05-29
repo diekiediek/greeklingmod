@@ -1,0 +1,18 @@
+{
+   "type": "arc",
+   "rarity": "common",
+   "encounters": {
+      "generate daily report": "file(encounters/generate_daily_report.json)",
+      "daily_report": "file(encounters/daily_report_encounter.json)",
+      "wait_for_8_am_encounter": "file(encounters/wait_for_8_am_encounter.json)",
+      "wait_to_start_resource_check": "file(encounters/wait_to_start_resource_check.json)",
+      "resource_check_encounter": "file(encounters/resource_check_encounter.json)",
+      "log_check": "file(encounters/log_check.json)",
+      "ent_warning": "file(encounters/ent_warning.json)",
+      "ent_wrath": "file(encounters/ent_wrath.json)",
+      "wait_to_start_ent_wrath": "file(encounters/wait_to_start_ent_wrath.json)",
+      "wait_to_destroy_resource_raids": "file(encounters/wait_to_destroy_resource_raids.json)",
+      "destroy_resource_raids": "file(encounters/destroy_resource_raids.json)",
+      "ent_donation_dialog": "file(encounters/ent_donation_dialog.json)"
+   }
+}

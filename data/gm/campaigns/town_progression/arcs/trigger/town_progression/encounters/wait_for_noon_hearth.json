@@ -1,0 +1,9 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait_for_time_of_day",
+   "in_edge": "wait_for_noon_hearth",
+   "out_edge": "net_worth_check_hearth",
+   "wait_for_time_of_day_info": {
+      "time": "12:00"
+   }
+}

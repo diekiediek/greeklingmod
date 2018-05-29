@@ -1,0 +1,14 @@
+{
+   "type": "encounter",
+   "encounter_type": "unlock_recipe",
+   "in_edge": "unlock_shrine_recipes",
+   "unlock_recipe_info": {
+      "job": "stonehearth:jobs:mason",
+      "recipe_key": [
+         "signage_decoration:craftsman_statue",
+         "signage_decoration:valor_statue",
+         "signage_decoration:roadside_shrine"
+      ],
+      "bulletin_title": "i18n(stonehearth:data.gm.campaigns.town_progression.unlock_shrine_recipes.bulletin_title)"
+   }
+}

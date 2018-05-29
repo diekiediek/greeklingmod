@@ -1,0 +1,54 @@
+{
+   "type": "camp_piece",
+   "entities": {
+      "orc_hut_1": {
+         "uri": "stonehearth:monsters:orcs:white_orc_hut",
+         "force_iconic": false,
+         "location": {
+            "x": -4,
+            "y": 0,
+            "z": -13
+         },
+         "rotation": 180
+      },
+      "orc_hut_2": {
+         "uri": "stonehearth:monsters:orcs:white_orc_hut",
+         "force_iconic": false,
+         "location": {
+            "x": 13,
+            "y": 0,
+            "z": 7
+         },
+         "rotation": 90
+      },
+      "totem_1": {
+         "uri": "stonehearth:monsters:goblins:goblin_small_totem",
+         "force_iconic": false,
+         "location": {
+            "x": -15,
+            "y": 0,
+            "z": -2
+         },
+         "rotation": 90
+      },
+      "totem_2": {
+         "uri": "stonehearth:monsters:goblins:goblin_large_totem",
+         "force_iconic": false,
+         "location": {
+            "x": -1,
+            "y": 0,
+            "z": 14
+         }
+      },
+      "bling_hat": {
+         "uri": "stonehearth:monsters:kobolds:loot:generals_bling_hat",
+         "force_iconic": true,
+         "lootable": true,
+         "location": {
+            "x": 2,
+            "y": 0,
+            "z": 3
+         }
+      }
+   }
+}

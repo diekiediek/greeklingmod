@@ -1,0 +1,9 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "reembark_delay",
+   "out_edge": "reembark_dialog",
+   "wait_info": {
+      "duration": "5d"
+   }
+}

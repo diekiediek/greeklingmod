@@ -1,0 +1,17 @@
+{
+   "crops_by_kingdom": {
+      "greeklingmod:kingdoms_greeklings": {
+         "fallow": true,
+         "turnip": true,
+         "carrot": true,
+         "pumpkin": true,
+         "silkweed": true,
+         "brightbell": true,
+         "frostsnap": true,
+         "corn": true,
+         "wheat": true,
+         "oak_tree": true,
+         "juniper_tree": true
+		}
+	}
+}

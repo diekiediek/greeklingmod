@@ -1,0 +1,29 @@
+{
+   "type": "encounter",
+   "encounter_type": "delivery_quest",
+   "in_edge": "hearth_quest_cheer",
+   "out_edge": "hearth_upgrade_cheer",
+   "delivery_quest_info": {
+      "title": "i18n(stonehearth:data.gm.campaigns.town_progression.hearth_quest_cheer.title)",
+      "dialog_title": "i18n(stonehearth:data.gm.campaigns.town_progression.hearth_quest_cheer.dialog_title)",
+      "requirements": [
+         {
+            "type": "happiness",
+            "min_value": 35,
+            "min_citizens": "all"
+         },
+         {
+            "type": "happiness",
+            "min_value": 65,
+            "min_citizens": 5
+         },
+         {
+            "type": "give_material",
+            "material": "prepared_food",
+            "count": 20,
+            "keep_items": true
+         }
+      ],
+      "abandon_out_edge": "hearth_abandon"
+   }
+}

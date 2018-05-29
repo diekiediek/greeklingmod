@@ -1,0 +1,15 @@
+{
+   "type": "encounter",
+   "encounter_type": "counter",
+   "rarity": "common",
+   "in_edge": "shakedown_success_counter",
+   "counter_info": {
+      "out_edges": {
+         "fail": "wait_for_next_shakedown",
+         "success": "unlock_red_token_recipe"
+      },
+      "times": 3,
+      "ctx_registration_variable": "blue_tier_shakedown_success_counter",
+      "optional_reference_entity": "create_blue_tier_camp.entities.loot_chest"
+   }
+}

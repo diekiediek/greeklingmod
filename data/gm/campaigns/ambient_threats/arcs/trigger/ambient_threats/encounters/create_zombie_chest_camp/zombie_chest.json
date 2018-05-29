@@ -1,0 +1,174 @@
+{
+   "type": "camp_piece",
+   "script": "stonehearth:game_master:camp_piece:tiered_chest",
+   "script_info": {
+      "ctx_entity_registration_path": "zombie_chest_camp",
+      "loot_chests": {
+         "tier1_chest": {
+            "uri": "stonehearth:decoration:loot_chest",
+            "net_worth_threshold": 0,
+            "loot_drops": {
+               "entries": {
+                  "default": {
+                     "num_rolls": {
+                        "min": 1,
+                        "max": 4
+                     },
+                     "items": {
+                        "ore": {
+                           "uri": "stonehearth:resources:copper:ore",
+                           "weight": 10
+                        },
+                        "bronze_ingot": {
+                           "uri": "stonehearth:resources:silver:ore",
+                           "weight": 5
+                        },
+                        "ore2": {
+                           "uri": "stonehearth:resources:tin:ore",
+                           "weight": 10
+                        },
+                        "tin_ingot": {
+                           "uri": "stonehearth:resources:gold:ore",
+                           "weight": 5
+                        },
+                        "healing_tonic": {
+                           "uri": "stonehearth:consumables:healing_tonic:small",
+                           "weight": 2
+                        },
+                        "wooden_shield": {
+                           "uri": "stonehearth:armor:wooden_shield",
+                           "weight": 1
+                        }
+                     }
+                  }
+               }
+            }
+         },
+         "tier2_chest": {
+            "uri": "stonehearth:decoration:loot_chest",
+            "net_worth_threshold": 2000,
+            "loot_drops": {
+               "entries": {
+                  "default": {
+                     "num_rolls": {
+                        "min": 1,
+                        "max": 4
+                     },
+                     "items": {
+                        "ore": {
+                           "uri": "stonehearth:resources:silver:ore",
+                           "weight": 30
+                        },
+                        "silver_ingot": {
+                           "uri": "stonehearth:refined:silver_ingot",
+                           "weight": 20
+                        },
+                        "steel_ingot": {
+                           "uri": "stonehearth:refined:steel_ingot",
+                           "weight": 20
+                        },
+                        "ore2": {
+                           "uri": "stonehearth:resources:gold:ore",
+                           "weight": 30
+                        },
+                        "healing_tonic": {
+                           "uri": "stonehearth:consumables:healing_tonic:small",
+                           "weight": 5
+                        },
+                        "bronze_ingot": {
+                           "uri": "stonehearth:refined:bronze_ingot",
+                           "weight": 5
+                        },
+                        "leather_vest": {
+                           "uri": "stonehearth:armor:leather_vest",
+                           "weight": 1
+                        },
+                        "gold_ingot": {
+                           "uri": "stonehearth:refined:gold_ingot",
+                           "weight": 1
+                        },
+                        "plushie_toy_rabbit": {
+                           "uri": "stonehearth:toys:plushie_toy_rabbit",
+                           "weight": 2
+                        },
+                        "copper_ingot": {
+                           "uri": "stonehearth:refined:copper_ingot",
+                           "weight": 5
+                        },
+                        "bronze_breastplate": {
+                           "uri": "stonehearth:armor:cloth_padded_vest",
+                           "weight": 1
+                        },
+                        "bronze_mace": {
+                           "uri": "stonehearth:weapons:bronze_mace",
+                           "weight": 2
+                        },
+                        "iron_mail": {
+                           "uri": "stonehearth:armor:iron_mail",
+                           "weight": 1
+                        }
+                     }
+                  }
+               }
+            }
+         },
+         "tier3_chest": {
+            "uri": "stonehearth:decoration:loot_chest",
+            "net_worth_threshold": 8000,
+            "loot_drops": {
+               "entries": {
+                  "default": {
+                     "num_rolls": {
+                        "min": 1,
+                        "max": 4
+                     },
+                     "items": {
+                        "ore": {
+                           "uri": "stonehearth:resources:gold:ore",
+                           "weight": 30
+                        },
+                        "gold_ingot": {
+                           "uri": "stonehearth:refined:gold_ingot",
+                           "weight": 26
+                        },
+                        "silver_ingot": {
+                           "uri": "stonehearth:refined:silver_ingot",
+                           "weight": 30
+                        },
+                        "steel_ingot": {
+                           "uri": "stonehearth:refined:steel_ingot",
+                           "weight": 20
+                        },
+                        "leather_vest": {
+                           "uri": "stonehearth:armor:leather_vest",
+                           "weight": 3
+                        },
+                        "iron_shield": {
+                           "uri": "stonehearth:armor:iron_shield",
+                           "weight": 3
+                        },
+                        "iron_mace": {
+                           "uri": "stonehearth:weapons:iron_mace",
+                           "weight": 3
+                        },
+                        "bronze_breastplate": {
+                           "uri": "stonehearth:armor:bronze_breastplate",
+                           "weight": 3
+                        },
+                        "steel_mail": {
+                           "uri": "stonehearth:armor:iron_mail",
+                           "weight": 1
+                        },
+                        "long_sword": {
+                           "uri": "stonehearth:weapons:long_sword",
+                           "weight": 1
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "max_placement_range": 10
+   }
+}

@@ -1,0 +1,164 @@
+{
+   "type": "encounter",
+   "encounter_type": "dialog_tree",
+   "rarity": "common",
+   "in_edge": "erdenes_congratulations",
+   "dialog_tree_info": {
+      "start_node": "erdene_appears",
+      "nodes": {
+         "erdene_appears": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.erdene_appears.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.erdene_appears.dialog_title)",
+               "portrait": "file(images/erdene.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.erdene_appears.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.erdene_appears.choice_000": {
+                     "next_node": "erdene_discusses"
+                  },
+                  "stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.erdene_appears.choice_001": {
+                     "next_node": "erdene_discusses"
+                  }
+               }
+            }
+         },
+         "erdene_discusses": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.erdene_discusses.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.erdene_discusses.dialog_title)",
+               "portrait": "file(images/erdene.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.erdene_discusses.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.erdene_discusses.choice_000": {
+                     "next_node": "red_kiln_description"
+                  },
+                  "stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.erdene_discusses.choice_001": {
+                     "next_node": "red_kiln_description"
+                  }
+               }
+            }
+         },
+         "red_kiln_description": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.red_kiln_description.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.red_kiln_description.dialog_title)",
+               "portrait": "file(images/erdene.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.red_kiln_description.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.red_kiln_description.choice_000": {
+                     "next_node": "ogo_poem"
+                  },
+                  "stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.red_kiln_description.choice_001": {
+                     "next_node": "erdene_departs"
+                  }
+               }
+            }
+         },
+         "ogo_poem": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.ogo_poem.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.ogo_poem.dialog_title)",
+               "portrait": "file(images/erdene.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.ogo_poem.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.ogo_poem.choice_000": {
+                     "next_node": "ogo_poem_2"
+                  },
+                  "stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.ogo_poem.choice_001": {
+                     "next_node": "erdene_departs"
+                  }
+               }
+            }
+         },
+         "ogo_poem_2": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.ogo_poem_2.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.ogo_poem_2.dialog_title)",
+               "portrait": "file(images/erdene.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.ogo_poem_2.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:ui.game.common.ok": {
+                     "next_node": "ogo_poem_3"
+                  }
+               }
+            }
+         },
+         "ogo_poem_3": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.ogo_poem_3.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.ogo_poem_3.dialog_title)",
+               "portrait": "file(images/erdene.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.ogo_poem_3.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:ui.game.common.ok": {
+                     "next_node": "ogo_poem_4"
+                  }
+               }
+            }
+         },
+         "ogo_poem_4": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.ogo_poem_4.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.ogo_poem_4.dialog_title)",
+               "portrait": "file(images/erdene.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.ogo_poem_4.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:ui.game.common.ok": {
+                     "next_node": "ogo_poem_5"
+                  }
+               }
+            }
+         },
+         "ogo_poem_5": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.ogo_poem_5.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.ogo_poem_5.dialog_title)",
+               "portrait": "file(images/erdene.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.ogo_poem_5.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.ogo_poem_5.choice_000": {
+                     "next_node": "erdene_departs"
+                  },
+                  "stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.ogo_poem_5.choice_001": {
+                     "next_node": "erdene_departs"
+                  }
+               }
+            }
+         },
+         "erdene_departs": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.erdene_departs.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.erdene_departs.dialog_title)",
+               "portrait": "file(images/erdene.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.erdene_departs.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.erdene_departs.choice_000": {
+                     "out_edge": "arc:finish"
+                  },
+                  "stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.erdenes_congratulations.dialog_tree_info.dialog_nodes.erdene_departs.choice_001": {
+                     "out_edge": "arc:finish"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

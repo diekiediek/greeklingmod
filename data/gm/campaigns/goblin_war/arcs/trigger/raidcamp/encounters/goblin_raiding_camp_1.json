@@ -1,0 +1,140 @@
+{
+   "type": "encounter",
+   "encounter_type": "create_camp",
+   "rarity": "common",
+   "in_edge": "create_camp",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "wait_for_boss_death",
+         "shakedown"
+      ]
+   },
+   "create_camp_info": {
+      "npc_player_id": "goblins",
+      "keep_grass": false,
+      "neutral_to_everyone": true,
+      "ctx_entity_registration_path": "goblin_raiding_camp_1",
+      "searcher_delay": "3d+12h",
+      "on_searcher_failure": {
+         "retry": true
+      },
+      "radius": 20,
+      "spawn_range": {
+         "min": 150,
+         "max": 300
+      },
+      "boss": {
+         "from_population": {
+            "location": { "x": 6, "y": 6 }
+         },
+         "combat_leash_range": 30,
+         "tuning": "stonehearth:monster_tuning:goblins:raidcamp_miniboss"
+      },
+      "citizens": {
+         "workers": {
+            "from_population": {
+               "min": 2,
+               "max": 4,
+               "location": { "x": 4, "z": 4 },
+               "range": 3
+            },
+            "combat_leash_range": 30,
+            "tuning": "stonehearth:monster_tuning:goblins:worker"
+         },
+         "guards": {
+            "from_population": {
+               "min": 2,
+               "max": 4,
+               "location": { "x": -4, "z": -4 },
+               "range": 3
+            },
+            "tuning": "stonehearth:monster_tuning:goblins:guard"
+         },
+         "sheep": {
+            "from_population": {
+               "role": "boss_sheep",
+               "min": 1,
+               "max": 1,
+               "location": { "x": 4, "z": 4 },
+               "range": 4
+            },
+            "combat_leash_range": 30,
+            "unit_info": {
+               "display_name": "i18n(stonehearth:data.gm.campaigns.goblin_war.goblin_raiding_camp_1.sheep.display_name)",
+               "description": "i18n(stonehearth:data.gm.campaigns.goblin_war.goblin_raiding_camp_1.sheep.description)"
+            },
+            "attributes": {
+               "max_health": 500
+            },
+            "equipment": {
+               "outfit": "stonehearth:critters:sheep:outfits:bluebell"
+            }
+         }
+      },
+      "pieces": {
+         "campfire": {
+            "info": "file(create_camp/campfire.json)",
+            "position": { "x": 0, "y": 0 }
+         },
+         "goblin_tent_1": {
+            "info": "file(create_camp/goblin_tent.json)",
+            "position": { "x": -12, "y": 12 },
+            "rotation": -90
+         },
+         "goblin_hut_1": {
+            "info": "file(create_camp/goblin_hut.json)",
+            "position": { "x": 12, "y": 12 },
+            "rotation": 90
+         },
+         "goblin_hut_2": {
+            "info": "file(create_camp/goblin_hut.json)",
+            "position": { "x": 0, "y": -16 },
+            "rotation": 180
+         },
+         "goblin_barricade_1": {
+            "info": "file(create_camp/goblin_barricade.json)",
+            "position": { "x": -6, "y": 16 },
+            "rotation": 0
+         },
+         "goblin_barricade_2": {
+            "info": "file(create_camp/goblin_barricade.json)",
+            "position": { "x": -3, "y": 16 },
+            "rotation": 0
+         },
+         "goblin_barricade_3": {
+            "info": "file(create_camp/goblin_barricade.json)",
+            "position": { "x": 17, "y": -10 },
+            "rotation": 90
+         },
+         "totem_1": {
+            "info": "file(create_camp/goblin_small_totem.json)",
+            "position": { "x": -12, "y": -7 },
+            "rotation": 90
+         },
+         "totem_2": {
+            "info": "file(create_camp/goblin_large_totem.json)",
+            "position": { "x": -12, "y": -2 },
+            "rotation": 90
+         },
+         "wood_stockpile": {
+            "position": { "x": 12, "y": -8 },
+            "info": "file(create_camp/wood_stockpile.json)"
+         },
+         "general_stockpile": {
+            "position": { "x": -12, "y": -16 },
+            "info": "file(create_camp/stockpile.json)"
+         },
+         "loot_chest": {
+            "info": "file(create_camp/loot_chest.json)",
+            "position": { "x": 12, "y": 0 },
+            "rotation": 0
+         },
+         "terrain_dirt": {
+            "info": "file(create_camp/terrain_dirt.json)",
+            "position": { "x": 16, "y": 0 },
+            "rotation": 0
+         }
+      }
+   }
+}

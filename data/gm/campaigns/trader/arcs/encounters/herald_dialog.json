@@ -1,0 +1,232 @@
+{
+   "type": "encounter",
+   "encounter_type": "dialog_tree",
+   "rarity": "common",
+   "in_edge": "herald_dialog",
+   "dialog_tree_info": {
+      "start_node": "herald_approaches",
+      "i18n_data": {
+         "town_name": "town_name"
+      },
+      "nodes": {
+         "herald_approaches": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.herald_approaches.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.herald_approaches.dialog_title)",
+               "portrait": "file(images/herald.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.herald_approaches.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.herald_approaches.choice_000": {
+                     "next_node": "proclamation"
+                  },
+                  "stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.herald_approaches.choice_001": {
+                     "next_node": "proclamation"
+                  }
+               }
+            }
+         },
+         "proclamation": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.proclamation.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.proclamation.dialog_title)",
+               "portrait": "file(images/herald.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.proclamation.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.proclamation.choice_000": {
+                     "next_node": "proc_details"
+                  },
+                  "stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.proclamation.choice_001": {
+                     "next_node": "proc_details"
+                  }
+               }
+            }
+         },
+         "proc_details": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.proc_details.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.proc_details.dialog_title)",
+               "portrait": "file(images/herald.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.proc_details.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.proc_details.choice_000": {
+                     "next_node": "actual_meaning"
+                  },
+                  "stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.proc_details.choice_001": {
+                     "next_node": "rewards"
+                  }
+               }
+            }
+         },
+         "actual_meaning": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.actual_meaning.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.actual_meaning.dialog_title)",
+               "portrait": "file(images/herald.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.actual_meaning.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.actual_meaning.choice_000": {
+                     "next_node": "joking"
+                  },
+                  "stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.actual_meaning.choice_001": {
+                     "next_node": "joking"
+                  }
+               }
+            }
+         },
+         "joking": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.joking.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.joking.dialog_title)",
+               "portrait": "file(images/herald.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.joking.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.joking.choice_000": {
+                     "next_node": "rewards"
+                  }
+               }
+            }
+         },
+         "rewards": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.rewards.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.rewards.dialog_title)",
+               "portrait": "file(images/herald.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.rewards.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.rewards.choice_000": {
+                     "next_node": "requirements"
+                  }
+               }
+            }
+         },
+         "requirements": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.requirements.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.requirements.dialog_title)",
+               "portrait": "file(images/herald.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.requirements.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.requirements.choice_000": {
+                     "next_node": "military_reqs"
+                  },
+                  "stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.requirements.choice_001": {
+                     "next_node": "church_reqs"
+                  },
+                  "stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.requirements.choice_002": {
+                     "next_node": "craft_reqs"
+                  }
+               }
+            }
+         },
+         "military_reqs": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.military_reqs.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.military_reqs.dialog_title)",
+               "portrait": "file(images/herald.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.military_reqs.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.military_reqs.choice_000": {
+                     "next_node": "conclusion"
+                  },
+                  "stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.military_reqs.choice_001": {
+                     "next_node": "requirements"
+                  }
+               }
+            }
+         },
+         "church_reqs": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.church_reqs.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.church_reqs.dialog_title)",
+               "portrait": "file(images/herald.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.church_reqs.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.church_reqs.choice_000": {
+                     "next_node": "conclusion"
+                  },
+                  "stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.church_reqs.choice_001": {
+                     "next_node": "requirements"
+                  }
+               }
+            }
+         },
+         "craft_reqs": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.craft_reqs.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.craft_reqs.dialog_title)",
+               "portrait": "file(images/herald.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.craft_reqs.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.craft_reqs.choice_000": {
+                     "next_node": "conclusion"
+                  },
+                  "stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.craft_reqs.choice_001": {
+                     "next_node": "requirements"
+                  }
+               }
+            }
+         },
+         "conclusion": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.conclusion.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.conclusion.dialog_title)",
+               "portrait": "file(images/herald.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.conclusion.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.conclusion.choice_000": {
+                     "next_node": "conclusion2"
+                  }
+               }
+            }
+         },
+         "conclusion2": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.conclusion2.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.conclusion2.dialog_title)",
+               "portrait": "file(images/herald.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.conclusion2.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.trader.herald_dialog.dialog_tree_info.dialog_nodes.conclusion2.choice_000": {
+                     "out_edge": {
+                        "type": "trigger_many",
+                        "out_edges": [
+                           "unlock_valor_statue_recipe",
+                           "unlock_craftsman_statue_recipe",
+                           "unlock_roadside_shrine_recipe",
+                           "check_for_valor_tier_2",
+                           "check_generosity_tier_2",
+                           "check_crafting_tier_2",
+                           "ascendancy_town_tier_quest"
+                        ]
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

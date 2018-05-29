@@ -1,0 +1,17 @@
+{
+   "type": "encounter",
+   "encounter_type": "unlock_recipe",
+   "in_edge": "unlock_red_token_recipe",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "destroy_blue_stockpiles",
+         "wait_for_first_red_token"
+      ]
+   },
+   "unlock_recipe_info": {
+      "job": "stonehearth:jobs:blacksmith",
+      "recipe_key": "decoration:decorative_master_gong",
+      "bulletin_title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.unlock_red_token_recipe.bulletin_title)"
+   }
+}

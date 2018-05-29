@@ -1,0 +1,11 @@
+{
+   "type" : "encounter",
+   "encounter_type" : "wait",
+
+   "in_edge"  : "wait_for_three_days",
+   "out_edge" : "destroy_golem",
+
+   "wait_info" :  {
+      "duration" : "72h"
+   }
+}

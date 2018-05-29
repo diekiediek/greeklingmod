@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "effort": 60,
+   "work_units": 1,
+   "recipe_name": "i18n(greeklingmod:jobs.cook.recipes.olive_oil_recipe.recipe_name)",
+   "description": "i18n(greeklingmod:jobs.cook.recipes.olive_oil_recipe.description)",
+   "flavor": "i18n(greeklingmod:jobs.cook.recipes.olive_oil_recipe.flavor)",
+   "portrait": "/greeklingmod/entities/food/olive_oil/olive_oil/olive_oil.png",
+   "workshop": "stonehearth:cook:workbench",
+   "ingredients": [
+      {
+         "material": "food_container raw_food vegetable",
+         "count": 3
+      }
+   ],
+   "produces": [
+      {
+         "item": "greeklingmod:food:olive_oil"
+      }
+   ]
+}

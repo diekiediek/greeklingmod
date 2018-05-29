@@ -1,0 +1,18 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait_for_time_of_day",
+   "in_edge": "thief_raid",
+   "out_edge": "night_ninjas",
+   "can_start": {
+      "test_1": {
+         "hostile_check": {
+            "item": "hostility",
+            "type": "deny_if_not",
+            "value": true
+         }
+      }
+   },
+   "wait_for_time_of_day_info": {
+      "time": "22:00+1h30m"
+   }
+}

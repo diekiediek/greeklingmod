@@ -1,0 +1,21 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait_for_requirements_met",
+   "in_edge": "delay_before_hearth_choice",
+   "out_edge": "hearth_choice_explanation",
+   "wait_for_requirements_met_info": {
+      "requirements": {
+         "days_elapsed_requirement": {
+            "item": "days_elapsed",
+            "type": "deny_if_less_than",
+            "value": 10
+         },
+         "net_worth_requirement": {
+            "item": "net_worth",
+            "type": "deny_if_less_than",
+            "value": 2500
+         }
+      },
+      "recheck_delay": "9h + 3h"
+   }
+}

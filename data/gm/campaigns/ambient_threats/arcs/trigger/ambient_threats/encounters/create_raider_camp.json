@@ -1,0 +1,56 @@
+{
+   "type" : "encounter",
+   "encounter_type" : "create_camp",
+   "rarity" : "common",
+
+   "in_edge"  : "create_raider_camp",
+   "out_edge" : {
+      "type" : "trigger_many",
+      "out_edges" : [ "spawn_raiders", "wait_for_raider_campfire_destruction"]
+   },
+
+   "create_camp_info" : {
+      "npc_player_id" : "goblins",
+      "ctx_entity_registration_path" : "create_raider_camp",
+      "on_searcher_failure": {
+         "destroy_root_node": "goblin raider camp"
+      },
+      "radius" : 5,
+      "keep_grass" : true,
+
+      "spawn_range" : {
+         "min" : 80,
+         "max" : 180
+      },
+      "combat_bulletin": {
+         "title": "i18n(stonehearth:data.gm.campaigns.ambient_threats.random_encounter.combat_bulletin.title)"
+      },
+
+      "citizens": {
+         "workers": {
+            "from_population": {
+               "min": 1,
+               "max": 2,
+               "location": {
+                  "x": 0,
+                  "z": 0
+               },
+               "range": 3
+            },
+            "combat_leash_range": 30,
+            "tuning": "stonehearth:monster_tuning:goblins:worker"
+         }
+      },
+
+      "pieces" : {
+         "campfire" : {
+            "info" : "file(create_thief_camp/thief_campfire.json)",
+            "position" : { "x": 3, "y": 3 }
+         },
+         "stockpile" : {
+            "position" : { "x": -3, "y": -3 },
+            "info" : "file(create_thief_camp/raider_stockpile.json)"
+         }
+      }
+   }
+}

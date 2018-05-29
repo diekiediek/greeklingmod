@@ -1,0 +1,21 @@
+{
+   "type": "encounter",
+   "mixins": "stonehearth:mixins:encounter:wolf_raid",
+   "encounter_type": "create_mission",
+   "in_edge": "wolf_raid_1",
+   "out_edge": "wait_to_destroy_raiding_party",
+   "create_mission_info": {
+      "mission": {
+         "ctx_entity_registration_path": "wolf_raid_1",
+         "members": {
+            "wolves": {
+               "from_population": {
+                  "min": 2,
+                  "max": 2
+               },
+               "tuning": "stonehearth:monster_tuning:forest:weak_wolf"
+            }
+         }
+      }
+   }
+}

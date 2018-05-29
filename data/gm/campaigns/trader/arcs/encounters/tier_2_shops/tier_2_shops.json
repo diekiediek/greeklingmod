@@ -1,0 +1,73 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "tier_2_shops",
+   "can_start": {
+      "test_1": {
+         "city_tier_check": {
+            "type": "deny_if_less_than",
+            "item": "city_tier",
+            "value": 2
+         }
+      }
+   },
+   "out_edge": {
+      "type": "trigger_one",
+      "out_edges": [
+         {
+            "out_edge": "weapon_armor_shop_2",
+            "type": "weighted_edge",
+            "weight": 1
+         },
+         {
+            "out_edge": "pets_shop_2",
+            "type": "weighted_edge",
+            "weight": 1
+         },
+         {
+            "out_edge": "food_shop_2",
+            "type": "weighted_edge",
+            "weight": 1
+         },
+         {
+            "out_edge": "door_shop_2",
+            "type": "weighted_edge",
+            "weight": 1
+         },
+         {
+            "out_edge": "woodcutter_shop_2",
+            "type": "weighted_edge",
+            "weight": 1
+         },
+         {
+            "out_edge": "stonecutter_shop_2",
+            "type": "weighted_edge",
+            "weight": 1
+         },
+         {
+            "out_edge": "container_shop_2",
+            "type": "weighted_edge",
+            "weight": 1
+         },
+         {
+            "out_edge": "potter_shop_2",
+            "type": "weighted_edge",
+            "weight": 1
+         },
+         {
+            "out_edge": "herbalist_shop_2",
+            "type": "weighted_edge",
+            "weight": 1
+         },
+         {
+            "out_edge": "farming_shop_2",
+            "type": "weighted_edge",
+            "weight": 1
+         }
+      ]
+   },
+   "wait_info": {
+      "duration": "1m",
+      "destroy_on_trigger": true
+   }
+}

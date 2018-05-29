@@ -1,0 +1,39 @@
+{
+   "type": "encounter",
+   "encounter_type": "dialog_tree",
+   "rarity": "common",
+   "in_edge": "ogo_dying_dialog",
+   "dialog_tree_info": {
+      "start_node": "ogo_death_1",
+      "nodes": {
+         "ogo_death_1": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_dying_dialog.dialog_tree_info.dialog_nodes.ogo_death_1.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_dying_dialog.dialog_tree_info.dialog_nodes.ogo_death_1.dialog_title)",
+               "portrait": "file(images/ogo_skullbonker.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_dying_dialog.dialog_tree_info.dialog_nodes.ogo_death_1.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:ui.game.common.ok": {
+                     "next_node": "ogo_death_2"
+                  }
+               }
+            }
+         },
+         "ogo_death_2": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_dying_dialog.dialog_tree_info.dialog_nodes.ogo_death_2.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_dying_dialog.dialog_tree_info.dialog_nodes.ogo_death_2.dialog_title)",
+               "portrait": "file(images/ogo_skullbonker.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_dying_dialog.dialog_tree_info.dialog_nodes.ogo_death_2.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:ui.game.common.ok": {}
+               }
+            }
+         }
+      }
+   }
+}

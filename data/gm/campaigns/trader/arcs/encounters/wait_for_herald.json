@@ -1,0 +1,19 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "wait_for_herald",
+   "out_edge": "herald_dialog",
+   "can_start": {
+      "all_tests": {
+         "prevent_new_saves_from_starting_campaign_without_breaking_old_saves": {
+            "type": "deny_if_less_than",
+            "item": "counter",
+            "key": "a_nonexistent_counter",
+            "value": 9001
+         }
+      }
+   },
+   "wait_info": {
+      "duration": "9d + 3h"
+   }
+}

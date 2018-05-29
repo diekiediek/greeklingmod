@@ -1,0 +1,14 @@
+{
+   "type": "encounter",
+   "encounter_type": "generator",
+   "in_edge": "resource_check_encounter",
+   "generator_info": {
+      "delay": "10d",
+      "spawn_edge": {
+         "type": "trigger_one",
+         "out_edges": [
+            "log_check"
+         ]
+      }
+   }
+}

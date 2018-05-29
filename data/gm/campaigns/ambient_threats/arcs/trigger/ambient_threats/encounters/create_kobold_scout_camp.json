@@ -1,0 +1,49 @@
+{
+   "type": "encounter",
+   "encounter_type": "create_camp",
+   "in_edge": "create_kobold_scout_camp",
+   "out_edge": "wait_for_kobold_scouts_killed",
+   "create_camp_info": {
+      "npc_player_id": "orcs",
+      "ctx_entity_registration_path": "kobold_scout_camp",
+      "on_searcher_failure": {
+         "destroy_root_node": "kobold_scout_camp"
+      },
+      "keep_grass": true,
+      "radius": 5,
+      "spawn_range": {
+         "min": 80,
+         "max": 200
+      },
+      "citizens": {
+         "scouts": {
+            "from_population": {
+               "role": "kobold",
+               "min": 3,
+               "max": 4,
+               "location": { "x": 0, "z": 0 },
+               "range": 3
+            },
+            "combat_leash_range": 10,
+            "tuning": "stonehearth:monster_tuning:kobolds:kobold_archer_scout"
+         },
+         "workers": {
+            "from_population": {
+               "role": "orc",
+               "min": 1,
+               "max": 1,
+               "location": { "x": 0, "z": 0 },
+               "range": 3
+            },
+            "combat_leash_range": 10,
+            "tuning": "stonehearth:monster_tuning:orcs:worker"
+         }
+      },
+      "pieces": {
+         "kobold_camp_structures": {
+            "info": "file(encounter_data/kobold_campfire.json)",
+            "position": { "x": 0, "y": 0 }
+         }
+      }
+   }
+}

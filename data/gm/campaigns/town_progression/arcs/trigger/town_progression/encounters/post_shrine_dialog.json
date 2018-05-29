@@ -1,0 +1,50 @@
+{
+   "type": "encounter",
+   "encounter_type": "dialog_tree",
+   "rarity": "common",
+   "in_edge": "post_shrine_dialog",
+   "dialog_tree_info": {
+      "start_node": "msg1",
+      "nodes": {
+         "msg1": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.post_shrine_dialog.dialog_tree_info.dialog_nodes.msg1.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.post_shrine_dialog.dialog_tree_info.dialog_nodes.msg1.dialog_title)",
+               "portrait": "file(images/mer_burlyhands.png)",
+               "message": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.post_shrine_dialog.dialog_tree_info.dialog_nodes.msg1.bulletin_message.00)",
+               "choices": {
+                  "stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.post_shrine_dialog.dialog_tree_info.dialog_nodes.msg1.choice_000": {
+                     "next_node": "msg2"
+                  }
+               }
+            }
+         },
+         "msg2": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.post_shrine_dialog.dialog_tree_info.dialog_nodes.msg2.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.post_shrine_dialog.dialog_tree_info.dialog_nodes.msg2.dialog_title)",
+               "portrait": "file(images/mer_burlyhands.png)",
+               "message": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.post_shrine_dialog.dialog_tree_info.dialog_nodes.msg2.bulletin_message.00)",
+               "choices": {
+                  "stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.post_shrine_dialog.dialog_tree_info.dialog_nodes.msg2.choice_000": {
+                     "next_node": "msg3"
+                  }
+               }
+            }
+         },
+         "msg3": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.post_shrine_dialog.dialog_tree_info.dialog_nodes.msg3.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.post_shrine_dialog.dialog_tree_info.dialog_nodes.msg3.dialog_title)",
+               "portrait": "file(images/mer_burlyhands.png)",
+               "message": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.post_shrine_dialog.dialog_tree_info.dialog_nodes.msg3.bulletin_message.00)",
+               "choices": {
+                  "stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.post_shrine_dialog.dialog_tree_info.dialog_nodes.msg3.choice_000": {
+                     "out_edge": "reembark_delay"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

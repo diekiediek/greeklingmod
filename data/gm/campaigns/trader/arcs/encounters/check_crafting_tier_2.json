@@ -1,0 +1,23 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait_for_requirements_met",
+   "in_edge": "check_crafting_tier_2",
+   "out_edge": "crafter_tier_2_reached",
+   "wait_for_requirements_met_info": {
+      "requirements": {
+         "item_placed_requirement": {
+            "item": "exists_in_world",
+            "uri": "stonehearth:decoration:craftsman_statue",
+            "type": "deny_if_not",
+            "value": true
+         },
+         "net_worth_requirement": {
+            "item": "net_worth",
+            "type": "deny_if_less_than",
+            "value": 5000
+         }
+      },
+      "recheck_delay": "1d",
+      "cancellation_event": "stonehearth:tier_2_reached"
+   }
+}

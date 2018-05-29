@@ -1,0 +1,234 @@
+{
+   "type": "camp_piece",
+   "entities": {
+      "left_fence_1": {
+         "uri": "stonehearth:monsters:undead:stone_pillar_fence",
+         "force_iconic": false,
+         "location": {
+            "x": -18,
+            "y": 0,
+            "z": -18
+         },
+         "rotation": 180,
+         "loot_drops": {
+            "entries": {
+               "default": {
+                  "items": {
+                     "stone": {
+                        "uri": "stonehearth:resources:stone:hunk_of_stone"
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "left_fence_2": {
+         "uri": "stonehearth:monsters:undead:stone_pillar_fence",
+         "force_iconic": false,
+         "location": {
+            "x": -7,
+            "y": 0,
+            "z": -18
+         },
+         "loot_drops": {
+            "entries": {
+               "default": {
+                  "items": {
+                     "stone": {
+                        "uri": "stonehearth:resources:stone:hunk_of_stone"
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "left_fence_3": {
+         "uri": "stonehearth:monsters:undead:stone_pillar_fence",
+         "force_iconic": false,
+         "location": {
+            "x": -18,
+            "y": 0,
+            "z": -12
+         },
+         "rotation": 270,
+         "loot_drops": {
+            "entries": {
+               "default": {
+                  "items": {
+                     "stone": {
+                        "uri": "stonehearth:resources:stone:hunk_of_stone"
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "left_fence_4": {
+         "uri": "stonehearth:monsters:undead:stone_pillar_fence",
+         "force_iconic": false,
+         "location": {
+            "x": -18,
+            "y": 0,
+            "z": -6
+         },
+         "rotation": 270,
+         "loot_drops": {
+            "entries": {
+               "default": {
+                  "items": {
+                     "stone": {
+                        "uri": "stonehearth:resources:stone:hunk_of_stone"
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "left_fence_5": {
+         "uri": "stonehearth:monsters:undead:stone_pillar_fence",
+         "force_iconic": false,
+         "location": {
+            "x": -18,
+            "y": 0,
+            "z": 0
+         },
+         "rotation": 270,
+         "loot_drops": {
+            "entries": {
+               "default": {
+                  "items": {
+                     "stone": {
+                        "uri": "stonehearth:resources:stone:hunk_of_stone"
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "bottom_fence_1": {
+         "uri": "stonehearth:monsters:undead:stone_pillar_fence",
+         "force_iconic": false,
+         "location": {
+            "x": -18,
+            "y": 0,
+            "z": 18
+         },
+         "rotation": 180,
+         "loot_drops": {
+            "entries": {
+               "default": {
+                  "items": {
+                     "stone": {
+                        "uri": "stonehearth:resources:stone:hunk_of_stone"
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "bottom_fence_2": {
+         "uri": "stonehearth:monsters:undead:stone_pillar_fence",
+         "force_iconic": false,
+         "location": {
+            "x": -7,
+            "y": 0,
+            "z": 18
+         },
+         "loot_drops": {
+            "entries": {
+               "default": {
+                  "items": {
+                     "stone": {
+                        "uri": "stonehearth:resources:stone:hunk_of_stone"
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "right_fence_1": {
+         "uri": "stonehearth:monsters:undead:stone_pillar_fence",
+         "force_iconic": false,
+         "location": {
+            "x": 13,
+            "y": 0,
+            "z": -18
+         },
+         "rotation": 180,
+         "loot_drops": {
+            "entries": {
+               "default": {
+                  "items": {
+                     "stone": {
+                        "uri": "stonehearth:resources:stone:hunk_of_stone"
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "right_fence_2": {
+         "uri": "stonehearth:monsters:undead:stone_pillar_fence",
+         "force_iconic": false,
+         "location": {
+            "x": 19,
+            "y": 0,
+            "z": -18
+         },
+         "rotation": 90,
+         "loot_drops": {
+            "entries": {
+               "default": {
+                  "items": {
+                     "stone": {
+                        "uri": "stonehearth:resources:stone:hunk_of_stone"
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "right_fence_3": {
+         "uri": "stonehearth:monsters:undead:stone_pillar_fence",
+         "force_iconic": false,
+         "location": {
+            "x": 19,
+            "y": 0,
+            "z": -12
+         },
+         "rotation": 90,
+         "loot_drops": {
+            "entries": {
+               "default": {
+                  "items": {
+                     "stone": {
+                        "uri": "stonehearth:resources:stone:hunk_of_stone"
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "right_fence_4": {
+         "uri": "stonehearth:monsters:undead:stone_pillar_fence",
+         "force_iconic": false,
+         "location": {
+            "x": 19,
+            "y": 0,
+            "z": -1
+         },
+         "rotation": 270,
+         "loot_drops": {
+            "entries": {
+               "default": {
+                  "items": {
+                     "stone": {
+                        "uri": "stonehearth:resources:stone:hunk_of_stone"
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

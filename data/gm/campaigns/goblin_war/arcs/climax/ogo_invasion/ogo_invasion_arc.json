@@ -1,0 +1,33 @@
+{
+   "type" : "arc",
+   "rarity" : "common",
+
+   "encounters" : {
+      "wait to start" : "file(encounters/wait_to_start.json)", 
+      "ogos bannerman" : "file(encounters/ogos_bannerman.json)", 
+      
+      "wait to attack" : "file(encounters/wait_to_attack.json)",
+      "ogo_attacks_dialog" : "file(encounters/ogo_attacks_dialog.json)", 
+      "ogo army raid" : "file(encounters/ogo_army_raid.json)",
+      "check for honor token" : "file(encounters/check_for_honor_token.json)",
+      "goblin retribution dialog" : "file(encounters/goblin_retribution_dialog.json)", 
+      "goblin retribution raid" : "file(encounters/goblin_retribution_raid.json)",  
+
+      "wait for help" : "file(encounters/wait_for_help.json)",
+      "erdenes help" : "file(encounters/erdenes_help.json)", 
+      "unlock windchimes" : "file(encounters/unlock_windchimes.json)", 
+
+      "wait for mountain event" : "file(encounters/wait_for_mountain_event.json)", 
+      "wait for ogo death" : "file(encounters/wait_for_ogo_death.json)", 
+      "ogo dying dialog" : "file(encounters/ogo_dying_dialog.json)", 
+      "wait_for_erdene" : "file(encounters/wait_for_erdene.json)",
+      "erdenes congratulations" : "file(encounters/erdenes_congratulations.json)",
+
+      "goblin neutrality" : "file(encounters/make_goblins_neutral.json)", 
+      "ogo mountain alive dialog" : "file(encounters/ogo_mountain_alive_dialog.json)", 
+      "mountains gift" : "file(encounters/mountains_gift.json)",
+      "destroy goblins" : "file(encounters/destroy_goblins.json)", 
+      "goblin hostility" : "file(encounters/make_goblins_hostile.json)", 
+      "ogo dead dialog" : "file(encounters/ogo_dead_dialog.json)"
+   }
+}

@@ -1,0 +1,44 @@
+{
+   "type": "encounter",
+   "encounter_type": "city_raid",
+   "rarity": "common",
+   "in_edge": "raider_raid",
+   "out_edge": "wait_to_destroy_raider_raid",
+   "can_start": {
+      "test_1": {
+         "hostile_check": {
+            "item": "hostility",
+            "type": "deny_if_not",
+            "value": true
+         }
+      }
+   },
+   "city_raid_info": {
+      "missions": {
+         "raid_stockpiles": {
+            "raid_timeout_minutes": 120,
+            "raid_timeout_variance_minutes": 120,
+            "ctx_entity_registration_path": "raider_raid",
+            "require_free_stockpile_space": false,
+            "role": "raid_stockpiles",
+            "offset": { "x": 0, "y": 0, "z": 0 },
+            "sighted_bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.ambient_threats.goblin_wolf_raid.missions.raid_stockpiles.sighted_bulletin.title)",
+               "message": "i18n(stonehearth:data.gm.campaigns.ambient_threats.goblin_wolf_raid.missions.raid_stockpiles.sighted_bulletin.message)"
+            },
+            "members": {
+               "goblin_wolf": {
+                  "from_population": {
+                     "role": "wolf",
+                     "min": 2,
+                     "max": 2,
+                     "location": { "x": 0, "y": 1, "z": 0 },
+                     "range": 2
+                  },
+                  "tuning": "stonehearth:monster_tuning:goblins:wolf"
+               }
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,9 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "wait_to_destroy_blue_raids",
+   "out_edge": "destroy_blue_raids",
+   "wait_info": {
+      "duration": "15h"
+   }
+}

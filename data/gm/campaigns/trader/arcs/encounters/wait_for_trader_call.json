@@ -1,0 +1,29 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait_for_event",
+   "in_edge": "wait_for_trader_call",
+   "out_edge": {
+      "type": "trigger_one",
+      "out_edges": [
+         {
+            "out_edge": "tier_1_shops",
+            "type": "weighted_edge",
+            "weight": 5
+         },
+         {
+            "out_edge": "tier_2_shops",
+            "type": "weighted_edge",
+            "weight": 10
+         },
+         {
+            "out_edge": "tier_3_shops",
+            "type": "weighted_edge",
+            "weight": 15
+         }
+      ]
+   },
+   "wait_for_event_info": {
+      "repeatable": true,
+      "event": "stonehearth:trigger_trader_encounter"
+   }
+}

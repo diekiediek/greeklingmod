@@ -1,0 +1,72 @@
+{
+   "type": "encounter",
+   "encounter_type": "donation_dialog",
+   "in_edge": "starting_food_donation",
+   "can_start": {
+      "all_tests": {
+         "days_elapsed_check": {
+            "type": "deny_if_greater_than",
+            "item": "days_elapsed",
+            "value": 0
+         },
+         "prevent_new_saves_from_starting_campaign_without_breaking_old_saves": {
+            "type": "deny_if_less_than",
+            "item": "counter",
+            "key": "a_nonexistent_counter",
+            "value": 9001
+         }
+      }
+   },
+   "donation_dialog_info": {
+      "expiration_timeout": "5h",
+      "nodes": {
+         "simple_message": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.dialog_title)",
+               "portrait": "file(images/mer_burlyhands.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.000)",
+                  "i18n(stonehearth:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.001)",
+                  "i18n(stonehearth:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.002)",
+                  "i18n(stonehearth:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.003)",
+                  "i18n(stonehearth:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.004)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.trader.starting_food_donation.donation_dialog_info.dialog_nodes.simple_message.choice_000": {
+                     "result": "accept"
+                  }
+               }
+            }
+         }
+      },
+      "loot_table": {
+         "entries": {
+            "default": {
+               "num_rolls": {
+                  "min": 2,
+                  "max": 4
+               },
+               "items": {
+                  "berry_basket": {
+                     "uri": "stonehearth:food:berries:berry_basket",
+                     "weight": 5
+                  },
+                  "turnip_basket": {
+                     "uri": "stonehearth:food:turnip:turnip_basket",
+                     "weight": 5
+                  },
+                  "corn_basket": {
+                     "uri": "stonehearth:food:corn:corn_basket",
+                     "weight": 3
+                  },
+                  "rabbit_jerky": {
+                     "uri": "stonehearth:rabbit_jerky",
+                     "weight": 5
+                  }
+               }
+            }
+         }
+      }
+   }
+}

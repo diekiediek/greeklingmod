@@ -1,0 +1,22 @@
+{
+   "type": "encounter",
+   "mixins": "stonehearth:mixins:encounter:entling_raid",
+   "encounter_type": "create_mission",
+   "in_edge": "entling_raid_2",
+   "out_edge": "wait_to_destroy_raiding_party",
+   "create_mission_info": {
+      "mission": {
+         "ctx_entity_registration_path": "entling_raid_2",
+         "members": {
+            "entlings": {
+               "from_population": {
+                  "min": 5,
+                  "max": 7
+               },
+               "tuning": "stonehearth:monster_tuning:forest:easy_entling"
+            }
+            
+         }
+      }
+   }
+}

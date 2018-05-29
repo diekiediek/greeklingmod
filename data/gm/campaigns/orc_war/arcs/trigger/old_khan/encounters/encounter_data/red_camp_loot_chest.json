@@ -1,0 +1,53 @@
+{
+   "type": "camp_piece",
+   "script": "stonehearth:game_master:camp_piece:tiered_chest",
+   "script_info": {
+      "ctx_entity_registration_path": "create_red_tier_camp",
+      "loot_chests": {
+         "loot_chest": {
+            "uri": "stonehearth:decoration:loot_chest",
+            "net_worth_threshold": 0,
+            "loot_drops": {
+               "entries": {
+                  "always": {
+                     "num_rolls": {
+                        "min": 1,
+                        "max": 4
+                     },
+                     "items": {
+                        "kobold_hat": {
+                           "uri": "stonehearth:monsters:kobolds:loot:masters_bling_hat"
+                        }
+                     }
+                  },
+                  "default": {
+                     "num_rolls": {
+                        "min": 1,
+                        "max": 4
+                     },
+                     "items": {
+                        "ore": {
+                           "uri": "stonehearth:resources:copper:ore",
+                           "weight": 10
+                        },
+                        "bronze_ingot": {
+                           "uri": "stonehearth:resources:silver:ore",
+                           "weight": 5
+                        },
+                        "ore2": {
+                           "uri": "stonehearth:resources:tin:ore",
+                           "weight": 10
+                        },
+                        "tin_ingot": {
+                           "uri": "stonehearth:resources:gold:ore",
+                           "weight": 5
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "max_placement_range": 10
+   }
+}

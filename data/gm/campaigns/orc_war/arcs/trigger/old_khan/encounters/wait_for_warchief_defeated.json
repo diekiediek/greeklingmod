@@ -1,0 +1,17 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait_for_requirements_met",
+   "in_edge": "wait_for_warchief_defeated",
+   "out_edge": "generate_color_tier_raids",
+   "wait_for_requirements_met_info": {
+      "recheck_delay": "1d",
+      "requirements": {
+         "encounter_finished_check": {
+            "item": "number_spawned",
+            "type": "deny_if_less_than",
+            "value": 1,
+            "node_name": "warchief_boss_camp_destroyed"
+         }
+      }
+   }
+}

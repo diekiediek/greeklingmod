@@ -1,0 +1,19 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "start",
+   "out_edge": "town_founding_explanation",
+   "can_start": {
+      "all_tests": {
+         "dont_start_on_old_savegames": {
+            "type": "deny_if",
+            "item": "exists_in_world",
+            "uri": "stonehearth:decoration:firepit_hearth",
+            "value": false
+         }
+      }
+   },
+   "wait_info": {
+      "duration": "2h30m+5m"
+   }
+}

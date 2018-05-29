@@ -1,0 +1,11 @@
+{
+   "type": "encounter",
+   "encounter_type": "destroy_entity",
+   "in_edge": "destroy_red_stockpiles",
+   "destroy_entity_info": {
+      "target_entities": [
+         "orc_stockpile.entities.general_stockpile"
+      ],
+      "continue_always": true
+   }
+}

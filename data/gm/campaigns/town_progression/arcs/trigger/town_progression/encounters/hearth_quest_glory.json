@@ -1,0 +1,40 @@
+{
+   "type": "encounter",
+   "encounter_type": "delivery_quest",
+   "in_edge": "hearth_quest_glory",
+   "out_edge": "hearth_upgrade_glory",
+   "delivery_quest_info": {
+      "title": "i18n(stonehearth:data.gm.campaigns.town_progression.hearth_quest_glory.title)",
+      "dialog_title": "i18n(stonehearth:data.gm.campaigns.town_progression.hearth_quest_glory.dialog_title)",
+      "requirements": [
+         {
+            "type": "give_item",
+            "uri": "stonehearth:consumables:healing_tonic:small",
+            "count": 20,
+            "keep_items": true
+         },
+         {
+            "type": "give_item",
+            "uri": "stonehearth:consumables:heavy_bandage",
+            "count": 5,
+            "keep_items": true
+         },
+         {
+            "type": "job_level",
+            "uri": "stonehearth:jobs:footman",
+            "level": 3
+         },
+         {
+            "type": "job_level",
+            "uri": "stonehearth:jobs:knight",
+            "level": 3
+         },
+         {
+            "type": "job_level",
+            "uri": "stonehearth:jobs:archer",
+            "level": 3
+         }
+      ],
+      "abandon_out_edge": "hearth_abandon"
+   }
+}

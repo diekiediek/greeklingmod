@@ -1,0 +1,20 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "goblin_thief_camp",
+   "out_edge": "create_thief_camp",
+   "can_start": {
+      "test_1": {
+         "number_active_check": {
+            "item": "number_active",
+            "type": "deny_if_greater_than",
+            "value": 1,
+            "start_node": "create_thief_camp",
+            "end_node": "destroy_thief_stockpiles"
+         }
+      }
+   },
+   "wait_info": {
+      "duration": "12h+3h"
+   }
+}

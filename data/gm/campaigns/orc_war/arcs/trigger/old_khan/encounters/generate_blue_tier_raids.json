@@ -1,0 +1,12 @@
+{
+   "type": "encounter",
+   "encounter_type": "generator",
+   "in_edge": "generate_blue_tier_raids",
+   "generator_info": {
+      "game_mode_tuning": true,
+      "max_spawns": 5,
+      "delay": "14h+4h",
+      "source_entity": "create_blue_tier_camp.boss",
+      "spawn_edge": "blue_tier_raids"
+   }
+}

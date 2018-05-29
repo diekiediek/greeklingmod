@@ -1,0 +1,15 @@
+{
+   "type" : "encounter",
+   "encounter_type" : "wait_for_event",
+
+   "in_edge"  : "wait_for_ogo_death",
+   "out_edge" : {
+      "type" : "trigger_many",
+      "out_edges" : [ "ogo_dying_dialog", "wait_for_erdene"]
+   },
+
+   "wait_for_event_info" :  {
+      "source" : "ogo_army_raid.ogo_skullbonker",
+      "event"  : "stonehearth:kill_event"
+   }
+}

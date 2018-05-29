@@ -1,0 +1,37 @@
+{
+   "type": "encounter",
+   "encounter_type": "create_camp",
+   "rarity": "common",
+   "in_edge": "create_necromancer_crypt",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "wait_to_spawn_nightly_undead",
+         "wait_for_crypt_attacked",
+         "wait_for_crypt_destroyed"
+      ]
+   },
+   "create_camp_info": {
+      "npc_player_id": "undead",
+      "ctx_entity_registration_path": "necromancer_crypt",
+      "on_searcher_failure": {
+         "destroy_root_node": "necromancer_crypt"
+      },
+      "keep_grass": true,
+      "radius": 20,
+      "spawn_range": {
+         "min": 120,
+         "max": 300
+      },
+      "pieces": {
+         "crypt_structures": {
+            "info": "file(create_necromancer_crypt/crypt_structures.json)",
+            "position": { "x": 0, "y": 0 }
+         },
+         "fences": {
+            "info": "file(create_necromancer_crypt/fences.json)",
+            "position": { "x": 0, "y": 0 }
+         }
+      }
+   }
+}

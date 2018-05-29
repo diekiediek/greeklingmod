@@ -1,0 +1,54 @@
+{
+   "type": "encounter",
+   "encounter_type": "town_upgrade",
+   "in_edge": "banner_upgrade_cunning",
+   "out_edge": "town_founding_food_donation",
+   "town_upgrade_info": {
+      "tier_achieved": 1,
+      "old_facility_uri": "greeklingmod:camp_standard",
+      "new_facility_uri": "greeklingmod:banner:cunning",
+      "town_bonus": "stonehearth:town_bonus:cunning",
+      "facility_upgrade_effect": "stonehearth:effects:level_up:banner",
+      "conversation_subjects": [
+         "stonehearth:subjects:town_status",
+         "stonehearth:food:cake",
+         "greeklingmod:banner:cunning"
+      ],
+      "thought": "stonehearth:thoughts:town:progression:outpost",
+      "celebration_duration": "1h15m+5m",
+      "dialog": {
+         "title": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.banner_upgrade_cunning.title)",
+         "dialog_title": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.banner_upgrade_cunning.dialog_title)",
+         "tier_title": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.banner_upgrade_cunning.tier_title)",
+         "reward_message": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.banner_upgrade_cunning.reward_message)",
+         "reward_message_ctd": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.banner_upgrade_cunning.reward_message_ctd)",
+         "achievements": [
+            {
+               "id": "cunning_bonus_1",
+               "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.banner_upgrade_cunning.achievements.000)",
+               "icon": "file(/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_1.png)",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            },
+            {
+               "id": "cunning_bonus_2",
+               "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.banner_upgrade_cunning.achievements.001)",
+               "icon": "file(/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_1.png)",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            },
+            {
+               "id": "cunning_bonus_3",
+               "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.banner_upgrade_cunning.achievements.002)",
+               "icon": "file(/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_1.png)",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            }
+         ]
+      },
+      "npcs": [
+         {
+            "faction": "human_npcs",
+            "role": "herald_harold",
+            "gender": "male"
+         }
+      ]
+   }
+}

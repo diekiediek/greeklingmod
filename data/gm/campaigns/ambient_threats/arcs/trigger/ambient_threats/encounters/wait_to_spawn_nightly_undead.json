@@ -1,0 +1,11 @@
+{
+   "type" : "encounter",
+   "encounter_type" : "wait_for_time_of_day",
+
+   "in_edge"  : "wait_to_spawn_nightly_undead",
+   "out_edge" : "generate_nightly_undead",
+
+   "wait_for_time_of_day_info" :  {
+      "time": "22:00+2h"
+   }
+}

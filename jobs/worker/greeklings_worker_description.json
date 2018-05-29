@@ -1,0 +1,6 @@
+{
+   "mixins": "stonehearth:jobs:worker",
+   "equipment": {
+      "torso": "file(worker_outfit)"
+   }
+}

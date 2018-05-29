@@ -1,0 +1,15 @@
+{
+   "type" : "encounter",
+   "encounter_type" : "wait_for_event",
+
+   "in_edge"  : "wait_for_crypt_attacked",
+   "out_edge" : {
+      "type" : "trigger_one",
+      "out_edges" : ["spawn_necromancer_undead"]
+   },
+
+   "wait_for_event_info" :  {
+      "source" : "necromancer_crypt.entities.crypt_structures.large_crypt",
+      "event"  : "stonehearth:combat:battery"
+   }
+}

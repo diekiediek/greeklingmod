@@ -1,0 +1,9 @@
+{
+   "type": "encounter",
+   "encounter_type": "generator",
+   "in_edge": "shrine_choice_generator",
+   "generator_info": {
+      "delay": "10m",
+      "spawn_edge": "shrine_choice"
+   }
+}

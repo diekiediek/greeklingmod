@@ -1,0 +1,9 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "wait_to_destroy_raider_raid",
+   "out_edge": "destroy_raider_raid",
+   "wait_info": {
+      "duration": "12h"
+   }
+}

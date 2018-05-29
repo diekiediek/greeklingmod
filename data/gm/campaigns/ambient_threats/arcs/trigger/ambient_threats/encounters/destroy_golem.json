@@ -1,0 +1,21 @@
+{
+   "type": "encounter",
+   "encounter_type": "destroy_entity",
+   "in_edge": "destroy_golem",
+   "out_edge": {
+      "type": "destroy_tree",
+      "root": "wandering_golem",
+      "destroy_root": true
+   },
+   "destroy_entity_info": {
+      "target_entities": [
+         "golem_raid.golems"
+      ],
+      "effect": "stonehearth:effects:fire_effect",
+      "random_delay": {
+         "min": 60,
+         "max": 150
+      },
+      "continue_always": true
+   }
+}

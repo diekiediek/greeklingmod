@@ -1,0 +1,33 @@
+{
+   "type": "encounter",
+   "encounter_type": "generator",
+   "in_edge": "generate_color_tier_raids",
+   "generator_info": {
+      "delay": "16h+4h",
+      "spawn_edge": {
+         "type": "trigger_one",
+         "out_edges": [
+            {
+               "type": "weighted_edge",
+               "out_edge": "check_green_token",
+               "weight": 1
+            },
+            {
+               "type": "weighted_edge",
+               "out_edge": "check_blue_token",
+               "weight": 10
+            },
+            {
+               "type": "weighted_edge",
+               "out_edge": "check_red_token",
+               "weight": 50
+            },
+            {
+               "type": "weighted_edge",
+               "out_edge": "check_purple_token",
+               "weight": 200
+            }
+         ]
+      }
+   }
+}

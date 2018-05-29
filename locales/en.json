@@ -1,0 +1,153 @@
+{
+"kingdom": {
+      "kingdom_name": "Greeklings",
+      "quote": "Small opportunities are often the beginning of great enterprises",
+      "long_description": "The Greeklings as a great and varied people, try to expand their civilisation all over this earth.",
+      "post_selection_description": "A society of wise, brave Greeklings.",
+      "initial_town_name": "Polis [str(town_number)]"
+   },
+ "data": {
+      "greeklings_population": {
+         "display_name": "Greeklings"
+      }
+	  },
+"entities" : {
+	"furniture" : {},
+
+	"gizmos": {
+		"greeklings_camp_standard": {
+            "greeklings_camp_standard_ghost": {
+               "display_name": "Camp Standard",
+               "description": "Use to mark territory, civilizedly."
+            }
+			},
+		"town_banner_guardian": {
+            "town_banner_guardian_ghost": {
+               "display_name": "Banner of Cunning",
+               "description": "How you know you've come home.",
+               "town_bonus_description": "<i>This settlement will be a bustling hub of trade.</i><ul><li>Roads give 3x their normal speed boost</li><li>Your items sell for 50% more</li><li>Traders will bring 2x the goods and Gold</li></ul>"
+            },
+            "town_banner_guardian_token_iconic": {
+               "display_name": "Banner of Cunning Shred",
+               "description": "A shred from the Banner of Cunning, carrying along its magic."
+            }
+         },
+		"town_banner_might": {
+            "town_banner_might_ghost": {
+               "display_name": "Banner of Strength",
+               "description": "How you know you've come home",
+               "town_bonus_description": "<i>This settlement will grow strong through earth and steel.</i><ul><li>Mining gives 50% more Ore, Stone, and Clay</li><li>Hearthlings no longer mind cramped spaces</li></ul>"
+            },
+            "town_banner_might_token_iconic": {
+               "display_name": "Banner of Strength Shred",
+               "description": "A shred from the Banner of Strength, carrying along its magic."
+            }
+         },
+		"town_banner_nature": {
+            "town_banner_nature_ghost": {
+               "display_name": "Banner of Vitality",
+               "description": "How you know you've come home",
+               "town_bonus_description": "<i>This settlement shall be at one with the environment.</i><ul><li>Trees produce 25% more Wood</li><li>Both Plants and Crops grow 25% faster</li><li>Plants have 2x their normal Appeal</li></ul>"
+            },
+            "town_banner_nature_token_iconic": {
+               "display_name": "Banner of Vitality Shred",
+               "description": "A shred from the Banner of Vitality, carrying along its magic."
+            }
+         }
+			},
+			
+	"food" : {
+		"olives" : {
+			"olive_basket" : {
+				"display_name" : "Olive Basket",
+				"description" : "A basket full of olives",
+				"olive_basket_iconic": {
+					"display_name": "Olive Basket",
+					"description": "A basket full of olives"
+										}
+							},
+			"olive_serving": {
+				"display_name" : "Plate of Olives",
+				"description" : "A plate full of olives"
+							}
+					},
+		"olive_oil": {
+            "olive_oil": {
+               "display_name": "Olive Oil",
+               "description": "Use it to flavour your food or to style your hair!"
+            },
+            "olive_oil_serving": {
+               "display_name": "A sprinkling of Olive Oil",
+               "description": "Said to be very good for the digestion"
+            }
+         }
+			},
+	"plants" : {
+		"olive_tree": {
+            "display_name": "Olive  Tree",
+            "description": "Harvestable for a tasty food supply.",
+            "unripe_description": "Not yet ripe for harvest.",
+            "seed": {
+               "olive_tree_seed_ghost": {
+                  "display_name": "Olive Tree Seed",
+                  "description": "Can be planted to grow an olive tree"
+               }
+            },
+            "bud": {
+               "olive_tree_bud": {
+                  "display_name": "Budding Olive Tree",
+                  "description": "Its almost there!  Look, it has buds!"
+               }
+            },
+            "sprout": {
+               "olive_tree_sprout": {
+                  "display_name": "Olive Tree Sproutling",
+                  "description": "Just needs some time and care."
+               }
+            },
+            "stem": {
+               "olive_tree_stem": {
+                  "display_name": "Stemming Olive Tree",
+                  "description": "Still growing!"
+               }
+            }
+					}
+		 },
+	"armour": {
+		"bronze_aspis": {
+            "display_name": "Aspis",
+            "description": "Useful for blocking attacks",
+            "bronze_aspis_iconic": {
+               "display_name": "Bronze Shield",
+               "description": "Useful for blocking attacks"
+            }
+         }
+		 }
+			},
+"jobs" : {
+	"carpenter": {
+		"recipes": {}
+					},
+	"cook": {
+		"olive_oil_recipe": {
+               "description": "The oil pressed from olives",
+               "recipe_name": "Olive Oil",
+               "flavor": "Name me one thing you can't use olive oil for!"
+            }
+			},
+	"herbalist": {
+		"herbalist_staff": {
+            "display_name": "Herbalist Staff",
+            "description": "Required to promote a hearthling into an Herbalist",
+            "herbalist_staff_iconic": {
+               "display_name": "Herbalist Staff",
+               "description": "Required to promote a hearthling into an Herbalist"
+            },
+            "herbalist_staff_talisman": {
+               "display_name": "Herbalist's Staff",
+               "description": "Required to promote a hearthling into an Herbalist"
+            }
+         }
+				}
+}				
+}

@@ -1,0 +1,115 @@
+{
+   "type": "encounter",
+   "encounter_type": "script",
+   "in_edge": "returning_trader_encounter_2",
+   "can_start": {
+      "test_1": {
+         "script_check": {
+            "item": "script",
+            "type": "deny_if_not",
+            "value": true,
+            "script": "stonehearth:game_master:script:returning_trader_can_start"
+         },
+         "net_worth_check": {
+            "type": "deny_if_less_than",
+            "item": "net_worth",
+            "value": 3000
+         }
+      }
+   },
+   "script_info": {
+      "script": "stonehearth:game_master:script_encounter:returning_trader",
+      "data": {
+         "expiration_timeout": "6h",
+         "score_threshold": 1000,
+         "title": "i18n(stonehearth:data.gm.campaigns.trader.returning_trader_encounter.title)",
+         "trade_details": "i18n(stonehearth:data.gm.campaigns.trader.returning_trader_encounter.trade_details)",
+         "waiting_title": "i18n(stonehearth:data.gm.campaigns.trader.returning_trader_encounter.waiting_title)",
+         "waiting_text": "i18n(stonehearth:data.gm.campaigns.trader.returning_trader_encounter.waiting_text)",
+         "return_title": "i18n(stonehearth:data.gm.campaigns.trader.returning_trader_encounter.return_title)",
+         "return_greetings_positive": "i18n(stonehearth:data.gm.campaigns.trader.returning_trader_encounter.return_greetings_positive)",
+         "return_greetings_negative": "i18n(stonehearth:data.gm.campaigns.trader.returning_trader_encounter.return_greetings_negative)",
+         "max_days_before_return": 3,
+         "wants": {
+            "stonehearth:trapper:talisman": {
+               "min": 2,
+               "max": 5
+            },
+            "stonehearth:weapons:iron_pike": {
+               "min": 3,
+               "max": 7
+            },
+            "stonehearth:consumables:light_bandage": {
+               "min": 5,
+               "max": 16
+            },
+            "stonehearth:portals:wooden_door": {
+               "min": 5,
+               "max": 20
+            },
+            "stonehearth:refined:steel_ingot": {
+               "min": 4,
+               "max": 8
+            },
+            "stonehearth:furniture:comfy_bed": {
+               "min": 3,
+               "max": 7
+            },
+            "stonehearth:decoration:gargoyle": {
+               "min": 3,
+               "max": 10
+            },
+            "stonehearth:containers:large_crate": {
+               "min": 2,
+               "max": 10
+            },
+            "stonehearth:decoration:bird_bath": {
+               "min": 4,
+               "max": 10
+            }
+         },
+         "rewards": {
+            "stonehearth:containers:leather_bound_chest": {
+               "type": "object",
+               "min": 1,
+               "max": 6
+            },
+            "stonehearth:refined:gold_ingot": {
+               "type": "object",
+               "min": 2,
+               "max": 5
+            },
+            "stonehearth:furniture:comfy_bed": {
+               "type": "object",
+               "min": 2,
+               "max": 10
+            },
+            "stonehearth:weapons:giant_bone_mace": {
+               "type": "object",
+               "min": 1,
+               "max": 1
+            },
+            "stonehearth:armor:iron_helm": {
+               "type": "object",
+               "min": 1,
+               "max": 3
+            },
+            "stonehearth:armor:iron_mail": {
+               "type": "object",
+               "min": 1,
+               "max": 3
+            },
+            "stonehearth:decoration:decorative_vase": {
+               "type": "object",
+               "min": 2,
+               "max": 4
+            },
+            "stonehearth:weapons:giant_bone_axe": {
+               "type": "object",
+               "min": 1,
+               "max": 1
+            }
+         }
+      }
+   }
+}

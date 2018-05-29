@@ -1,0 +1,15 @@
+{
+   "type" : "encounter",
+   "encounter_type" : "wait",
+
+   "in_edge"  : "wait_to_attack",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [ 
+        "ogo_attacks_dialog"
+      ]
+   },
+   "wait_info" :  {
+      "duration" : "3d"
+   }
+}

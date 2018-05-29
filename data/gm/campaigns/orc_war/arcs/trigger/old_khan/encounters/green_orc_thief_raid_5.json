@@ -1,0 +1,31 @@
+{
+   "type": "encounter",
+   "encounter_type": "city_raid",
+   "mixins": "stonehearth:mixins:encounter:orc_campaign:base_orc_raid_stockpiles",
+   "in_edge": "green_orc_thief_raid_5",
+   "out_edge": "wait_to_destroy_green_raids",
+   "city_raid_info": {
+      "missions": {
+         "raid_stockpiles": {
+            "ctx_entity_registration_path": "green_orc_raid",
+            "require_free_stockpile_space": false,
+            "members": {
+               "kobolds": {
+                  "from_population": {
+                     "min": 4,
+                     "max": 5
+                  },
+                  "tuning": "stonehearth:monster_tuning:kobolds:kobold_thief"
+               },
+               "orcs": {
+                  "from_population": {
+                     "min": 1,
+                     "max": 2
+                  },
+                  "tuning": "stonehearth:monster_tuning:orcs:thief"
+               }
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,40 @@
+{
+   "type": "encounter",
+   "mixins": "stonehearth:mixins:encounter:alligator_raid",
+   "encounter_type": "create_mission",
+   "in_edge": "alligator_entling_raid_5",
+   "out_edge": "wait_to_destroy_raiding_party",
+   "can_start": {
+      "test_1": {
+         "biome_check": {
+            "type": "deny_if_not",
+            "item": "biome",
+            "value": "stonehearth:biome:temperate"
+         }
+      }
+   },
+   "create_mission_info": {
+      "mission": {
+         "ctx_entity_registration_path": "alligator_entling_raid_5",
+         "members": {
+            "alligators": {
+               "from_population": {
+                  "min": 1,
+                  "max": 1
+               },
+               "tuning": "stonehearth:monster_tuning:forest:medium_alligator"
+            },
+            "entlings": {
+               "from_population": {
+                  "role": "entling",
+                  "location": { "x": 0, "z": 0 },
+                  "min": 3,
+                  "max": 5,
+                  "range": 10
+               },
+               "tuning": "stonehearth:monster_tuning:forest:easy_entling"
+            }
+         }
+      }
+   }
+}

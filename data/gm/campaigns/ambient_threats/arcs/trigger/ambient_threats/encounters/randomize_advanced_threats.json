@@ -1,0 +1,44 @@
+{
+   "type": "encounter",
+   "encounter_type": "none",
+   "can_start": {
+      "test_1": {
+         "net_worth_check": {
+            "type": "deny_if_less_than",
+            "item": "net_worth",
+            "value": 6000
+         }
+      }
+   },
+   "in_edge": "randomize_advanced_threats",
+   "out_edge": {
+      "type": "trigger_one",
+      "out_edges": [
+         {
+            "out_edge": "goblin_raider_camp",
+            "type": "weighted_edge",
+            "weight": 2
+         },
+         {
+            "out_edge": "wandering_golem",
+            "type": "weighted_edge",
+            "weight": 2
+         },
+         {
+            "out_edge": "necromancer_crypt",
+            "type": "weighted_edge",
+            "weight": 3
+         },
+         {
+            "out_edge": "kobold_scout_camp",
+            "type": "weighted_edge",
+            "weight": 2
+         },
+         {
+            "out_edge": "pack_of_alligators",
+            "type": "weighted_edge",
+            "weight": 2
+         }
+      ]
+   }
+}

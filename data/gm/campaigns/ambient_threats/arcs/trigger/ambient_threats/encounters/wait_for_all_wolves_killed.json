@@ -1,0 +1,10 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait_for_event",
+   "in_edge": "wait_for_all_wolves_killed",
+   "out_edge": "wolf_pack_killed",
+   "wait_for_event_info": {
+      "source": "wolf_pack_raid.wolves",
+      "event": "stonehearth:kill_event"
+   }
+}

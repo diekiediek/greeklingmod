@@ -1,0 +1,45 @@
+{
+   "type": "encounter",
+   "encounter_type": "city_raid",
+   "rarity": "common",
+   "in_edge": "city_raid",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "wait_to_destroy_city_raid",
+         "wait_for_moving_on_to_destroy_raids"
+      ]
+   },
+   "city_raid_info": {
+      "missions": {
+         "raid_stockpiles": {
+            "npc_player_id": "goblins",
+            "raid_timeout_minutes": 300,
+            "raid_timeout_variance_minutes": 60,
+            "ctx_entity_registration_path": "chieftain_camp_city_raid",
+            "role": "raid_stockpiles",
+            "offset": { "x": 0, "y": 0, "z": 0 },
+            "sighted_bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.smash_stockpiles_mission.missions.raid_stockpiles.sighted_bulletin.title)",
+               "message": "i18n(stonehearth:data.gm.campaigns.goblin_war.smash_stockpiles_mission.missions.raid_stockpiles.sighted_bulletin.message)"
+            },
+            "register_members_under": "stuff_to_kill_at_destory",
+            "members": {
+               "maurauders": {
+                  "from_population": {
+                     "min": 2,
+                     "max": 2,
+                     "location": { "x": 3, "z": 3 },
+                     "range": 6,
+                     "scale_with_run": {
+                        "encounter_cap": 4
+                     }
+                  },
+                  "tuning": "stonehearth:monster_tuning:goblins:marauder",
+                  "abilities": "stonehearth:abilities:maurauder_abilities"
+               }
+            }
+         }
+      }
+   }
+}

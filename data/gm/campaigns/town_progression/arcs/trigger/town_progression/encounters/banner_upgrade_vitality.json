@@ -1,0 +1,54 @@
+{
+   "type": "encounter",
+   "encounter_type": "town_upgrade",
+   "in_edge": "banner_upgrade_vitality",
+   "out_edge": "town_founding_food_donation",
+   "town_upgrade_info": {
+      "tier_achieved": 1,
+      "old_facility_uri": "greeklingmod:camp_standard",
+      "new_facility_uri": "greeklingmod:banner:vitality",
+      "town_bonus": "stonehearth:town_bonus:vitality",
+      "facility_upgrade_effect": "stonehearth:effects:level_up:banner",
+      "conversation_subjects": [
+         "stonehearth:subjects:town_status",
+         "stonehearth:food:cake",
+         "greeklingmod:banner:vitality"
+      ],
+      "thought": "stonehearth:thoughts:town:progression:outpost",
+      "celebration_duration": "1h15m+5m",
+      "dialog": {
+         "title": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.banner_upgrade_vitality.title)",
+         "dialog_title": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.banner_upgrade_vitality.dialog_title)",
+         "tier_title": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.banner_upgrade_vitality.tier_title)",
+         "reward_message": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.banner_upgrade_vitality.reward_message)",
+         "reward_message_ctd": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.banner_upgrade_vitality.reward_message_ctd)",
+         "achievements": [
+            {
+               "id": "vitality_bonus_1",
+               "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.banner_upgrade_vitality.achievements.000)",
+               "icon": "file(/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_1.png)",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            },
+            {
+               "id": "vitality_bonus_2",
+               "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.banner_upgrade_vitality.achievements.001)",
+               "icon": "file(/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_1.png)",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            },
+            {
+               "id": "vitality_bonus_3",
+               "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.banner_upgrade_vitality.achievements.002)",
+               "icon": "file(/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_1.png)",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            }
+         ]
+      },
+      "npcs": [
+         {
+            "faction": "human_npcs",
+            "role": "herald_harold",
+            "gender": "male"
+         }
+      ]
+   }
+}

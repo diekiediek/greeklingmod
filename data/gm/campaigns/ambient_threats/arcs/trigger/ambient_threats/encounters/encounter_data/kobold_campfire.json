@@ -1,0 +1,34 @@
+{
+   "type": "camp_piece",
+   "entities": {
+      "campfire": {
+         "uri": "stonehearth:decoration:firepit_skulls",
+         "force_iconic": false,
+         "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+         }
+      },
+      "wood_1": {
+         "uri": "stonehearth:resources:wood:oak_log",
+         "force_iconic": false,
+         "lootable": true,
+         "location": {
+            "x": 4,
+            "y": 0,
+            "z": 4
+         }
+      },
+      "wood_2": {
+         "uri": "stonehearth:resources:wood:oak_log",
+         "force_iconic": false,
+         "lootable": true,
+         "location": {
+            "x": 3,
+            "y": 0,
+            "z": 4
+         }
+      }
+   }
+}

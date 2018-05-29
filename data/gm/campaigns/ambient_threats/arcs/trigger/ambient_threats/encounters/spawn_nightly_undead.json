@@ -1,0 +1,50 @@
+{
+   "type": "encounter",
+   "encounter_type": "city_raid",
+   "rarity": "common",
+   "in_edge": "spawn_nightly_undead",
+   "out_edge": "wait_for_dawn",
+   "city_raid_info": {
+      "missions": {
+         "spawn_enemies": {
+            "ctx_entity_registration_path": "necromancer_nightly_undead",
+            "role": "spawn_enemies",
+            "offset": {
+               "x": 0,
+               "y": 0,
+               "z": 0
+            },
+            "members": {
+               "zombies": {
+                  "from_population": {
+                     "role": "zombie",
+                     "location": {
+                        "x": -4,
+                        "z": -3
+                     },
+                     "min": 2,
+                     "max": 3,
+                     "range": 10
+                  },
+                  "combat_leash_range": 30,
+                  "tuning": "stonehearth:monster_tuning:undead:scaled_undead"
+               },
+               "skeletons": {
+                  "from_population": {
+                     "role": "skeleton",
+                     "location": {
+                        "x": 5,
+                        "z": 7
+                     },
+                     "min": 2,
+                     "max": 3,
+                     "range": 10
+                  },
+                  "combat_leash_range": 30,
+                  "tuning": "stonehearth:monster_tuning:undead:scaled_undead"
+               }
+            }
+         }
+      }
+   }
+}

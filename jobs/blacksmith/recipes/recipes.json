@@ -1,0 +1,12 @@
+{
+	"mixins": "/stonehearth/jobs/blacksmith/recipes/recipes.json",
+	"craftable_recipes": {
+		"armor": {
+			"recipes": {
+				"bronze_aspis": {
+					"recipe": "file(bronze_aspis_recipe.json)"
+				}
+			}
+		}				
+	}
+}

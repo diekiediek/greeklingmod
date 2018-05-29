@@ -1,0 +1,11 @@
+{
+   "type": "encounter",
+   "encounter_type": "unlock_recipe",
+   "in_edge": "unlock_blue_token_recipe",
+   "out_edge": "wait_for_first_blue_token",
+   "unlock_recipe_info": {
+      "job": "stonehearth:jobs:blacksmith",
+      "recipe_key": "decoration:decorative_elite_gong",
+      "bulletin_title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.unlock_blue_token_recipe.bulletin_title)"
+   }
+}

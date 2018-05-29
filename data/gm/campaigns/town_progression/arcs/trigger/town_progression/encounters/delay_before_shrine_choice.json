@@ -1,0 +1,9 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "delay_before_shrine_choice",
+   "out_edge": "shrine_choice_explanation",
+   "wait_info": {
+      "duration": "2d"
+   }
+}

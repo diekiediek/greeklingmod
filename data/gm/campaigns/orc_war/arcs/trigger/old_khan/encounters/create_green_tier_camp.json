@@ -1,0 +1,116 @@
+{
+   "type": "encounter",
+   "encounter_type": "create_camp",
+   "mixins": "stonehearth:mixins:encounter:orc_campaign:base_orc_camp",
+   "in_edge": "create_green_tier_camp",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "green_tier_begin_dialog",
+         "wait_for_green_camp_boss_killed"
+      ]
+   },
+   "create_camp_info": {
+      "ctx_entity_registration_path": "create_green_tier_camp",
+      "boss": {
+         "from_population": {
+            "role": "kobold",
+            "location": {
+               "x": -2,
+               "y": 0
+            }
+         },
+         "combat_leash_range": 20,
+         "tuning": "stonehearth:monster_tuning:kobolds:kobold_archer_scout"
+      },
+      "citizens": {
+         "kobolds": {
+            "from_population": {
+               "role": "kobold",
+               "min": 2,
+               "max": 2,
+               "location": {
+                  "x": 0,
+                  "z": 0
+               },
+               "range": 5
+            },
+            "combat_leash_range": 20,
+            "tuning": "stonehearth:monster_tuning:kobolds:kobold_archer_scout"
+         },
+         "orc_footmen": {
+            "from_population": {
+               "role": "orc",
+               "min": 1,
+               "max": 1,
+               "location": {
+                  "x": 0,
+                  "z": 0
+               },
+               "range": 5
+            },
+            "combat_leash_range": 20,
+            "tuning": "stonehearth:monster_tuning:orcs:footman"
+         },
+         "orc_footmen": {
+            "from_population": {
+               "role": "orc",
+               "min": 1,
+               "max": 1,
+               "location": {
+                  "x": 0,
+                  "z": 0
+               },
+               "range": 5
+            },
+            "combat_leash_range": 20,
+            "tuning": "stonehearth:monster_tuning:orcs:knight"
+         },
+         "orc_worker": {
+            "from_population": {
+               "role": "orc",
+               "min": 1,
+               "max": 1,
+               "location": {
+                  "x": 0,
+                  "z": 0
+               },
+               "range": 5
+            },
+            "combat_leash_range": 20,
+            "tuning": "stonehearth:monster_tuning:orcs:worker"
+         }
+      },
+      "pieces": {
+         "wood_stockpile": {
+            "info": "file(encounter_data/orc_base_stockpile.json)",
+            "position": {
+               "x": -6,
+               "y": 5
+            }
+         },
+         "campfire": {
+            "info": "file(encounter_data/orc_base_campfire.json)",
+            "position": {
+               "x": 0,
+               "y": 0
+            }
+         },
+         "huts": {
+            "info": "file(encounter_data/green_camp_structures.json)",
+            "position": {
+               "x": 0,
+               "y": 0
+            }
+         },
+         "loot_chest": {
+            "info": "file(encounter_data/green_camp_loot_chest.json)",
+            "position": {
+               "x": 6,
+               "y": -5
+            },
+            "rotation": 180
+         }
+      }
+   }
+}

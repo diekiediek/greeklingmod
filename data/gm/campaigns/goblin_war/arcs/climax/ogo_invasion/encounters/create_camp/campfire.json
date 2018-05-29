@@ -1,0 +1,47 @@
+{
+   "type" : "camp_piece",
+
+   "entities" : {
+      "campfire" : {
+         "uri" : "stonehearth:decoration:firepit_skulls",
+         "force_iconic" : false,
+         "location" : {
+            "x" : 0,
+            "y" : 0,
+            "z" : 0
+         }
+      },
+      "wood" : {
+         "uri" : "stonehearth:resources:wood:oak_log",
+         "force_iconic" : false,
+         "location" : {
+            "x" : 4,
+            "y" : 0,
+            "z" : 4
+         }
+      }      
+   },
+   "citizens" : {
+      "workers" : {
+         "from_population" : {
+            "min" : 2,
+            "max" : 4,
+            "location" : { "x": 4, "z": 4 },
+            "range" : 6
+         },
+         "combat_leash_range": 30,
+         "tuning": "stonehearth:monster_tuning:goblins:worker"
+      },
+
+      "guards" : {
+         "from_population" : {
+            "min" : 2,
+            "max" : 4,
+            "location" : { "x": -4, "z": -4 },
+            "range" : 6
+         },
+         "tuning": "stonehearth:monster_tuning:goblins:guard"
+      }
+      
+   }
+}

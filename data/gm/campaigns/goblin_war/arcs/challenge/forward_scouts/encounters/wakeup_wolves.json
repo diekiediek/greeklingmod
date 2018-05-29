@@ -1,0 +1,16 @@
+{
+   "type" : "encounter",
+   "encounter_type" : "destroy_entity",
+
+   "in_edge"  : "wakeup_wolves",
+   "out_edge" : {
+      "type" : "trigger_many",
+      "out_edges" : [ "create_wolf_riders", "destroy_misc"]
+   },
+
+   "destroy_entity_info" :  {
+      "target_entities" : ["create_scout_camp.entities.wolf_cage.wolf_cage"], 
+      "effect" : "stonehearth:effects:fursplosion_effect", 
+      "continue_always" : false
+   }
+}

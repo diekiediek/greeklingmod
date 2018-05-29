@@ -1,0 +1,64 @@
+{
+   "type": "camp_piece",
+   "entities": {
+      "orc_hut_1": {
+         "uri": "stonehearth:monsters:orcs:medium_orc_hut",
+         "force_iconic": false,
+         "location": {
+            "x": -4,
+            "y": 0,
+            "z": -13
+         },
+         "rotation": 180
+      },
+      "orc_tent_1": {
+         "uri": "stonehearth:monsters:orcs:orc_tent",
+         "force_iconic": false,
+         "location": {
+            "x": -13,
+            "y": 0,
+            "z": 12
+         },
+         "rotation": 270
+      },
+      "orc_hut_2": {
+         "uri": "stonehearth:monsters:orcs:white_orc_hut",
+         "force_iconic": false,
+         "location": {
+            "x": 13,
+            "y": 0,
+            "z": 3
+         },
+         "rotation": 90
+      },
+      "boss_banner": {
+         "uri": "stonehearth:monsters:orcs:orc_boss_banner",
+         "force_iconic": false,
+         "location": {
+            "x": 1,
+            "y": 0,
+            "z": -2
+         },
+         "rotation": 180
+      },
+      "barricade_1": {
+         "uri": "stonehearth:monsters:goblins:goblin_barricade",
+         "force_iconic": false,
+         "location": {
+            "x": -15,
+            "y": 0,
+            "z": -2
+         },
+         "rotation": 90
+      },
+      "barricade_2": {
+         "uri": "stonehearth:monsters:goblins:goblin_barricade",
+         "force_iconic": false,
+         "location": {
+            "x": -1,
+            "y": 0,
+            "z": 14
+         }
+      }
+   }
+}

@@ -1,0 +1,12 @@
+{
+   "type" : "encounter",
+   "encounter_type" : "wait",
+
+   "in_edge"  : "wait_to_start_raiding_parties",
+   "out_edge" : "generate_random_raiding_party",
+
+   "wait_info" :  {
+      "game_mode_tuning": true,
+      "duration" : "3h+10h"
+   }
+}

@@ -1,0 +1,9 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "wait_to_destroy_thief_raid",
+   "out_edge": "destroy_thief_raid",
+   "wait_info": {
+      "duration": "12h"
+   }
+}

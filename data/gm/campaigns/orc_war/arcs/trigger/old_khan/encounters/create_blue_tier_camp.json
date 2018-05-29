@@ -1,0 +1,102 @@
+{
+   "type": "encounter",
+   "encounter_type": "create_camp",
+   "mixins": "stonehearth:mixins:encounter:orc_campaign:base_orc_camp",
+   "in_edge": "create_blue_tier_camp",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "blue_tier_begin_dialog",
+         "wait_for_blue_camp_boss_killed"
+      ]
+   },
+   "create_camp_info": {
+      "npc_player_id": "goblins",
+      "neutral_to_everyone": true,
+      "ctx_entity_registration_path": "create_blue_tier_camp",
+      "boss": {
+         "from_population": {
+            "gender": "male",
+            "location": {
+               "x": -2,
+               "y": 0
+            }
+         },
+         "combat_leash_range": 20,
+         "tuning": "stonehearth:monster_tuning:goblins:guard"
+      },
+      "citizens": {
+         "wolves": {
+            "from_population": {
+               "role": "wolf",
+               "min": 2,
+               "max": 2,
+               "location": {
+                  "x": 0,
+                  "z": 0
+               },
+               "range": 5
+            },
+            "combat_leash_range": 20,
+            "tuning": "stonehearth:monster_tuning:goblins:wolf"
+         },
+         "workers": {
+            "from_population": {
+               "min": 3,
+               "max": 4,
+               "location": {
+                  "x": 0,
+                  "z": 0
+               },
+               "range": 5
+            },
+            "combat_leash_range": 20,
+            "tuning": "stonehearth:monster_tuning:goblins:worker"
+         },
+         "footmen": {
+            "from_population": {
+               "min": 3,
+               "max": 4,
+               "location": {
+                  "x": 0,
+                  "z": 0
+               },
+               "range": 5
+            },
+            "combat_leash_range": 20,
+            "tuning": "stonehearth:monster_tuning:goblins:guard"
+         }
+      },
+      "pieces": {
+         "wood_stockpile": {
+            "info": "file(encounter_data/orc_base_stockpile.json)",
+            "position": {
+               "x": -4,
+               "y": 4
+            }
+         },
+         "campfire": {
+            "info": "file(encounter_data/orc_base_campfire.json)",
+            "position": {
+               "x": 2,
+               "y": 0
+            }
+         },
+         "huts": {
+            "info": "file(encounter_data/blue_camp_structures.json)",
+            "position": {
+               "x": 0,
+               "y": 0
+            }
+         },
+         "loot_chest": {
+            "info": "file(encounter_data/blue_camp_loot_chest.json)",
+            "position": {
+               "x": 8,
+               "y": -6
+            },
+            "rotation": 180
+         }
+      }
+   }
+}

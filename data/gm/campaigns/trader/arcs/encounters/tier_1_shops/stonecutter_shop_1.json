@@ -1,0 +1,61 @@
+{
+   "type": "encounter",
+   "encounter_type": "shop",
+   "unique": true,
+   "in_edge": "stonecutter_shop_1",
+   "shop_info": {
+      "title": "i18n(stonehearth:data.gm.campaigns.trader.stonecutter_shop.shop_info.title)",
+      "name": "i18n(stonehearth:data.gm.campaigns.trader.stonecutter_shop.shop_info.name)",
+      "inventory": {
+         "shopkeeper_level": 1,
+         "shopkeeper_gold": 600,
+         "entries": [
+            {
+               "items_matching": {
+                  "stone stuff": {
+                     "category": [
+                        "furniture",
+                        "decoration"
+                     ],
+                     "material": [
+                        "stone"
+                     ]
+                  }
+               },
+               "quantity": {
+                  "min": 0,
+                  "max": 3
+               }
+            },
+            {
+               "items_matching": {
+                  "stone stuff": {
+                     "category": [
+                        "resources"
+                     ],
+                     "material": [
+                        "stone"
+                     ]
+                  }
+               },
+               "quantity": {
+                  "min": 5,
+                  "max": 10
+               }
+            },
+            {
+               "items": [
+                  "stonehearth:resources:copper:ore",
+                  "stonehearth:resources:tin:ore",
+                  "stonehearth:resources:coal:lump_of_coal",
+                  "stonehearth:resources:iron:ore"
+               ],
+               "quantity": {
+                  "min": 5,
+                  "max": 10
+               }
+            }
+         ]
+      }
+   }
+}

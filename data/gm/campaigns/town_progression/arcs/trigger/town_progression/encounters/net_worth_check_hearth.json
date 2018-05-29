@@ -1,0 +1,10 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait_for_net_worth",
+   "in_edge": "net_worth_check_hearth",
+   "out_edge": "hearth_choice_explanation",
+   "wait_for_net_worth_info": {
+      "threshold": 3500,
+      "interval": "1d"
+   }
+}

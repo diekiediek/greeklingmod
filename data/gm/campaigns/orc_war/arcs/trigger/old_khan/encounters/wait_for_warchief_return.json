@@ -1,0 +1,9 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "wait_for_warchief_return",
+   "out_edge": "warchief_boss_dialog",
+   "wait_info": {
+      "duration": "2d+12h"
+   }
+}

@@ -1,0 +1,16 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait_for_requirements_met",
+   "in_edge": "wait_for_erdene",
+   "out_edge": "erdenes_congratulations",
+   "wait_for_requirements_met_info": {
+      "recheck_delay": "1d + 12h",
+      "requirements": {
+         "citizens_requirement": {
+            "item": "num_citizens",
+            "type": "deny_if_less_than",
+            "value": 1
+         }
+      }
+   }
+}

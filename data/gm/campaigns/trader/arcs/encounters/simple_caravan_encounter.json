@@ -1,0 +1,113 @@
+{
+   "type": "encounter",
+   "encounter_type": "script",
+   "in_edge": "simple_caravan_encounter",
+   "can_start": {
+      "test_1": {
+         "script_check": {
+            "item": "script",
+            "type": "deny_if_not",
+            "value": true,
+            "script": "stonehearth:game_master:script:simple_caravan_can_start"
+         }
+      }
+   },
+   "script_info": {
+      "script": "stonehearth:game_master:script_encounter:simple_caravan",
+      "data": {
+         "title": "i18n(stonehearth:data.gm.campaigns.trader.simple_caravan_encounter.title)",
+         "expiration_timeout": "1h",
+         "message": "i18n(stonehearth:data.gm.campaigns.trader.simple_caravan_encounter.message)",
+         "trades": {
+            "stonehearth:resources:wood:oak_log": {
+               "min": 2,
+               "max": 20
+            },
+            "stonehearth:resources:wood:juniper_log": {
+               "min": 2,
+               "max": 20
+            },
+            "stonehearth:resources:stone:hunk_of_stone": {
+               "min": 3,
+               "max": 20
+            },
+            "stonehearth:food:berries:berry_basket": {
+               "min": 1,
+               "max": 5
+            },
+            "stonehearth:farmer:talisman": {
+               "min": 1,
+               "max": 2
+            },
+            "stonehearth:footman:wooden_sword_talisman": {
+               "min": 1,
+               "max": 4
+            },
+            "stonehearth:food:turnip:turnip_basket": {
+               "min": 2,
+               "max": 10
+            },
+            "stonehearth:food:corn:corn_basket": {
+               "min": 3,
+               "max": 10
+            },
+            "stonehearth:construction:picket_fence": {
+               "min": 2,
+               "max": 20
+            },
+            "stonehearth:construction:picket_fence_gate": {
+               "min": 2,
+               "max": 20
+            },
+            "stonehearth:furniture:arch_backed_chair": {
+               "min": 1,
+               "max": 3
+            },
+            "stonehearth:decoration:firepit": {
+               "min": 1,
+               "max": 1
+            },
+            "stonehearth:furniture:not_much_of_a_bed": {
+               "min": 1,
+               "max": 3
+            },
+            "stonehearth:furniture:simple_wooden_chair": {
+               "min": 1,
+               "max": 3
+            },
+            "stonehearth:furniture:stone_table": {
+               "min": 1,
+               "max": 3
+            },
+            "stonehearth:furniture:stone_bench": {
+               "min": 1,
+               "max": 3
+            },
+            "stonehearth:decoration:stone_wall_lantern": {
+               "min": 1,
+               "max": 3
+            },
+            "stonehearth:decoration:gargoyle": {
+               "min": 1,
+               "max": 3
+            },
+            "stonehearth:decoration:stone_brazier": {
+               "min": 1,
+               "max": 3
+            },
+            "stonehearth:decoration:tower_brazier": {
+               "min": 1,
+               "max": 3
+            },
+            "stonehearth:weapons:iron_pike": {
+               "min": 1,
+               "max": 3
+            },
+            "stonehearth:furniture:comfy_bed": {
+               "min": 1,
+               "max": 3
+            }
+         }
+      }
+   }
+}

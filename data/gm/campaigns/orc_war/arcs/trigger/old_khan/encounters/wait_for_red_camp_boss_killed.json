@@ -1,0 +1,16 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait_for_event",
+   "in_edge": "wait_for_red_camp_boss_killed",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "red_tier_end_dialog",
+         "destroy_red_stockpiles"
+      ]
+   },
+   "wait_for_event_info": {
+      "source": "create_red_tier_camp.boss",
+      "event": "stonehearth:kill_event"
+   }
+}

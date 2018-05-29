@@ -1,0 +1,87 @@
+{
+   "type": "encounter",
+   "encounter_type": "script",
+   "in_edge": "returning_crop_trader_encounter",
+   "can_start": {
+      "test_1": {
+         "script_check": {
+            "item": "highest_job_level",
+            "type": "deny_if_less_than",
+            "value": 6,
+            "job_alias": "stonehearth:jobs:farmer"
+         }
+      }
+   },
+   "script_info": {
+      "script": "stonehearth:game_master:script_encounter:returning_trader",
+      "data": {
+         "expiration_timeout": "6h",
+         "score_threshold": 1000,
+         "title": "i18n(stonehearth:data.gm.campaigns.trader.returning_crop_trader_encounter.title)",
+         "trade_details": "i18n(stonehearth:data.gm.campaigns.trader.returning_crop_trader_encounter.trade_details)",
+         "waiting_title": "i18n(stonehearth:data.gm.campaigns.trader.returning_crop_trader_encounter.waiting_title)",
+         "waiting_text": "i18n(stonehearth:data.gm.campaigns.trader.returning_crop_trader_encounter.waiting_text)",
+         "return_title": "i18n(stonehearth:data.gm.campaigns.trader.returning_crop_trader_encounter.return_title)",
+         "return_greetings_positive": "i18n(stonehearth:data.gm.campaigns.trader.returning_crop_trader_encounter.return_greetings_positive)",
+         "return_greetings_negative": "i18n(stonehearth:data.gm.campaigns.trader.returning_crop_trader_encounter.return_greetings_negative)",
+         "min_days_before_return": 3,
+         "max_days_before_return": 4,
+         "wants": {
+            "stonehearth:food:turnip:turnip_basket": {
+               "min": 3,
+               "max": 8
+            },
+            "stonehearth:food:carrot:carrot_basket": {
+               "min": 3,
+               "max": 8
+            },
+            "stonehearth:food:pumpkin:pumpkin_basket": {
+               "min": 3,
+               "max": 8
+            },
+            "stonehearth:food:corn:corn_basket": {
+               "min": 3,
+               "max": 8
+            },
+            "stonehearth:food:wheat:wheat_bale": {
+               "min": 3,
+               "max": 8
+            },
+            "stonehearth:resources:herb:frostsnap": {
+               "min": 3,
+               "max": 8
+            },
+            "stonehearth:resources:herb:brightbell": {
+               "min": 3,
+               "max": 8
+            },
+            "stonehearth:resources:fiber:silkweed_bundle": {
+               "min": 3,
+               "max": 8
+            }
+         },
+         "rewards": {
+            "stonehearth:consumables:seeds:golden_gourd_seeds": {
+               "type": "object",
+               "min": 1,
+               "max": 1
+            },
+            "stonehearth:consumables:seeds:watermelon_seeds": {
+               "type": "object",
+               "min": 1,
+               "max": 1
+            },
+            "stonehearth:consumables:seeds:cactus_flower_seeds": {
+               "type": "object",
+               "min": 1,
+               "max": 1
+            },
+            "stonehearth:consumables:seeds:cactus_tree_seeds": {
+               "type": "object",
+               "min": 1,
+               "max": 1
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,42 @@
+{
+   "type": "encounter",
+   "encounter_type": "none",
+   "can_start": {
+      "test_1": {
+         "days_elapsed_check": {
+            "type": "deny_if_less_than",
+            "item": "days_elapsed",
+            "value": 6
+         }
+      },
+      "test_2": {
+         "military_strength_check": {
+            "type": "deny_if_less_than",
+            "item": "score",
+            "score_type": "military_strength",
+            "value": 50
+         }
+      }
+   },
+   "in_edge": "randomize_daily_threat",
+   "out_edge": {
+      "type": "trigger_one",
+      "out_edges": [
+         {
+            "out_edge": "goblin_thief_camp",
+            "type": "weighted_edge",
+            "weight": 4
+         },
+         {
+            "out_edge": "pack_of_wolves",
+            "type": "weighted_edge",
+            "weight": 4
+         },
+         {
+            "out_edge": "zombie_chest_camp",
+            "type": "weighted_edge",
+            "weight": 4
+         }
+      ]
+   }
+}

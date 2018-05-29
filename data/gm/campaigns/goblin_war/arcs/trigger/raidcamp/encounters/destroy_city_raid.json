@@ -1,0 +1,21 @@
+{
+   "type": "encounter",
+   "encounter_type": "destroy_entity",
+   "in_edge": "destroy_city_raid",
+   "out_edge": {
+      "type": "destroy_tree",
+      "root": "spawn raids",
+      "destroy_root": false
+   },
+   "destroy_entity_info": {
+      "target_entities": [
+         "chieftain_camp_city_raid"
+      ],
+      "effect": "stonehearth:effects:fire_effect",
+      "random_delay": {
+         "min": 60,
+         "max": 150
+      },
+      "continue_always": true
+   }
+}

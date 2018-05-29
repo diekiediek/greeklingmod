@@ -1,0 +1,45 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(olive_serving.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:item": {
+         "category": "food",
+         "destroy_on_uncarry": true
+      },
+      "stonehearth:activity_name": "eating_berries",
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 12
+         },
+         "default": {
+            "satisfaction": 10
+         },
+         "quality": 3
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 0,
+         "shop_info": {
+            "buyable": false,
+            "sellable": false
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(greekmod:entities.food.olives.olive_serving.display_name)",
+         "description": "i18n(greekmod:entities.food.olives.olive_serving.description)",
+         "icon": "file(olive_serving.png)",
+         "is_item": true,
+         "category": "food",
+         "material_tags": "food vegetarian",
+         "subject_override": "greekmod:plants:olive_tree"
+      }
+   }
+}

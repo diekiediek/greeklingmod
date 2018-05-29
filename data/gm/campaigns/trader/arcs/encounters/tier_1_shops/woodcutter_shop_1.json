@@ -1,0 +1,43 @@
+{
+   "type": "encounter",
+   "encounter_type": "shop",
+   "unique": true,
+   "in_edge": "woodcutter_shop_1",
+   "shop_info": {
+      "name": "i18n(stonehearth:data.gm.campaigns.trader.woodcutter_shop.shop_info.name)",
+      "title": "i18n(stonehearth:data.gm.campaigns.trader.woodcutter_shop.shop_info.title)",
+      "inventory": {
+         "shopkeeper_level": 1,
+         "shopkeeper_gold": 700,
+         "entries": [
+            {
+               "items_matching": {
+                  "wood stuff": {
+                     "category": [
+                        "furniture",
+                        "decoration"
+                     ],
+                     "material": [
+                        "wood"
+                     ]
+                  }
+               },
+               "quantity": {
+                  "min": 0,
+                  "max": 3
+               }
+            },
+            {
+               "items": [
+                  "stonehearth:resources:wood:oak_log",
+                  "stonehearth:resources:wood:juniper_log"
+               ],
+               "quantity": {
+                  "min": 5,
+                  "max": 12
+               }
+            }
+         ]
+      }
+   }
+}

@@ -1,0 +1,38 @@
+{
+   "type": "encounter",
+   "encounter_type": "city_tier_achieved",
+   "in_edge": "valor_tier_2_reached",
+   "city_tier_achieved_info": {
+      "tier_achieved": 2,
+      "event_to_broadcast": "stonehearth:tier_2_reached",
+      "title": "i18n(stonehearth:data.gm.campaigns.trader.valor_tier_2_reached.title)",
+      "speaker_name": "i18n(stonehearth:data.gm.campaigns.trader.valor_tier_2_reached.speaker_name)",
+      "speaker_portrait": "file(images/herald.png)",
+      "message": "i18n(stonehearth:data.gm.campaigns.trader.valor_tier_2_reached.message)",
+      "accept": "i18n(stonehearth:data.gm.campaigns.trader.valor_tier_2_reached.accept)",
+      "dialog_title": "i18n(stonehearth:data.gm.campaigns.trader.valor_tier_2_reached.dialog_title)",
+      "tier_title": "i18n(stonehearth:data.gm.campaigns.trader.valor_tier_2_reached.tier_title)",
+      "reward_message": "i18n(stonehearth:data.gm.campaigns.trader.valor_tier_2_reached.reward_message)",
+      "reward_message_ctd": "i18n(stonehearth:data.gm.campaigns.trader.valor_tier_2_reached.reward_message_ctd)",
+      "achievements": [
+         {
+            "id": "tier_2_building_templates",
+            "name": "i18n(stonehearth:data.gm.campaigns.trader.valor_tier_2_reached.tier_2_bldg_template)",
+            "icon": "file(/ui/game/images/template_tier_2.png)",
+            "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+         },
+         {
+            "id": "tier_2_shops",
+            "name": "i18n(stonehearth:data.gm.campaigns.trader.valor_tier_2_reached.tier_2_shops)",
+            "icon": "file(/ui/game/images/trader_tier_2.png)",
+            "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+         },
+         {
+            "id": "tier_2_bgm",
+            "name": "i18n(stonehearth:data.gm.campaigns.trader.valor_tier_2_reached.tier_2_BGM)",
+            "icon": "file(/ui/game/images/music_tier_2.png)",
+            "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+         }
+      ]
+   }
+}

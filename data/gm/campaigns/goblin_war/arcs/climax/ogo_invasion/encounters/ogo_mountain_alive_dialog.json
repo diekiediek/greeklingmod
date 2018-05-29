@@ -1,0 +1,114 @@
+{
+   "type": "encounter",
+   "encounter_type": "dialog_tree",
+   "rarity": "common",
+   "in_edge": "ogo_mountain_alive_dialog",
+   "can_start": {
+      "test_1": {
+         "script_check": {
+            "item": "script",
+            "type": "deny_if_not",
+            "value": true,
+            "script": "file(ogo_mountain_alive_can_start.lua)"
+         }
+      }
+   },
+   "dialog_tree_info": {
+      "start_node": "ogo_notices",
+      "nodes": {
+         "ogo_notices": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_mountain_alive_dialog.dialog_tree_info.dialog_nodes.ogo_notices.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_mountain_alive_dialog.dialog_tree_info.dialog_nodes.ogo_notices.dialog_title)",
+               "portrait": "file(images/ogo_skullbonker.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_mountain_alive_dialog.dialog_tree_info.dialog_nodes.ogo_notices.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:ui.game.common.ok": {
+                     "next_node": "mountain_replies"
+                  }
+               }
+            }
+         },
+         "mountain_replies": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_mountain_alive_dialog.dialog_tree_info.dialog_nodes.mountain_replies.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_mountain_alive_dialog.dialog_tree_info.dialog_nodes.mountain_replies.dialog_title)",
+               "portrait": "file(images/mountain.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_mountain_alive_dialog.dialog_tree_info.dialog_nodes.mountain_replies.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:ui.game.common.ok": {
+                     "next_node": "ogo_resists"
+                  }
+               }
+            }
+         },
+         "ogo_resists": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_mountain_alive_dialog.dialog_tree_info.dialog_nodes.ogo_resists.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_mountain_alive_dialog.dialog_tree_info.dialog_nodes.ogo_resists.dialog_title)",
+               "portrait": "file(images/ogo_skullbonker.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_mountain_alive_dialog.dialog_tree_info.dialog_nodes.ogo_resists.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:ui.game.common.ok": {
+                     "next_node": "mountain_asks"
+                  }
+               }
+            }
+         },
+         "mountain_asks": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_mountain_alive_dialog.dialog_tree_info.dialog_nodes.mountain_asks.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_mountain_alive_dialog.dialog_tree_info.dialog_nodes.mountain_asks.dialog_title)",
+               "portrait": "file(images/mountain.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_mountain_alive_dialog.dialog_tree_info.dialog_nodes.mountain_asks.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_mountain_alive_dialog.dialog_tree_info.dialog_nodes.mountain_asks.choice_000": {
+                     "next_node": "renewed_attack"
+                  },
+                  "stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_mountain_alive_dialog.dialog_tree_info.dialog_nodes.mountain_asks.choice_001": {
+                     "next_node": "ogo_relents"
+                  }
+               }
+            }
+         },
+         "ogo_relents": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_mountain_alive_dialog.dialog_tree_info.dialog_nodes.ogo_relents.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_mountain_alive_dialog.dialog_tree_info.dialog_nodes.ogo_relents.dialog_title)",
+               "portrait": "file(images/ogo_skullbonker.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_mountain_alive_dialog.dialog_tree_info.dialog_nodes.ogo_relents.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_mountain_alive_dialog.dialog_tree_info.dialog_nodes.ogo_relents.choice_000": {
+                     "out_edge": "mountains_gift"
+                  }
+               }
+            }
+         },
+         "renewed_attack": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_mountain_alive_dialog.dialog_tree_info.dialog_nodes.renewed_attack.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_mountain_alive_dialog.dialog_tree_info.dialog_nodes.renewed_attack.dialog_title)",
+               "portrait": "file(images/ogo_skullbonker.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_mountain_alive_dialog.dialog_tree_info.dialog_nodes.renewed_attack.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_mountain_alive_dialog.dialog_tree_info.dialog_nodes.renewed_attack.choice_000": {
+                     "out_edge": "goblin_hostility"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

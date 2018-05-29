@@ -1,0 +1,11 @@
+{
+	"type" : "encounter", 
+	"encounter_type": "script",
+	"in_edge" : "goblin_neutrality", 
+	"script_info" : {
+		"script" : "file(make_goblins_neutral.lua)", 
+		"data" : {
+			"make_neutral" : true
+		}
+	}
+}

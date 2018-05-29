@@ -1,0 +1,21 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "medium_raids",
+   "out_edge": {
+      "type": "trigger_one",
+      "out_edges": [
+         "giant_stoneling_raid_3",
+         "golem_family_raid_4",
+         "giant_wolf_raid_4",
+         {
+            "type": "weighted_edge",
+            "out_edge": "undead_raid_4",
+            "weight": 6
+         }
+      ]
+   },
+   "wait_info": {
+      "duration": "1h"
+   }
+}

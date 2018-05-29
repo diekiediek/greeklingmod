@@ -1,0 +1,12 @@
+{
+   "type" : "encounter",
+   "encounter_type" : "unlock_recipe",
+
+   "in_edge"  : "unlock_windchimes",
+
+   "unlock_recipe_info" :  {
+      "job" : "stonehearth:jobs:carpenter", 
+      "recipe_key" : "utility:mountains_windchime", 
+      "bulletin_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.unlock_windchimes.bulletin_title)"
+   }
+}

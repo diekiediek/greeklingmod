@@ -1,0 +1,42 @@
+{
+   "type": "encounter",
+   "encounter_type": "town_upgrade_choice",
+   "rarity": "common",
+   "in_edge": "hearth_choice",
+   "can_start": {
+      "all_tests": {
+         "unique": {
+            "type": "deny_if_greater_than",
+            "item": "number_active",
+            "end_node": "hearth_abandon",
+            "start_node": "hearth_choice",
+            "value": 0
+         }
+      }
+   },
+   "town_upgrade_choice_info": {
+      "choices": {
+         "cheer": {
+            "name": "i18n(stonehearth:data.gm.campaigns.town_progression.hearth_choice.cheer.name)",
+            "description": "i18n(stonehearth:data.gm.campaigns.town_progression.hearth_choice.cheer.description)",
+            "icon": "/stonehearth/entities/decoration/hearth_bunny/hearth_bunny.png",
+            "sort_order": 0,
+            "out_edge": "hearth_quest_cheer"
+         },
+         "makers": {
+            "name": "i18n(stonehearth:data.gm.campaigns.town_progression.hearth_choice.makers.name)",
+            "description": "i18n(stonehearth:data.gm.campaigns.town_progression.hearth_choice.makers.description)",
+            "icon": "/stonehearth/entities/decoration/hearth_stump/hearth_stump.png",
+            "sort_order": 1,
+            "out_edge": "hearth_quest_makers"
+         },
+         "glory": {
+            "name": "i18n(stonehearth:data.gm.campaigns.town_progression.hearth_choice.glory.name)",
+            "description": "i18n(stonehearth:data.gm.campaigns.town_progression.hearth_choice.glory.description)",
+            "icon": "/stonehearth/entities/decoration/hearth_fountain/hearth_fountain.png",
+            "sort_order": 2,
+            "out_edge": "hearth_quest_glory"
+         }
+      }
+   }
+}

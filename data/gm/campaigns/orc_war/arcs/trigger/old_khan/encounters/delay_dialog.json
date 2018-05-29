@@ -1,0 +1,10 @@
+{
+   "type" : "encounter",
+   "encounter_type" : "wait",
+
+   "in_edge"  : "delay_dialog",
+   "out_edge" : "warchief_intro_dialog",
+   "wait_info" :  {
+      "duration" : "1d + 12h"
+   }
+}

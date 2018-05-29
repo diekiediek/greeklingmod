@@ -1,0 +1,16 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait_for_event",
+   "in_edge": "wait_for_green_camp_boss_killed",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "green_tier_end_dialog",
+         "destroy_green_stockpiles"
+      ]
+   },
+   "wait_for_event_info": {
+      "source": "create_green_tier_camp.boss",
+      "event": "stonehearth:kill_event"
+   }
+}

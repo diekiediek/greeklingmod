@@ -1,0 +1,112 @@
+{
+   "type": "encounter",
+   "encounter_type": "dialog_tree",
+   "rarity": "common",
+   "in_edge": "ogos_bannerman",
+   "dialog_tree_info": {
+      "start_node": "snooty_introduction",
+      "nodes": {
+         "snooty_introduction": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.snooty_introduction.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.snooty_introduction.dialog_title)",
+               "portrait": "file(images/ogo_bannerman.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.snooty_introduction.bulletin_message.000)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.snooty_introduction.bulletin_message.001)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.snooty_introduction.bulletin_message.002)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.snooty_introduction.choice_000": {
+                     "next_node": "ogo_introduction"
+                  },
+                  "stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.snooty_introduction.choice_001": {
+                     "next_node": "ogo_introduction"
+                  }
+               }
+            }
+         },
+         "ogo_introduction": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.ogo_introduction.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.ogo_introduction.dialog_title)",
+               "portrait": "file(images/ogo_bannerman.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.ogo_introduction.bulletin_message.000)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.ogo_introduction.bulletin_message.001)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.ogo_introduction.bulletin_message.002)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.ogo_introduction.bulletin_message.003)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.ogo_introduction.bulletin_message.004)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.ogo_introduction.choice_000": {
+                     "next_node": "ogo_description"
+                  },
+                  "stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.ogo_introduction.choice_001": {
+                     "next_node": "conclusion"
+                  }
+               }
+            }
+         },
+         "ogo_description": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.ogo_description.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.ogo_description.dialog_title)",
+               "portrait": "file(images/ogo_bannerman.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.ogo_description.bulletin_message.000)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.ogo_description.bulletin_message.001)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.ogo_description.bulletin_message.002)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.ogo_description.bulletin_message.003)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.ogo_description.choice_000": {
+                     "next_node": "soothsayer_description"
+                  },
+                  "stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.ogo_description.choice_001": {
+                     "next_node": "conclusion"
+                  }
+               }
+            }
+         },
+         "soothsayer_description": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.soothsayer_description.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.soothsayer_description.dialog_title)",
+               "portrait": "file(images/ogo_bannerman.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.soothsayer_description.bulletin_message.000)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.soothsayer_description.bulletin_message.001)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.soothsayer_description.bulletin_message.002)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.soothsayer_description.choice_000": {
+                     "next_node": "conclusion"
+                  },
+                  "stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.soothsayer_description.choice_001": {
+                     "next_node": "conclusion"
+                  }
+               }
+            }
+         },
+         "conclusion": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.conclusion.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.conclusion.dialog_title)",
+               "portrait": "file(images/ogo_bannerman.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.conclusion.bulletin_message.000)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.conclusion.bulletin_message.001)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.conclusion.bulletin_message.002)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.ogos_bannerman.dialog_tree_info.dialog_nodes.conclusion.bulletin_message.003)"
+               ],
+               "choices": {
+                  "stonehearth:ui.game.common.ok": {
+                     "out_edge": "wait_for_help"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

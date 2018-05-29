@@ -1,0 +1,23 @@
+{
+   "type": "encounter",
+   "encounter_type": "dialog_tree",
+   "rarity": "common",
+   "in_edge": "bird_departs",
+   "dialog_tree_info": {
+      "start_node": "msg1",
+      "nodes": {
+         "msg1": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.town_progression.bird_departs.dialog_tree_info.dialog_nodes.msg1.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.town_progression.bird_departs.dialog_tree_info.dialog_nodes.msg1.dialog_title)",
+               "message": "i18n(stonehearth:data.gm.campaigns.town_progression.bird_departs.dialog_tree_info.dialog_nodes.msg1.bulletin_message.00)",
+               "choices": {
+                  "stonehearth:data.gm.campaigns.town_progression.bird_departs.dialog_tree_info.dialog_nodes.msg1.choice_000": {
+                     "out_edge": "delay_before_hearth_foreshadow"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

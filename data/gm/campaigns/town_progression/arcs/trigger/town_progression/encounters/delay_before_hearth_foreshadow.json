@@ -1,0 +1,9 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "delay_before_hearth_foreshadow",
+   "out_edge": "hearth_foreshadow_dialog",
+   "wait_info": {
+      "duration": "5d"
+   }
+}

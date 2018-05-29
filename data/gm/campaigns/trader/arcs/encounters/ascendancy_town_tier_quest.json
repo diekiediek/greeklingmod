@@ -1,0 +1,66 @@
+{
+   "type": "encounter",
+   "encounter_type": "city_tier_quest",
+   "in_edge": "ascendancy_town_tier_quest",
+   "city_tier_quest_info": {
+      "target_tier": 2,
+      "finish_event": "stonehearth:tier_2_reached",
+      "title": "i18n(stonehearth:data.gm.campaigns.trader.ascendancy_town_tier_quest.title)",
+      "dialog_title": "i18n(stonehearth:data.gm.campaigns.trader.ascendancy_town_tier_quest.dialog_title)",
+      "text": "i18n(stonehearth:data.gm.campaigns.trader.ascendancy_town_tier_quest.text)",
+      "summon_text": "i18n(stonehearth:data.gm.campaigns.trader.ascendancy_town_tier_quest.summon_text)",
+      "satisfaction_requirements": {
+         "military_requirement": {
+            "id": "town_military_req",
+            "title": "i18n(stonehearth:data.gm.campaigns.trader.ascendancy_town_tier_quest.military_requirement_title)",
+            "requirements": {
+               "place_statue": {
+                  "id": "military_statue",
+                  "type": "placed_item",
+                  "uri": "stonehearth:decoration:valor_statue"
+               },
+               "meet_net_worth": {
+                  "id": "military_net_worth",
+                  "type": "net_worth",
+                  "value": 4000
+               }
+            },
+            "out_edge": "valor_tier_2_reached"
+         },
+         "church_requirement": {
+            "id": "town_church_req",
+            "title": "i18n(stonehearth:data.gm.campaigns.trader.ascendancy_town_tier_quest.church_requirement_title)",
+            "requirements": {
+               "place_statue": {
+                  "id": "church_statue",
+                  "type": "placed_item",
+                  "uri": "stonehearth:decoration:roadside_shrine"
+               },
+               "meet_net_worth": {
+                  "id": "church_net_worth",
+                  "type": "net_worth",
+                  "value": 6000
+               }
+            },
+            "out_edge": "generosity_tier_2_reached"
+         },
+         "crafting_requirement": {
+            "id": "town_crafting_req",
+            "title": "i18n(stonehearth:data.gm.campaigns.trader.ascendancy_town_tier_quest.crafting_requirement_title)",
+            "requirements": {
+               "place_statue": {
+                  "id": "crafting_statue",
+                  "type": "placed_item",
+                  "uri": "stonehearth:decoration:craftsman_statue"
+               },
+               "meet_net_worth": {
+                  "id": "crafting_net_worth",
+                  "type": "net_worth",
+                  "value": 5000
+               }
+            },
+            "out_edge": "crafter_tier_2_reached"
+         }
+      }
+   }
+}

@@ -1,0 +1,28 @@
+{
+   "type": "encounter",
+   "mixins": "stonehearth:mixins:encounter:golem_raid",
+   "encounter_type": "create_mission",
+   "in_edge": "giant_stoneling_raid_3",
+   "out_edge": "wait_to_destroy_raiding_party",
+   "create_mission_info": {
+      "mission": {
+         "ctx_entity_registration_path": "giant_stoneling_raid_3",
+         "members": {
+            "stone_golems": {
+               "from_population": {
+                  "min": 0,
+                  "max": 0
+               },
+               "tuning": "stonehearth:monster_tuning:forest:scaled_stone_golem"
+            },
+            "little_stone_golems": {
+               "from_population": {
+                  "min": 1,
+                  "max": 1
+               },
+               "tuning": "stonehearth:monster_tuning:forest:giant_stoneling"
+            }
+         }
+      }
+   }
+}

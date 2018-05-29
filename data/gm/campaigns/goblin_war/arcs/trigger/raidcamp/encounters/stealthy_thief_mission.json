@@ -1,0 +1,52 @@
+{
+   "type": "encounter",
+   "encounter_type": "city_raid",
+   "rarity": "common",
+   "in_edge": "city_raid",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "wait_to_destroy_city_raid",
+         "wait_for_moving_on_to_destroy_raids"
+      ]
+   },
+   "can_start": {
+      "test_1": {
+         "time_of_day_check": {
+            "item": "time_of_day",
+            "type": "deny_if_between",
+            "value": {
+               "min": 4,
+               "max": 20
+            }
+         }
+      }
+   },
+   "city_raid_info": {
+      "missions": {
+         "raid_stockpiles": {
+            "npc_player_id": "goblins",
+            "raid_timeout_minutes": 300,
+            "raid_timeout_variance_minutes": 60,
+            "ctx_entity_registration_path": "chieftain_camp_city_raid",
+            "require_free_stockpile_space": true,
+            "role": "raid_stockpiles",
+            "offset": { "x": 0, "y": 0, "z": 0 },
+            "sighted_bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.stealthy_thief_mission.missions.raid_stockpiles.sighted_bulletin.title)",
+               "message": "i18n(stonehearth:data.gm.campaigns.goblin_war.stealthy_thief_mission.missions.raid_stockpiles.sighted_bulletin.message)"
+            },
+            "members": {
+               "thief": {
+                  "from_population": {
+                     "min": 2,
+                     "max": 2,
+                     "location": { "x": -3, "z": -3 }
+                  },
+                  "tuning": "stonehearth:monster_tuning:goblins:ninja_thief"
+               }
+            }
+         }
+      }
+   }
+}

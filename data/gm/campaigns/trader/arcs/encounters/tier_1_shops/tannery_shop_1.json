@@ -1,0 +1,47 @@
+{
+   "type": "encounter",
+   "encounter_type": "shop",
+   "unique": true,
+   "in_edge": "tannery_shop_1",
+   "shop_info": {
+      "name": "i18n(stonehearth:data.gm.campaigns.trader.tannery_shop.shop_info.name)",
+      "title": "i18n(stonehearth:data.gm.campaigns.trader.tannery_shop.shop_info.title)",
+      "inventory": {
+         "shopkeeper_level": 1,
+         "shopkeeper_gold": 600,
+         "entries": [
+            {
+               "items": [
+                  "stonehearth:decoration:fur_rug"
+               ],
+               "quantity": {
+                  "min": 0,
+                  "max": 2
+               }
+            },
+            {
+               "items": [
+                  "stonehearth:refined:leather_bolt"
+               ],
+               "quantity": {
+                  "min": 2,
+                  "max": 10
+               }
+            },
+            {
+               "items_matching": {
+                  "animal bits": {
+                     "material": [
+                        "pelt"
+                     ]
+                  }
+               },
+               "quantity": {
+                  "min": 0,
+                  "max": 10
+               }
+            }
+         ]
+      }
+   }
+}

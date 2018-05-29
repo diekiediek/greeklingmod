@@ -1,0 +1,68 @@
+{
+   "type": "encounter",
+   "encounter_type": "donation_dialog",
+   "in_edge": "town_founding_food_donation",
+   "out_edge": "bird_departs",
+   "donation_dialog_info": {
+      "expiration_timeout": "24h",
+      "nodes": {
+         "simple_message": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.town_progression.town_founding_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.town_progression.town_founding_food_donation.donation_dialog_info.dialog_nodes.simple_message.dialog_title)",
+               "portrait": "file(images/herald_harold.png)",
+               "portrait_offset": 45,
+               "message": "i18n(stonehearth:data.gm.campaigns.town_progression.town_founding_food_donation.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.00)",
+               "choices": {
+                  "stonehearth:data.gm.campaigns.town_progression.town_founding_food_donation.donation_dialog_info.dialog_nodes.simple_message.choice_000": {
+                     "result": "accept"
+                  }
+               }
+            }
+         }
+      },
+      "loot_table": {
+         "entries": {
+            "meat_definite": {
+               "num_rolls": 1,
+               "items": {
+                  "sausage": {
+                     "uri": "stonehearth:food:roast_sausage",
+                     "weight": 1
+                  }
+               }
+            },
+            "bread_definite": {
+               "num_rolls": 1,
+               "items": {
+                  "peasant_bread": {
+                     "uri": "stonehearth:food:peasant_bread",
+                     "weight": 1
+                  },
+                  "corn_bread": {
+                     "uri": "stonehearth:food:corn_bread",
+                     "weight": 1
+                  }
+               }
+            },
+            "variety": {
+               "num_rolls": 5,
+               "items": {
+                  "sausage": {
+                     "uri": "stonehearth:food:roast_sausage",
+                     "weight": 1
+                  },
+                  "peasant_bread": {
+                     "uri": "stonehearth:food:peasant_bread",
+                     "weight": 1
+                  },
+                  "corn_bread": {
+                     "uri": "stonehearth:food:corn_bread",
+                     "weight": 1
+                  }
+               }
+            }
+         }
+      }
+   }
+}

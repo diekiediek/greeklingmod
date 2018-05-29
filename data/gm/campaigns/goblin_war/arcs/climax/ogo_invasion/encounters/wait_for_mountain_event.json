@@ -1,0 +1,19 @@
+{
+   "type" : "encounter",
+   "encounter_type" : "wait_for_event",
+
+   "in_edge"  : "wait_for_mountain_event",
+   "out_edge": {
+		"type": "trigger_many",
+		"out_edges": [
+			"goblin_neutrality",
+			"ogo_mountain_alive_dialog",
+			"ogo_dead_dialog"
+		]
+   },
+
+   "wait_for_event_info" :  {
+      "source" : "ogo_army_raid.mountain_ogre",
+      "event"  : "stonehearth:goblin_campaign:mountain_listens"
+   }
+}

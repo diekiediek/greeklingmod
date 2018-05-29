@@ -1,0 +1,87 @@
+{
+   "type": "encounter",
+   "encounter_type": "collection_quest",
+   "rarity": "common",
+   "in_edge": "blue_tier_shakedown",
+   "collection_quest_info": {
+      "out_edges": {
+         "refuse": "generate_blue_tier_raids",
+         "fail": "generate_blue_tier_raids",
+         "success": "shakedown_success_counter"
+      },
+      "filler_material": {
+         "stonehearth:biome:temperate": "stonehearth:resources:wood:oak_log",
+         "stonehearth:biome:desert": "stonehearth:resources:clay:clay_mound"
+      },
+      "script": "stonehearth:game_master:script:collection_quest_shakedown",
+      "source_entity": "create_blue_tier_camp.entities.loot_chest",
+      "duration": "1d",
+      "initial_tribute_value": 400,
+      "nodes": {
+         "shakedown": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.blue_tier_shakedown.collection_quest_info.dialog_nodes.shakedown.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.blue_tier_shakedown.collection_quest_info.dialog_nodes.shakedown.dialog_title)",
+               "portrait": "file(encounter_data/goblin_portrait.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.blue_tier_shakedown.collection_quest_info.dialog_nodes.shakedown.bulletin_message.000)"
+               ]
+            }
+         },
+         "shakedown_refused": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.blue_tier_shakedown.collection_quest_info.dialog_nodes.shakedown_refused.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.blue_tier_shakedown.collection_quest_info.dialog_nodes.shakedown_refused.dialog_title)",
+               "portrait": "file(encounter_data/goblin_portrait.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.blue_tier_shakedown.collection_quest_info.dialog_nodes.shakedown_refused.bulletin_message.000)"
+               ]
+            }
+         },
+         "collection_progress": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.blue_tier_shakedown.collection_quest_info.dialog_nodes.collection_progress.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.blue_tier_shakedown.collection_quest_info.dialog_nodes.collection_progress.dialog_title)",
+               "portrait": "file(encounter_data/goblin_portrait.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.blue_tier_shakedown.collection_quest_info.dialog_nodes.collection_progress.bulletin_message.000)"
+               ]
+            }
+         },
+         "collection_due": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.blue_tier_shakedown.collection_quest_info.dialog_nodes.collection_due.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.blue_tier_shakedown.collection_quest_info.dialog_nodes.collection_due.dialog_title)",
+               "portrait": "file(encounter_data/goblin_portrait.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.blue_tier_shakedown.collection_quest_info.dialog_nodes.collection_due.bulletin_message.000)"
+               ]
+            }
+         },
+         "collection_failed": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.blue_tier_shakedown.collection_quest_info.dialog_nodes.collection_failed.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.blue_tier_shakedown.collection_quest_info.dialog_nodes.collection_failed.dialog_title)",
+               "portrait": "file(encounter_data/goblin_portrait.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.blue_tier_shakedown.collection_quest_info.dialog_nodes.collection_failed.bulletin_message.000)",
+                  "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.blue_tier_shakedown.collection_quest_info.dialog_nodes.collection_failed.bulletin_message.001)"
+               ]
+            }
+         },
+         "collection_success": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.blue_tier_shakedown.collection_quest_info.dialog_nodes.collection_success.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.blue_tier_shakedown.collection_quest_info.dialog_nodes.collection_success.dialog_title)",
+               "portrait": "file(encounter_data/goblin_portrait.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.blue_tier_shakedown.collection_quest_info.dialog_nodes.collection_success.bulletin_message.000)",
+                  "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.blue_tier_shakedown.collection_quest_info.dialog_nodes.collection_success.bulletin_message.001)",
+                  "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.blue_tier_shakedown.collection_quest_info.dialog_nodes.collection_success.bulletin_message.002)",
+                  "i18n(stonehearth:data.gm.campaigns.orc_war.arcs.trigger.old_khan.encounters.blue_tier_shakedown.collection_quest_info.dialog_nodes.collection_success.bulletin_message.003)"
+               ]
+            }
+         }
+      }
+   }
+}

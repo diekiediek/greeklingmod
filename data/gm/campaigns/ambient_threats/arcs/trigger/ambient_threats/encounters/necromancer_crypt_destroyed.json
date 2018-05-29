@@ -1,0 +1,17 @@
+{
+   "type": "encounter",
+   "encounter_type" : "destroy_entity",
+   "in_edge": "necromancer_crypt_destroyed",
+
+   "out_edge" : "crypt_loot_chest",
+
+   "destroy_entity_info" :  {
+      "target_entities" : ["necromancer_crypt.entities.crypt_structures.floor_candle_1", "necromancer_crypt.entities.crypt_structures.floor_candle_2"],
+      "effect" : "stonehearth:effects:fire_effect",
+      "random_delay" : {
+            "min" : 60, 
+            "max" : 150 
+      },
+      "continue_always" : true
+   }
+}

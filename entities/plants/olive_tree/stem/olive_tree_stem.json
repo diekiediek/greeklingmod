@@ -1,0 +1,69 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "stonehearth:evolve": {},
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(olive_tree_stem.qb)"
+            ]
+         }
+      },
+      "region_collision_shape": {
+         "region": [
+            {
+               "min": {
+                  "x": -1,
+                  "y": 0,
+                  "z": -1
+               },
+               "max": {
+                  "x": 2,
+                  "y": 2,
+                  "z": 2
+               }
+            }
+         ]
+      },
+      "destination": {
+         "region": [
+            {
+               "min": {
+                  "x": -1,
+                  "y": 0,
+                  "z": -1
+               },
+               "max": {
+                  "x": 2,
+                  "y": 1,
+                  "z": 2
+               }
+            }
+         ]
+      },
+      "mob": {
+         "model_origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+         },
+         "mob_collision_type": "clutter"
+      }
+   },
+   "entity_data": {
+      "stonehearth:evolve_data": {
+         "next_stage": "greekmod:plants:olive_tree:bud",
+         "evolve_time": "15h+2h"
+      },
+      "stonehearth:catalog": {
+         "material_tags": "stockpile_plant",
+         "display_name": "i18n(greekmod:entities.plants.olive_tree.stem.olive_tree_stem.display_name)",
+         "description": "i18n(greekmod:entities.plants.olive_tree.stem.olive_tree_stem.description)",
+         "category": "plants"
+      },
+      "stonehearth:appeal": {
+         "appeal": 1
+      }
+   }
+}

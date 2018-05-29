@@ -1,0 +1,37 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "type": "entity",
+   "components": {
+   "render_info": {
+	"scale": 0.05
+},
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(greeklings_town_banner_guardian.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": {
+            "x": -0.05,
+            "y": 0,
+            "z": 0
+         },
+         "region_origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.5
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(greeklingmod:entities.gizmos.greeklings_town_banner_guardian.greeklings_town_banner_guardian_ghost.display_name)",
+         "description": "i18n(greeklingmod:entities.gizmos.greeklings_town_banner_guardian.greeklings_town_banner_guardian_ghost.description)",
+         "icon": "file(greeklings_town_banner_guardian.png)",
+         "category": "decoration",
+         "material_tags": "clay cloth decoration stockpile_decoration"
+      }
+   }
+}

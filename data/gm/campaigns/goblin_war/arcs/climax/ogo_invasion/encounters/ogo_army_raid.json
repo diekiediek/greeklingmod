@@ -1,0 +1,103 @@
+{
+   "type": "encounter",
+   "encounter_type": "create_mission",
+   "in_edge": "ogo_army_raid",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "check_honor_token",
+         "wait_for_mountain_event", 
+         "wait_for_ogo_death"
+      ]
+   },
+   "create_mission_info": {
+      "spawn_range": {
+         "min": 180,
+         "max": 240
+      },
+      "on_searcher_failure": {
+         "retry": true
+      },
+      "mission": {
+         "npc_player_id": "goblins",
+         "ctx_entity_registration_path": "ogo_army_raid",
+         "role": "pillage",
+         "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+         },
+         "pillage_radius": {
+            "min": 0,
+            "max": 50
+         },
+         "sighted_bulletin": {
+            "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.ogo_army_raid.mission.sighted_bulletin.title)"
+         },
+         "members": {
+            "ogo_skullbonker": {
+               "from_population": {
+                  "min": 1,
+                  "max": 1,
+                  "location": {
+                     "x": 0,
+                     "z": 0
+                  },
+                  "range": 4
+               },
+               "tuning": "stonehearth:monster_tuning:goblins:ogo_boss"
+            },
+            "mountain_ogre": {
+               "from_population": {
+                  "role": "mountain_ogre",
+                  "min": 1,
+                  "max": 1,
+                  "location": {
+                     "x": 1,
+                     "z": 1
+                  },
+                  "range": 6
+               },
+               "tuning": "stonehearth:monster_tuning:ogres:ogos_mountain"
+            },
+            "marauders": {
+               "from_population": {
+                  "min": 3,
+                  "max": 3,
+                  "location": {
+                     "x": -3,
+                     "z": -3
+                  },
+                  "range": 6
+               },
+               "tuning": "stonehearth:monster_tuning:goblins:marauder"
+            },
+            "wolves": {
+               "from_population": {
+                  "role": "wolf",
+                  "min": 4,
+                  "max": 4,
+                  "location": {
+                     "x": 0,
+                     "z": 6
+                  },
+                  "range": 10
+               },
+               "tuning": "stonehearth:monster_tuning:goblins:wolf"
+            },
+            "guards": {
+               "from_population": {
+                  "min": 15,
+                  "max": 15,
+                  "location": {
+                     "x": 4,
+                     "z": -4
+                  },
+                  "range": 15
+               },
+               "tuning": "stonehearth:monster_tuning:goblins:guard"
+            }
+         }
+      }
+   }
+}

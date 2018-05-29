@@ -1,0 +1,79 @@
+
+{
+   "type": "entity",
+   "mixins": "file(olive_tree_ghost.json)",
+   "components": {
+	"render_info": {
+		"scale" : 0.35
+					},
+      "model_variants": {
+         "depleted": {
+            "models": [
+               "file(olive_tree_empty.qb)"
+            ]
+         }
+      },
+      "region_collision_shape": {
+         "region": [
+            {
+               "min": { "x": -1, "y": 0, "z": -1 },
+               "max": { "x": 2, "y": 2, "z": 2 }
+            }
+         ]
+      },
+      "destination": {
+         "region": [
+            {
+               "min": { "x": -1, "y": 0, "z": -1 },
+               "max": { "x": 2, "y": 1, "z": 2 }
+            }
+         ]
+      },
+      "stonehearth:renewable_resource_node": {
+         "resource": "greekmod:food:olives:olive_basket",
+         "category": "harvest",
+         "renewal_time": "22h+2h",
+         "unripe_description": "i18n(greekmod:entities.plants.olive_tree.unripe_description)",
+         "harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect",
+         "resource_loot_table": {
+            "entries": {
+               "optional": {
+                  "num_rolls": {
+                     "min": 1,
+                     "max": 1
+                  },
+                  "items": {
+                     "none": {
+                        "uri": "",
+                        "weight": 4
+                     },
+                     "pelt": {
+                        "uri": "greekmod:plants:olive_tree:seed",
+                        "weight": 1
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(olive_tree_iconic.json)",
+         "ghost_form": "file(olive_tree_ghost.json)",
+         "placeable_on_ground": true
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 2,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:appeal": {
+         "appeal": 5
+      }
+   }
+}

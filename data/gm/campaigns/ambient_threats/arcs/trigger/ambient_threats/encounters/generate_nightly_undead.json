@@ -1,0 +1,12 @@
+{
+   "type" : "encounter",
+   "encounter_type" : "generator",
+
+   "in_edge"  : "generate_nightly_undead",
+
+   "generator_info" :  {
+      "delay" : "24h+2h",
+      "source_entity" : "necromancer_crypt.entities.crypt_structures.large_crypt",
+      "spawn_edge" : "spawn_nightly_undead"
+   }
+}

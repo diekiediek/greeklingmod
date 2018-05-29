@@ -1,0 +1,22 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "insane_raids",
+   "out_edge": {
+      "type": "trigger_one",
+      "out_edges": [
+         "golem_family_raid_7",
+         "entling_raid_7",
+         "kobold_archer_raid_7",
+         "ogre_doorbreaker_raid_7",
+         {
+            "type": "weighted_edge",
+            "out_edge": "undead_raid_7",
+            "weight": 3
+         }
+      ]
+   },
+   "wait_info": {
+      "duration": "1h"
+   }
+}

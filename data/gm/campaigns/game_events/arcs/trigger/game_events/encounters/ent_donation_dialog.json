@@ -1,0 +1,78 @@
+{
+   "type": "encounter",
+   "encounter_type": "donation_dialog",
+   "in_edge": "ent_donation_dialog",
+   "out_edge": {
+      "type": "destroy_tree",
+      "root": "resource_check_encounter",
+      "destroy_root": false
+   },
+   "donation_dialog_info": {
+      "expiration_timeout": "5h",
+      "nodes": {
+         "simple_message": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.game_events.arcs.trigger.game_events.encounters.ent_donation_dialog.donation_dialog_info.dialog_nodes.simple_message.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.game_events.arcs.trigger.game_events.encounters.ent_donation_dialog.donation_dialog_info.dialog_nodes.simple_message.dialog_title)",
+               "portrait": "file(images/ent_portrait.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.game_events.arcs.trigger.game_events.encounters.ent_donation_dialog.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.game_events.arcs.trigger.game_events.encounters.ent_donation_dialog.donation_dialog_info.dialog_nodes.simple_message.choice_000": {
+                     "result": "accept"
+                  }
+               }
+            }
+         }
+      },
+      "loot_table": {
+         "entries": {
+            "default": {
+               "num_rolls": {
+                  "min": 3,
+                  "max": 5
+               },
+               "items": {
+                  "berry_basket": {
+                     "uri": "stonehearth:food:berries:berry_basket",
+                     "weight": 5
+                  },
+                  "oak_sapling": {
+                     "uri": "stonehearth:trees:oak:sapling",
+                     "weight": 5
+                  },
+                  "fur_rug": {
+                     "uri": "stonehearth:decoration:fur_rug",
+                     "weight": 1
+                  },
+                  "stonehearth:decoration:decorative_vase": {
+                     "uri": "stonehearth:decoration:decorative_vase",
+                     "weight": 1
+                  },
+                  "stonehearth:decoration:gilded_crimson_rug": {
+                     "uri": "stonehearth:decoration:gilded_crimson_rug",
+                     "weight": 1
+                  },
+                  "stonehearth:decoration:decorative_teapot": {
+                     "uri": "stonehearth:decoration:decorative_teapot",
+                     "weight": 1
+                  },
+                  "stonehearth:decoration:golden_clay_wall_planter": {
+                     "uri": "stonehearth:decoration:golden_clay_wall_planter",
+                     "weight": 1
+                  },
+                  "stonehearth:decoration:blown_glass_vase": {
+                     "uri": "stonehearth:decoration:blown_glass_vase",
+                     "weight": 1
+                  },
+                  "stonehearth:weapons:giant_bone_axe": {
+                     "uri": "stonehearth:weapons:giant_bone_axe",
+                     "weight": 1
+                  }
+               }
+            }
+         }
+      }
+   }
+}

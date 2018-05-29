@@ -1,0 +1,20 @@
+{
+   "type": "encounter",
+   "encounter_type": "none",
+   "in_edge": "green_tier_raids",
+   "out_edge": {
+      "type": "trigger_one",
+      "out_edges": [
+         {
+            "type": "weighted_edge",
+            "out_edge": "green_orc_thief_raid_5",
+            "weight": 1
+         },
+         {
+            "type": "weighted_edge",
+            "out_edge": "green_orc_kobold_raid_5",
+            "weight": 1
+         }
+      ]
+   }
+}

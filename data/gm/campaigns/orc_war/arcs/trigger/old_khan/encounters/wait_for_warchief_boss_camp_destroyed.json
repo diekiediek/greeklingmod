@@ -1,0 +1,16 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait_for_event",
+   "in_edge": "wait_for_warchief_boss_camp_destroyed",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "warchief_defeat_dialog",
+         "destroy_warchief_camp_stockpiles"
+      ]
+   },
+   "wait_for_event_info": {
+      "source": "create_warchief_boss_camp.boss",
+      "event": "stonehearth:kill_event"
+   }
+}

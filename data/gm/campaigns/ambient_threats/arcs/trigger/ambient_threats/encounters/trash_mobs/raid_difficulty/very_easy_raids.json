@@ -1,0 +1,15 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "very_easy_raids",
+   "out_edge": {
+      "type": "trigger_one",
+      "out_edges": [
+         "entling_raid_2",
+         "little_stone_golem_raid_2"
+      ]
+   },
+   "wait_info": {
+      "duration": "1h"
+   }
+}

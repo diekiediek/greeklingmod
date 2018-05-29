@@ -1,0 +1,53 @@
+{
+	"info" : {
+		"name" : "Greekling mod",
+		"namespace" : "greeklingmod",
+		"version" : 3,
+		"steam_file_id" : "1389907833"
+	},
+	"default_locale" : "en",
+   "aliases" : {
+	  "kingdoms_greeklings"		  				: "file(data/greeklings_population.json)",
+	  "male_1"									: "file(entities/humans/male/male_1.json)",
+	  "female_1"								: "file(entities/humans/female/female_1.json)",
+	  "farmer_initial_crops"					: "file(data/greeklings_initial_crops.json)",	  
+	  "jobs:index"								: "file(jobs/index.json)",
+	  "worker:outfit"							: "file(jobs/worker/worker_outfit)",
+	  "footman:outfit"							: "file(jobs/footman/footman_outfit/footman_outfit.json)",
+	  "herbalist:staff"							: "file(jobs/herbalist/herbalist_staff)",
+	  "jobs:worker"								: "file(jobs/worker/greeklings_worker_description.json)",
+	  "jobs:carpenter"							: "file(jobs/worker/greeklings_carpenter_description.json)",
+	  "jobs:footman"							: "file(jobs/footman/greekings_footman_description.json)",
+	  "jobs:herbalist"							: "file(jobs/herbalist/greeklings_herbalist_description.json)",
+	  "jobs:blacksmith"							: "file(jobs/blacksmith/greeklings_blacksmith_description.json)",
+	  "gm_index"								: "file(data/gm/gm_index.json)",
+	  "banner:cunning"							: "file(entities/gizmos/greeklings_town_banner_guardian/greeklings_town_banner_guardian.json)",
+      "banner:cunning:token"					: "file(entities/gizmos/greeklings_town_banner_guardian/greeklings_town_banner_guardian_token.json)",
+      "banner:strength"							: "file(entities/gizmos/greeklings_town_banner_might/greeklings_town_banner_might.json)",
+      "banner:strength:token"					: "file(entities/gizmos/greeklings_town_banner_might/greeklings_town_banner_might_token.json)",
+      "banner:vitality"							: "file(entities/gizmos/greeklings_town_banner_nature/greeklings_town_banner_nature.json)",
+      "banner:vitality:token"					: "file(entities/gizmos/greeklings_town_banner_nature/greeklings_town_banner_nature_token.json)",
+	  "camp_standard"							: "file(entities/gizmos/greeklings_camp_standard)",
+      "camp_standard_ghost"						: "file(entities/gizmos/greeklings_camp_standard/greeklings_camp_standard_ghost.json)",
+	  "food:olives:olive_basket"				: "file(entities/food/olives/olive_basket)",
+	  "food:olives:olive_serving"				: "file(entities/food/olives/olive_serving)",
+	  "food:olive_oil:olive_oil_serving"		: "file(entities/food/olive_oil/olive_oil_serving/olive_oil_serving.json)",
+	  "food:olive_oil"							: "file(entities/food/olive_oil/olive_oil/olive_oil.json)",
+	  "plants:olive_tree"						: "file(entities/plants/olive_tree)",
+	  "plants:olive_tree:bud"					: "file(entities/plants/olive_tree/bud/olive_tree_bud.json)",
+	  "plants:olive_tree:seed"					: "file(entities/plants/olive_tree/seed/olive_tree_seed.json)",
+	  "plants:olive_tree:sprout"				: "file(entities/plants/olive_tree/sprout/olive_tree_sprout.json)",
+	  "plants:olive_tree:stem"					: "file(entities/plants/olive_tree/stem/olive_tree_stem.json)",
+	  "bronze_aspis"							: "file(entities/armor/bronze_aspis/bronze_aspis.json)",
+	  "wooden_sword_greeklings"					: "file(entities/weapons/wooden_sword_greeklings/wooden_sword_greeklings.json)"
+   }, 
+   "mixintos" : {
+      "stonehearth:playable_kingdom_index"							: "file(data/greeklings_playable_kingdom_index.json)",
+	  "stonehearth:farmer:initial_crops"							: "greeklingmod:farmer_initial_crops",
+	  "stonehearth/data/gm/gm_index.json"							: "greeklingmod:gm_index"
+   },
+	"overrides" : {},
+	"components" : {},
+	"controllers" : {}
+}
+

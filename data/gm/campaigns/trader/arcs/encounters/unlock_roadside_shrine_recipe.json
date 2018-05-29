@@ -1,0 +1,10 @@
+{
+   "type": "encounter",
+   "encounter_type": "unlock_recipe",
+   "in_edge": "unlock_roadside_shrine_recipe",
+   "unlock_recipe_info": {
+      "job": "stonehearth:jobs:mason",
+      "recipe_key": "signage_decoration:roadside_shrine",
+      "bulletin_title": "i18n(stonehearth:data.gm.campaigns.trader.unlock_roadside_shrine_recipe.bulletin_title)"
+   }
+}

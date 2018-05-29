@@ -1,0 +1,99 @@
+{
+   "type": "encounter",
+   "encounter_type": "script",
+   "in_edge": "crypt_loot_chest",
+   "out_edge": {
+      "type": "destroy_tree",
+      "root": "necromancer_crypt",
+      "destroy_root": true
+   },
+   "can_start": {
+      "test_1": {
+         "kingdom_check": {
+            "type": "deny_if_not",
+            "item": "kingdom",
+            "value": "stonehearth:kingdoms:ascendancy"
+         }
+      }
+   },
+   "script_info": {
+      "script": "stonehearth:game_master:script_encounter:tiered_chest",
+      "data": {
+         "piece": {
+            "position": { "x": 0, "y": 0 },
+            "rotation": 180
+         },
+         "loot_chests": {
+            "tier1_chest": {
+               "uri": "stonehearth:decoration:loot_chest",
+               "net_worth_threshold": 0,
+               "loot_drops": {
+                  "entries": {
+                     "default": {
+                        "num_rolls": {
+                           "min": 4,
+                           "max": 6
+                        },
+                        "items": {
+                           "varanus_skin": {
+                              "uri": "stonehearth:resources:varanus_skin",
+                              "weight": 1
+                           },
+                           "floor_candle": {
+                              "uri": "stonehearth:decoration:stone_floor_candle_holder",
+                              "weight": 1
+                           },
+                           "gold_ingot": {
+                              "uri": "stonehearth:refined:gold_ingot",
+                              "weight": 1
+                           },
+                           "silver_ingot": {
+                              "uri": "stonehearth:refined:silver_ingot",
+                              "weight": 1
+                           },
+                           "steel_ingot": {
+                              "uri": "stonehearth:refined:steel_ingot",
+                              "weight": 1
+                           },
+                           "leather_vest": {
+                              "uri": "stonehearth:armor:leather_vest",
+                              "weight": 1
+                           },
+                           "cloth_padded_vest": {
+                              "uri": "stonehearth:armor:cloth_padded_vest",
+                              "weight": 1
+                           },
+                           "iron_mail": {
+                              "uri": "stonehearth:armor:iron_mail",
+                              "weight": 1
+                           },
+                           "steel_mail": {
+                              "uri": "stonehearth:armor:steel_mail",
+                              "weight": 1
+                           },
+                           "gargoyle": {
+                              "uri": "stonehearth:decoration:gargoyle",
+                              "weight": 1
+                           },
+                           "stone_brazier": {
+                              "uri": "stonehearth:decoration:stone_brazier",
+                              "weight": 1
+                           },
+                           "long_sword": {
+                              "uri": "stonehearth:weapons:long_sword",
+                              "weight": 1
+                           },
+                           "short_sword": {
+                              "uri": "stonehearth:weapons:short_sword",
+                              "weight": 1
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         },
+         "max_placement_range": 10
+      }
+   }
+}

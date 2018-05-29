@@ -1,0 +1,37 @@
+{
+   "type": "encounter",
+   "encounter_type": "city_raid",
+   "mixins": "stonehearth:mixins:encounter:orc_campaign:base_orc_pillage_raid",
+   "in_edge": "red_orc_raid_9",
+   "out_edge": "wait_to_destroy_red_raids",
+   "city_raid_info": {
+      "missions": {
+         "pillage_town_center": {
+            "ctx_entity_registration_path": "red_orc_raid",
+            "members": {
+               "kobolds": {
+                  "from_population": {
+                     "min": 1,
+                     "max": 1
+                  },
+                  "tuning": "stonehearth:monster_tuning:kobolds:kobold_archer_master"
+               },
+               "ogres": {
+                  "from_population": {
+                     "min": 3,
+                     "max": 3
+                  },
+                  "tuning": "stonehearth:monster_tuning:ogres:tank"
+               },
+               "ogre_doorbreakers": {
+                  "from_population": {
+                     "min": 3,
+                     "max": 4
+                  },
+                  "tuning": "stonehearth:monster_tuning:ogres:door_breaker"
+               }
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,23 @@
+{
+   "type": "index",
+   "campaigns": {
+      "trader": {
+         "greeklings_traders": "file(campaigns/trader/trader_campaign.json)"
+      },
+      "combat": {
+         "goblin_war": "file(campaigns/goblin_war/goblin_war_campaign.json)"
+      },
+      "orc_war": {
+         "orc_war": "file(campaigns/orc_war/orc_war_campaign.json)"
+      },
+      "ambient_threats": {
+         "ambient_threats": "file(campaigns/ambient_threats/ambient_threats_campaign.json)"
+      },
+      "game_events": {
+         "game_events": "file(campaigns/game_events/game_events_campaign.json)"
+      },
+      "town_progression": {
+         "greeklings_town_progression": "file(campaigns/town_progression/town_progression_campaign.json)"
+      }
+   }
+}

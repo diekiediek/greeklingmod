@@ -1,0 +1,59 @@
+{
+   "type": "encounter",
+   "encounter_type": "generator",
+   "in_edge": "generate_random_raiding_party",
+   "generator_info": {
+      "delay": "18h+36h",
+      "game_mode_tuning": true,
+      "spawn_edge": {
+         "type": "trigger_one",
+         "out_edges": [
+            {
+               "type": "weighted_edge",
+               "out_edge": "very_easy_raids",
+               "weight": 1
+            },
+            {
+               "type": "weighted_edge",
+               "out_edge": "easy_raids",
+               "weight": 2
+            },
+            {
+               "type": "weighted_edge",
+               "out_edge": "medium_raids",
+               "weight": 4
+            },
+            {
+               "type": "weighted_edge",
+               "out_edge": "hard_raids",
+               "weight": 10
+            },
+            {
+               "type": "weighted_edge",
+               "out_edge": "insane_raids",
+               "weight": 20
+            },
+            {
+               "type": "weighted_edge",
+               "out_edge": "epic_1_raids",
+               "weight": 30
+            },
+            {
+               "type": "weighted_edge",
+               "out_edge": "epic_2_raids",
+               "weight": 40
+            },
+            {
+               "type": "weighted_edge",
+               "out_edge": "epic_3_raids",
+               "weight": 55
+            },
+            {
+               "type": "weighted_edge",
+               "out_edge": "epic_4_raids",
+               "weight": 70
+            }
+         ]
+      }
+   }
+}

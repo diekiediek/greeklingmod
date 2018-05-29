@@ -1,0 +1,12 @@
+{
+   "type" : "encounter",
+   "encounter_type" : "wait_for_event",
+
+   "in_edge"  : "wait_for_giant_zombie_destruction",
+   "out_edge" : "zombie_chest_camp_destroyed",
+
+   "wait_for_event_info" :  {
+      "source" : "zombie_chest_camp.boss",
+      "event"  : "stonehearth:kill_event"
+   }
+}

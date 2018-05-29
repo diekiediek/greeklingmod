@@ -1,0 +1,42 @@
+{
+   "type": "encounter",
+   "mixins": "stonehearth:mixins:encounter:orc_raid",
+   "encounter_type": "create_mission",
+   "in_edge": "orc_footman_raid_15",
+   "out_edge": "wait_to_destroy_raiding_party",
+   "create_mission_info": {
+      "mission": {
+         "ctx_entity_registration_path": "orc_footman_raid_15",
+         "members": {
+            "kobolds": {
+               "from_population": {
+                  "min": 1,
+                  "max": 1
+               },
+               "tuning": "stonehearth:monster_tuning:kobolds:kobold_archer_general"
+            },
+            "orc_footmen": {
+               "from_population": {
+                  "min": 4,
+                  "max": 4
+               },
+               "tuning": "stonehearth:monster_tuning:orcs:footman"
+            },
+            "orc_clerics": {
+               "from_population": {
+                  "min": 2,
+                  "max": 2
+               },
+               "tuning": "stonehearth:monster_tuning:orcs:cleric"
+            },
+            "orc_knights": {
+               "from_population": {
+                  "min": 1,
+                  "max": 1
+               },
+               "tuning": "stonehearth:monster_tuning:orcs:knight"
+            }
+         }
+      }
+   }
+}

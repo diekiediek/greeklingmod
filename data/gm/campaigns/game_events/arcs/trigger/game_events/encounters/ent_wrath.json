@@ -1,0 +1,72 @@
+{
+   "type": "encounter",
+   "encounter_type": "create_mission",
+   "rarity": "common",
+   "in_edge": "ent_wrath",
+   "out_edge": "wait_to_destroy_resource_raids",
+   "create_mission_info": {
+      "spawn_range": {
+         "min": 0,
+         "max": 80
+      },
+      "on_searcher_failure": {
+         "destroy_tree": {
+            "root": "resource_check_encounter",
+            "destroy_root": false
+         }
+      },
+      "mission": {
+         "ctx_entity_registration_path": "ent_wrath",
+         "npc_player_id": "forest",
+         "role": "pillage",
+         "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+         },
+         "pillage_radius": {
+            "min": 0,
+            "max": 100
+         },
+         "sighted_bulletin": {
+            "title": "i18n(stonehearth:data.gm.campaigns.game_events.arcs.trigger.game_events.encounters.ent_wrath.mission.sighted_bulletin.title)"
+         },
+         "members": {
+            "entlings": {
+               "from_population": {
+                  "role": "entling",
+                  "location": {
+                     "x": 0,
+                     "z": 0
+                  },
+                  "min": 9,
+                  "max": 10,
+                  "range": 10,
+                  "scale_with_run": {
+                     "scale_factor": 1.4,
+                     "encounter_cap": 3
+                  }
+               },
+               "tuning": "stonehearth:monster_tuning:forest:easy_entling"
+            },
+            "giant_entlings": {
+               "from_population": {
+                  "role": "entling",
+                  "location": {
+                     "x": 0,
+                     "z": 0
+                  },
+                  "min": 4,
+                  "max": 5,
+                  "range": 10,
+                  "scale_with_run": {
+                     "scale_factor": 1.4,
+                     "encounter_cap": 3
+                  }
+               },
+               "tuning": "stonehearth:monster_tuning:forest:giant_entling"
+            }
+         }
+      }
+   }
+}

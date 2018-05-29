@@ -1,0 +1,67 @@
+{
+   "type": "encounter",
+   "encounter_type": "town_upgrade",
+   "in_edge": "hearth_upgrade_cheer",
+   "out_edge": "delay_before_shrine_foreshadow",
+   "town_upgrade_info": {
+      "old_facility_uri": "stonehearth:decoration:firepit_hearth",
+      "new_facility_uri": "stonehearth:decoration:hearth:cheer",
+      "town_bonus": "stonehearth:town_bonus:cheer",
+      "facility_upgrade_effect": "stonehearth:effects:level_up:hearth",
+      "tier_achieved": 2,
+      "finish_event": "stonehearth:tier_2_reached",
+      "conversation_subjects": [
+         "stonehearth:subjects:town_status",
+         "stonehearth:food:cake",
+         "stonehearth:decoration:hearth:cheer"
+      ],
+      "thought": "stonehearth:thoughts:town:progression:settlement",
+      "celebration_duration": "1h30m+10m",
+      "has_fireworks": true,
+      "dialog": {
+         "title": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.hearth_upgrade_cheer.title)",
+         "dialog_title": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.hearth_upgrade_cheer.dialog_title)",
+         "tier_title": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.hearth_upgrade_cheer.tier_title)",
+         "reward_message": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.hearth_upgrade_cheer.reward_message)",
+         "reward_message_ctd": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.hearth_upgrade_cheer.reward_message_ctd)",
+         "achievements": [
+            {
+               "id": "makers_bonus_1",
+               "name": "i18n(stonehearth:data.gm.campaigns.town_progression.arcs.trigger.town_progression.encounters.hearth_upgrade_cheer.achievements.000)",
+               "icon": "file(/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_2.png)",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            },
+            {
+               "id": "tier_2_building_templates",
+               "name": "i18n(stonehearth:data.gm.campaigns.trader.valor_tier_2_reached.tier_2_bldg_template)",
+               "icon": "file(/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_2.png)",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            },
+            {
+               "id": "tier_2_shops",
+               "name": "i18n(stonehearth:data.gm.campaigns.trader.valor_tier_2_reached.tier_2_shops)",
+               "icon": "file(/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_2.png)",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            },
+            {
+               "id": "tier_2_bgm",
+               "name": "i18n(stonehearth:data.gm.campaigns.trader.valor_tier_2_reached.tier_2_BGM)",
+               "icon": "file(/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_2.png)",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            }
+         ]
+      },
+      "npcs": [
+         {
+            "faction": "human_npcs",
+            "role": "herald_harold",
+            "gender": "male"
+         },
+         {
+            "faction": "human_npcs",
+            "role": "herald_mer",
+            "gender": "male"
+         }
+      ]
+   }
+}

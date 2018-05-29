@@ -1,0 +1,47 @@
+{
+   "type": "encounter",
+   "encounter_type": "create_camp",
+   "rarity": "common",
+   "in_edge": "create_zombie_chest_camp",
+   "out_edge": "wait_for_giant_zombie_destruction",
+   "can_start": {
+      "test_1": {
+         "kingdom_check": {
+            "type": "deny_if_not",
+            "item": "kingdom",
+            "value": "stonehearth:kingdoms:ascendancy"
+         }
+      }
+   },
+   "create_camp_info": {
+      "npc_player_id": "undead",
+      "ctx_entity_registration_path": "zombie_chest_camp",
+      "on_searcher_failure": {
+         "destroy_root_node": "zombie_chest_camp"
+      },
+      "radius": 5,
+      "keep_grass": true,
+      "spawn_range": {
+         "min": 100,
+         "max": 180
+      },
+      "combat_bulletin": {
+         "title": "i18n(stonehearth:data.gm.campaigns.ambient_threats.random_encounter.combat_bulletin.title)"
+      },
+      "boss": {
+         "from_population": {
+            "role": "zombie_giant",
+            "location": { "x": -2, "y": 0 }
+         },
+         "combat_leash_range": 8,
+         "tuning": "stonehearth:monster_tuning:undead:scaled_zombie_chest"
+      },
+      "pieces": {
+         "zombie_chest": {
+            "position": { "x": 3, "y": 0 },
+            "rotation": -90,
+            "info": "file(create_zombie_chest_camp/zombie_chest.json)"
+         }
+      }
+   }
+}

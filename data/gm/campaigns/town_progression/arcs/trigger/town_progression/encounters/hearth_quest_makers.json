@@ -1,0 +1,33 @@
+{
+   "type": "encounter",
+   "encounter_type": "delivery_quest",
+   "in_edge": "hearth_quest_makers",
+   "out_edge": "hearth_upgrade_makers",
+   "delivery_quest_info": {
+      "title": "i18n(stonehearth:data.gm.campaigns.town_progression.hearth_quest_makers.title)",
+      "dialog_title": "i18n(stonehearth:data.gm.campaigns.town_progression.hearth_quest_makers.dialog_title)",
+      "requirements": [
+         {
+            "type": "gold",
+            "subtype": "have",
+            "count": 500
+         },
+         {
+            "type": "gold",
+            "subtype": "spent",
+            "count": 1000
+         },
+         {
+            "type": "gold",
+            "subtype": "earned",
+            "count": 2000
+         },
+         {
+            "type": "have_item_quality",
+            "quality": 3,
+            "count": 10
+         }
+      ],
+      "abandon_out_edge": "hearth_abandon"
+   }
+}

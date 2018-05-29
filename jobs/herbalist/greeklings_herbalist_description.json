@@ -1,0 +1,6 @@
+{
+   "mixins": "stonehearth:jobs:herbalist",
+   "equipment": {
+	  "mainhand": "greeklingmod:herbalist:staff"
+   }
+}

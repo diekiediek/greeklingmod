@@ -1,0 +1,14 @@
+{
+   "type": "camp_piece",
+   "entities": {
+      "terrain_dirt": {
+         "uri": "stonehearth:resources:dirt:terrain_dirt",
+         "force_iconic": false,
+         "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+         }
+      }
+   }
+}

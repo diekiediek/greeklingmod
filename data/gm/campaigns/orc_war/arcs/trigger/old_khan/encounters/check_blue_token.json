@@ -1,0 +1,25 @@
+{
+   "type": "encounter",
+   "encounter_type": "create_camp",
+   "mixins": "stonehearth:mixins:encounter:orc_campaign:base_orc_camp",
+   "in_edge": "check_blue_token",
+   "out_edge": "blue_tier_raids",
+   "can_start": {
+      "test_1": {
+         "encounter_finished_check": {
+            "item": "exists_in_world",
+            "uri": "stonehearth:decoration:decorative_elite_gong",
+            "type": "deny_if_not",
+            "value": true
+         }
+      }
+   },
+   "create_camp_info": {
+      "radius": 1,
+      "searcher_delay": "10h",
+      "on_searcher_failure": {
+         "retry": false
+      },
+      "pieces": {}
+   }
+}

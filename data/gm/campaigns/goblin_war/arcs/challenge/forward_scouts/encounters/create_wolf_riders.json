@@ -1,0 +1,37 @@
+{
+   "type": "encounter",
+   "encounter_type": "create_mission",
+   "rarity": "common",
+   "in_edge": "create_wolf_riders",
+   "create_mission_info": {
+      "spawn_range": {
+         "min": 50,
+         "max": 60
+      },
+      "mission": {
+         "encounter_name": "create_wolf_riders",
+         "role": "raid_stockpiles",
+         "raid_timeout_minutes": 180,
+         "raid_timeout_variance_minutes": 30,
+         "offset": { "x": 0, "y": 0, "z": 0 },
+         "sighted_bulletin": {
+            "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.create_wolf_riders.mission.sighted_bulletin.title)",
+            "message": "i18n(stonehearth:data.gm.campaigns.goblin_war.create_wolf_riders.mission.sighted_bulletin.message)"
+         },
+         "members": {
+            "ferocious_wolf_1": {
+               "from_ctx": "create_scout_camp.citizens.wolf_cage.tame_wolf[1]",
+               "tuning": "stonehearth:monster_tuning:goblins:wolf"
+            },
+            "ferocious_wolf_2": {
+               "from_ctx": "create_scout_camp.citizens.wolf_cage.tame_wolf[2]",
+               "tuning": "stonehearth:monster_tuning:goblins:wolf"
+            },
+            "ferocious_wolf_3": {
+               "from_ctx": "create_scout_camp.citizens.wolf_cage.tame_wolf[3]",
+               "tuning": "stonehearth:monster_tuning:goblins:wolf"
+            }
+         }
+      }
+   }
+}

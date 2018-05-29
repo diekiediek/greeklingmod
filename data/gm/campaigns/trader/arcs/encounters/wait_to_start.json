@@ -1,0 +1,10 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait_for_net_worth",
+   "in_edge": "wait_for_minimum_net_worth",
+   "out_edge": "spawn_next_shop",
+   "wait_for_net_worth_info": {
+      "threshold": 500,
+      "interval": "1h"
+   }
+}

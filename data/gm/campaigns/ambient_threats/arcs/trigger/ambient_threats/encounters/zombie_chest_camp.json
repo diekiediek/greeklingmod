@@ -1,0 +1,20 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait_for_time_of_day",
+   "in_edge": "zombie_chest_camp",
+   "out_edge": "create_zombie_chest_camp",
+   "can_start": {
+      "test_1": {
+         "number_active_check": {
+            "item": "number_active",
+            "type": "deny_if_greater_than",
+            "value": 3,
+            "start_node": "create_zombie_chest_camp",
+            "end_node": "zombie_chest_camp_destroyed"
+         }
+      }
+   },
+   "wait_for_time_of_day_info": {
+      "time": "22:00+2h"
+   }
+}

@@ -1,0 +1,56 @@
+{
+   "type": "encounter",
+   "encounter_type": "dialog_tree",
+   "rarity": "common",
+   "in_edge": "ogo_attacks_dialog",
+   "dialog_tree_info": {
+      "start_node": "ogo_attacks",
+      "nodes": {
+         "ogo_attacks": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_attacks_dialog.dialog_tree_info.dialog_nodes.ogo_attacks.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_attacks_dialog.dialog_tree_info.dialog_nodes.ogo_attacks.dialog_title)",
+               "portrait": "file(images/ogo_skullbonker.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_attacks_dialog.dialog_tree_info.dialog_nodes.ogo_attacks.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:ui.game.common.ok": {
+                     "next_node": "mountain_replies"
+                  }
+               }
+            }
+         },
+         "mountain_replies": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_attacks_dialog.dialog_tree_info.dialog_nodes.mountain_replies.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_attacks_dialog.dialog_tree_info.dialog_nodes.mountain_replies.dialog_title)",
+               "portrait": "file(images/mountain.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_attacks_dialog.dialog_tree_info.dialog_nodes.mountain_replies.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:ui.game.common.ok": {
+                     "next_node": "army_replies"
+                  }
+               }
+            }
+         },
+         "army_replies": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_attacks_dialog.dialog_tree_info.dialog_nodes.army_replies.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_attacks_dialog.dialog_tree_info.dialog_nodes.army_replies.dialog_title)",
+               "portrait": "file(images/ogo_bannerman.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_attacks_dialog.dialog_tree_info.dialog_nodes.army_replies.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:ui.game.common.ok": {
+                     "out_edge": "ogo_army_raid"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

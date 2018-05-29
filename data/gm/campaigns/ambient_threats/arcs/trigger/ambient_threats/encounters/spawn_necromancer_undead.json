@@ -1,0 +1,64 @@
+{
+   "type": "encounter",
+   "encounter_type": "city_raid",
+   "rarity": "common",
+   "in_edge": "spawn_necromancer_undead",
+   "city_raid_info": {
+      "missions": {
+         "spawn_enemies": {
+            "ctx_entity_registration_path": "necromancer_crypt_undead",
+            "role": "spawn_enemies",
+            "offset": {
+               "x": 0,
+               "y": 0,
+               "z": -2
+            },
+            "spawn_effect": "stonehearth:effects:poof_effect",
+            "members": {
+               "necromancer": {
+                  "from_population": {
+                     "role": "necromancer",
+                     "location": {
+                        "x": 0,
+                        "z": 0
+                     },
+                     "min": 1,
+                     "max": 1
+                  },
+                  "scale": 0.12,
+                  "combat_leash_range": 30,
+                  "tuning": "stonehearth:monster_tuning:undead:necromancer"
+               },
+               "zombies": {
+                  "from_population": {
+                     "role": "zombie",
+                     "location": {
+                        "x": 0,
+                        "z": 0
+                     },
+                     "min": 1,
+                     "max": 2,
+                     "range": 1
+                  },
+                  "combat_leash_range": 30,
+                  "tuning": "stonehearth:monster_tuning:undead:scaled_undead"
+               },
+               "skeletons": {
+                  "from_population": {
+                     "role": "skeleton",
+                     "location": {
+                        "x": 0,
+                        "z": 0
+                     },
+                     "min": 1,
+                     "max": 2,
+                     "range": 1
+                  },
+                  "combat_leash_range": 30,
+                  "tuning": "stonehearth:monster_tuning:undead:scaled_undead"
+               }
+            }
+         }
+      }
+   }
+}

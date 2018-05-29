@@ -1,0 +1,20 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "easy_raids",
+   "out_edge": {
+      "type": "trigger_one",
+      "out_edges": [
+         "wolf_raid_1",
+         "alligator_raid_2",
+         {
+            "type": "weighted_edge",
+            "out_edge": "undead_raid_2",
+            "weight": 8
+         }
+      ]
+   },
+   "wait_info": {
+      "duration": "1h"
+   }
+}

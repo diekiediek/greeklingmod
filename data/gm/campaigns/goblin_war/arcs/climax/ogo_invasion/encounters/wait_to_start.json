@@ -1,0 +1,15 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "start",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "wait_to_attack",
+         "ogos_bannerman"
+      ]
+   },
+   "wait_info": {
+      "duration": "3d + 2d"
+   }
+}

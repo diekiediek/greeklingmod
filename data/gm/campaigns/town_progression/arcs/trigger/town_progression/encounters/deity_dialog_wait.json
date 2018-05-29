@@ -1,0 +1,15 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "deity_dialog_wait",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "post_shrine_dialog_delay",
+         "deity_dialog_1"
+      ]
+   },
+   "wait_info": {
+      "duration": "40m"
+   }
+}

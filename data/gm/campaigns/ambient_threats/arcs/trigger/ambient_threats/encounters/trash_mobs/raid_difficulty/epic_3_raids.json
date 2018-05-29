@@ -1,0 +1,15 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "epic_3_raids",
+   "out_edge": {
+      "type": "trigger_one",
+      "out_edges": [
+         "orc_wolf_raid_13",
+         "kobold_archer_raid_13"
+      ]
+   },
+   "wait_info": {
+      "duration": "1h"
+   }
+}

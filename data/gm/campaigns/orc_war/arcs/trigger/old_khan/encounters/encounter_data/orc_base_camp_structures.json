@@ -1,0 +1,15 @@
+{
+   "type": "camp_piece",
+   "entities": {
+      "orc_hut_1": {
+         "uri": "stonehearth:monsters:orcs:orc_hut",
+         "force_iconic": false,
+         "location": {
+            "x": -7,
+            "y": 0,
+            "z": -7
+         },
+         "rotation": 180
+      }
+   }
+}

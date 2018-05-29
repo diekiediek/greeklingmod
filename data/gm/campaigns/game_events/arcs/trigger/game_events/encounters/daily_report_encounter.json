@@ -1,0 +1,37 @@
+{
+   "type": "encounter",
+   "encounter_type": "script",
+   "in_edge": "daily_report_encounter",
+   "can_start": {
+      "test_1": {
+         "citizen_cap_check": {
+            "item": "reached_citizen_cap",
+            "type": "deny_if",
+            "value": true
+         }
+      }
+   },
+   "script_info": {
+      "script": "stonehearth:game_master:script_encounter:daily_report",
+      "data": {
+         "expiration_timeout": "10h",
+         "food_threshold": 100,
+         "score_threshold": 1000,
+         "update_title": "i18n(stonehearth:data.gm.campaigns.encounters.daily_report_encounter.update_title)",
+         "sub_title": "i18n(stonehearth:data.gm.campaigns.encounters.daily_report_encounter.sub_title)",
+         "food_label": "i18n(stonehearth:data.gm.campaigns.encounters.daily_report_encounter.food_label)",
+         "net_worth_label": "i18n(stonehearth:data.gm.campaigns.encounters.daily_report_encounter.net_worth_label)",
+         "conclusion_positive": "i18n(stonehearth:data.gm.campaigns.encounters.daily_report_encounter.conclusion_positive)",
+         "conclusion_negative": "i18n(stonehearth:data.gm.campaigns.encounters.daily_report_encounter.conclusion_negative)",
+         "title": "i18n(stonehearth:data.gm.campaigns.encounters.daily_report_encounter.title)",
+         "success_title": "i18n(stonehearth:data.gm.campaigns.encounters.daily_report_encounter.success_title)",
+         "messages": [
+            "i18n(stonehearth:data.gm.campaigns.encounters.daily_report_encounter.messages.000)",
+            "i18n(stonehearth:data.gm.campaigns.encounters.daily_report_encounter.messages.001)",
+            "i18n(stonehearth:data.gm.campaigns.encounters.daily_report_encounter.messages.002)",
+            "i18n(stonehearth:data.gm.campaigns.encounters.daily_report_encounter.messages.003)"
+         ],
+         "outcome_statement": "i18n(stonehearth:data.gm.campaigns.encounters.daily_report_encounter.outcome_statement)"
+      }
+   }
+}

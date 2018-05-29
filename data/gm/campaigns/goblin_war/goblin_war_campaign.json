@@ -1,0 +1,24 @@
+{
+   "type": "campaign",
+   "rarity": "common",
+   "can_start": {
+      "test_1": {
+         "game_mode_check": {
+            "type": "deny_if",
+            "item": "game_mode",
+            "value": "stonehearth:game_mode:peaceful"
+         }
+      }
+   },
+   "arcs": {
+      "trigger": {
+         "goblin_army": "file(arcs/trigger/raidcamp/raidcamp_arc.json)"
+      },
+      "challenge": {
+         "army_forward_scouts": "file(arcs/challenge/forward_scouts/forward_scout_arc.json)"
+      },
+      "climax": {
+         "ogos_army": "file(arcs/climax/ogo_invasion/ogo_invasion_arc.json)"
+      }
+   }
+}

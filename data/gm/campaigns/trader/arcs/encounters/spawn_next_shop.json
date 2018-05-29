@@ -1,0 +1,43 @@
+{
+   "type": "encounter",
+   "encounter_type": "generator",
+   "in_edge": "spawn_next_shop",
+   "generator_info": {
+      "delay": "21h+2h",
+      "spawn_edge": {
+         "type": "trigger_one",
+         "out_edges": [
+            {
+               "out_edge": "returning_trader_encounter",
+               "type": "weighted_edge",
+               "weight": 1
+            },
+            {
+               "out_edge": "returning_trader_encounter_2",
+               "type": "weighted_edge",
+               "weight": 1
+            },
+            {
+               "out_edge": "returning_crop_trader_encounter",
+               "type": "weighted_edge",
+               "weight": 1
+            },
+            {
+               "out_edge": "tier_1_shops",
+               "type": "weighted_edge",
+               "weight": 3
+            },
+            {
+               "out_edge": "tier_2_shops",
+               "type": "weighted_edge",
+               "weight": 7
+            },
+            {
+               "out_edge": "tier_3_shops",
+               "type": "weighted_edge",
+               "weight": 12
+            }
+         ]
+      }
+   }
+}

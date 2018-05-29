@@ -1,0 +1,66 @@
+{
+   "type": "encounter",
+   "encounter_type": "dialog_tree",
+   "rarity": "common",
+   "in_edge": "ogo_dead_dialog",
+   "can_start": {
+      "test_1": {
+         "script_check": {
+            "item": "script",
+            "type": "deny_if_not",
+            "value": true,
+            "script": "file(ogo_dead_can_start.lua)"
+         }
+      }
+   },
+   "dialog_tree_info": {
+      "start_node": "mountain_notices",
+      "nodes": {
+         "mountain_notices": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_dead_dialog.dialog_tree_info.dialog_nodes.mountain_notices.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_dead_dialog.dialog_tree_info.dialog_nodes.mountain_notices.dialog_title)",
+               "portrait": "file(images/mountain.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_dead_dialog.dialog_tree_info.dialog_nodes.mountain_notices.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_dead_dialog.dialog_tree_info.dialog_nodes.mountain_notices.choice_000": {
+                     "next_node": "mountain_notices_2"
+                  }
+               }
+            }
+         },
+         "mountain_notices_2": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_dead_dialog.dialog_tree_info.dialog_nodes.mountain_notices_2.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_dead_dialog.dialog_tree_info.dialog_nodes.mountain_notices_2.dialog_title)",
+               "portrait": "file(images/mountain.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_dead_dialog.dialog_tree_info.dialog_nodes.mountain_notices_2.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_dead_dialog.dialog_tree_info.dialog_nodes.mountain_notices_2.choice_000": {
+                     "next_node": "mountain_notices_3"
+                  }
+               }
+            }
+         },
+         "mountain_notices_3": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_dead_dialog.dialog_tree_info.dialog_nodes.mountain_notices_3.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_dead_dialog.dialog_tree_info.dialog_nodes.mountain_notices_3.dialog_title)",
+               "portrait": "file(images/mountain.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_dead_dialog.dialog_tree_info.dialog_nodes.mountain_notices_3.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.goblin_war.arcs.climax.ogo_invasion.encounters.ogo_dead_dialog.dialog_tree_info.dialog_nodes.mountain_notices_3.choice_000": {
+                     "out_edge": "goblin_hostility"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

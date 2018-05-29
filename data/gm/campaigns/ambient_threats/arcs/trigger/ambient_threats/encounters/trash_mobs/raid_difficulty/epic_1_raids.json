@@ -1,0 +1,16 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "epic_1_raids",
+   "out_edge": {
+      "type": "trigger_one",
+      "out_edges": [
+         "orc_kobold_raid_9",
+         "ogre_tank_raid_9",
+         "kobold_archer_raid_9"
+      ]
+   },
+   "wait_info": {
+      "duration": "1h"
+   }
+}

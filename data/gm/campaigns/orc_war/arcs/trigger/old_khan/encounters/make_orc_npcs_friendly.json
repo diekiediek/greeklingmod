@@ -1,0 +1,10 @@
+{
+   "type": "encounter",
+   "encounter_type": "script",
+   "in_edge": "make_orc_npcs_friendly",
+   "out_edge": "warchief_boss_camp_destroyed",
+   "script_info": {
+      "script": "file(make_orc_npcs_friendly.lua)",
+      "data": {}
+   }
+}

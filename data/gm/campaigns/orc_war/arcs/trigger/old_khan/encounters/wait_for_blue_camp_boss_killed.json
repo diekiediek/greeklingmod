@@ -1,0 +1,10 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait_for_event",
+   "in_edge": "wait_for_blue_camp_boss_killed",
+   "out_edge": "unlock_red_token_recipe",
+   "wait_for_event_info": {
+      "source": "create_blue_tier_camp.boss",
+      "event": "stonehearth:kill_event"
+   }
+}

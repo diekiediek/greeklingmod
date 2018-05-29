@@ -1,0 +1,17 @@
+{
+   "type": "camp_piece",
+   "entities": {
+      "ogo_throne": {
+         "uri": "stonehearth:monsters:goblins:goblin_throne",
+         "location": {
+            "x": 15,
+            "y": 0,
+            "z": 0
+         },
+         "unit_info": {
+            "name": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.encounters.create_camp.ogo_throne.ogo_throne.display_name)",
+            "description": "i18n(stonehearth:data.gm.campaigns.goblin_war.arcs.climax.encounters.create_camp.ogo_throne.ogo_throne.description)"
+         }
+      }
+   }
+}

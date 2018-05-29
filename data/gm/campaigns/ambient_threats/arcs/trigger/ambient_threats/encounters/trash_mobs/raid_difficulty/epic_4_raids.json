@@ -1,0 +1,15 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "epic_4_raids",
+   "out_edge": {
+      "type": "trigger_one",
+      "out_edges": [
+         "orc_footman_raid_15",
+         "kobold_archer_raid_15"
+      ]
+   },
+   "wait_info": {
+      "duration": "1h"
+   }
+}

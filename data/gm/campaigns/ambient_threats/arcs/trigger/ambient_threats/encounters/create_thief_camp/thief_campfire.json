@@ -1,0 +1,28 @@
+{
+   "type": "camp_piece",
+   "entities": {
+      "campfire": {
+         "uri": "stonehearth:decoration:firepit_skulls",
+         "force_iconic": false,
+         "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+         },
+         "unit_info": {
+            "name": "i18n(stonehearth:data.gm.campaigns.ambient_threats.arcs.trigger.ambient_threats.encounters.create_thief_camp.thief_campfire.campfire.display_name)",
+            "description": "i18n(stonehearth:data.gm.campaigns.ambient_threats.arcs.trigger.ambient_threats.encounters.create_thief_camp.thief_campfire.campfire.description)"
+         }
+      },
+      "wood": {
+         "uri": "stonehearth:resources:wood:oak_log",
+         "force_iconic": false,
+         "lootable": true,
+         "location": {
+            "x": 4,
+            "y": 0,
+            "z": 4
+         }
+      }
+   }
+}

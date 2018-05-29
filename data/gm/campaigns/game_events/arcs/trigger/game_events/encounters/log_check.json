@@ -1,0 +1,26 @@
+{
+   "type": "encounter",
+   "encounter_type": "item_threshold",
+   "can_start": {
+      "test_1": {
+         "game_mode_check": {
+            "type": "deny_if",
+            "item": "game_mode",
+            "value": "stonehearth:game_mode:peaceful"
+         }
+      }
+   },
+   "in_edge": "log_check",
+   "out_edge": "ent_warning",
+   "item_threshold_info": {
+      "threshold": {
+         "min": 800,
+         "max": 1200
+      },
+      "check": "greater_than",
+      "materials": [
+         "wood",
+         "resource"
+      ]
+   }
+}

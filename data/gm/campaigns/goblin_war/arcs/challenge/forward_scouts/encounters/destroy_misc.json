@@ -1,0 +1,13 @@
+{
+   "type": "encounter",
+   "encounter_type": "destroy_entity",
+   "in_edge": "destroy_misc",
+   "destroy_entity_info": {
+      "target_entities": [
+         "create_scout_camp.citizens.wolf_cage.trainer",
+         "create_scout_camp.entities.general_stockpile"
+      ],
+      "effect": "stonehearth:effects:fursplosion_effect",
+      "continue_always": true
+   }
+}

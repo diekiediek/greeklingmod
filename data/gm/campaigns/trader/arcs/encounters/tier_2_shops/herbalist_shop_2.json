@@ -1,0 +1,46 @@
+{
+   "type": "encounter",
+   "encounter_type": "shop",
+   "unique": true,
+   "in_edge": "herbalist_shop_2",
+   "shop_info": {
+      "name": "i18n(stonehearth:data.gm.campaigns.trader.arcs.encounters.tier_2_shops.herbalist_shop_2.shop_info.name)",
+      "title": "i18n(stonehearth:data.gm.campaigns.trader.arcs.encounters.tier_2_shops.herbalist_shop_2.shop_info.title)",
+      "inventory": {
+         "shopkeeper_level": 2,
+         "shopkeeper_gold": 950,
+         "entries": [
+            {
+               "items_matching": {
+                  "herbs": {
+                     "material": [
+                        "stockpile_plant"
+                     ]
+                  }
+               },
+               "quantity": {
+                  "min": 0,
+                  "max": 3
+               }
+            },
+            {
+               "items_matching": {
+                  "decor": {
+                     "category": [
+                        "furniture",
+                        "decoration"
+                     ],
+                     "material": [
+                        "plant"
+                     ]
+                  }
+               },
+               "quantity": {
+                  "min": 0,
+                  "max": 2
+               }
+            }
+         ]
+      }
+   }
+}

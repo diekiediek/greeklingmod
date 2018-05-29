@@ -1,0 +1,10 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait_for_event",
+   "in_edge": "wait_for_moving_on_to_destroy_raids",
+   "out_edge": "destroy_city_raid",
+   "wait_for_event_info": {
+      "source": "goblin_raiding_camp_1.boss",
+      "event": "stonehearth:chieftain_camp_moving_on"
+   }
+}

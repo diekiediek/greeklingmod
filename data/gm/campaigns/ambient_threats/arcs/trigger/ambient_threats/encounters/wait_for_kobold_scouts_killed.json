@@ -1,0 +1,10 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait_for_event",
+   "in_edge": "wait_for_kobold_scouts_killed",
+   "out_edge": "kobold_scouts_killed",
+   "wait_for_event_info": {
+      "source": "kobold_scout_camp.citizens.scouts",
+      "event": "stonehearth:kill_event"
+   }
+}

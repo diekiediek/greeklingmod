@@ -1,0 +1,19 @@
+{
+   "type" : "camp_piece",
+
+   "script" : "stonehearth:game_master:camp_piece:stockpile",
+   "script_info" : {
+      "npc_player_id" : "goblins",
+      "lootable": true,
+      "stockpile_size" : { "w" : 5, "h" : 5 },
+      "stockpile_contents" : {
+         "uri": "stonehearth:resources:wood:oak_log",
+         "width": 2,
+         "height": 2
+      },
+      "npc_player_id" : "goblins", 
+      "ctx_entity_registration_path" : "create_raider_camp",
+      "entity_name" : "general_stockpile"
+   }
+
+}

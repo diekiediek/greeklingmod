@@ -1,0 +1,32 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "type": "entity",
+   "components": {
+      "render_info": {
+         "scale": 0.4
+      },
+      "mob": {
+         "model_origin": { "x": -0.075, "y": 0, "z": 0.075 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(olive_tree.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(greekmod:entities.plants.olive_tree.display_name)",
+         "description": "i18n(greekmod:entities.plants.olive_tree.description)",
+         "icon": "file(olive_tree.png)",
+         "category": "plants",
+         "material_tags": "plant stockpile_plant",
+         "subjects": [
+            "plants"
+         ]
+      }
+   }
+}

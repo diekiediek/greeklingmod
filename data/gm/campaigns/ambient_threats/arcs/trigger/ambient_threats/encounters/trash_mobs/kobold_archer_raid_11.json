@@ -1,0 +1,42 @@
+{
+   "type": "encounter",
+   "mixins": "stonehearth:mixins:encounter:orc_raid",
+   "encounter_type": "create_mission",
+   "in_edge": "kobold_archer_raid_11",
+   "out_edge": "wait_to_destroy_raiding_party",
+   "create_mission_info": {
+      "mission": {
+         "ctx_entity_registration_path": "kobold_archer_raid_11",
+         "members": {
+            "kobolds": {
+               "from_population": {
+                  "min": 2,
+                  "max": 2
+               },
+               "tuning": "stonehearth:monster_tuning:kobolds:kobold_archer"
+            },
+            "kobold_scouts": {
+               "from_population": {
+                  "min": 1,
+                  "max": 1
+               },
+               "tuning": "stonehearth:monster_tuning:kobolds:kobold_archer_scout"
+            },
+            "kobold_elites": {
+               "from_population": {
+                  "min": 1,
+                  "max": 1
+               },
+               "tuning": "stonehearth:monster_tuning:kobolds:kobold_archer_elite"
+            },
+            "ogre_doorbreakers": {
+               "from_population": {
+                  "min": 1,
+                  "max": 1
+               },
+               "tuning": "stonehearth:monster_tuning:ogres:door_breaker"
+            }
+         }
+      }
+   }
+}

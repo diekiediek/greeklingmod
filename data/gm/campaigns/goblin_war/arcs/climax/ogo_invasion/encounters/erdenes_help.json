@@ -1,0 +1,122 @@
+{
+   "type": "encounter",
+   "encounter_type": "dialog_tree",
+   "rarity": "common",
+   "in_edge": "erdenes_help",
+   "dialog_tree_info": {
+      "start_node": "erdene_appears",
+      "nodes": {
+         "erdene_appears": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.erdene_appears.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.erdene_appears.dialog_title)",
+               "portrait": "file(images/mysterious.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.erdene_appears.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.erdene_appears.choice_000": {
+                     "next_node": "erdenes_help"
+                  },
+                  "stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.erdene_appears.choice_001": {
+                     "next_node": "erdenes_help"
+                  }
+               }
+            }
+         },
+         "erdenes_help": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.erdenes_help.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.erdenes_help.dialog_title)",
+               "portrait": "file(images/mysterious.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.erdenes_help.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.erdenes_help.choice_000": {
+                     "next_node": "flute_description"
+                  },
+                  "stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.erdenes_help.choice_001": {
+                     "next_node": "flute_description"
+                  }
+               }
+            }
+         },
+         "flute_description": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.flute_description.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.flute_description.dialog_title)",
+               "portrait": "file(images/mysterious.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.flute_description.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.flute_description.choice_000": {
+                     "next_node": "accept_offer"
+                  },
+                  "stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.flute_description.choice_001": {
+                     "next_node": "departure"
+                  }
+               }
+            }
+         },
+         "accept_offer": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.accept_offer.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.accept_offer.dialog_title)",
+               "portrait": "file(images/mysterious.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.accept_offer.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.accept_offer.choice_000": {
+                     "next_node": "erdene_description"
+                  },
+                  "stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.accept_offer.choice_001": {
+                     "out_edge": "unlock_windchimes",
+                     "next_node": "departure"
+                  }
+               }
+            }
+         },
+         "departure": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.departure.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.departure.dialog_title)",
+               "portrait": "file(images/mysterious.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.departure.bulletin_message.000)"
+               ],
+               "choices": {
+                  "stonehearth:ui.game.common.ok": {
+
+                  }
+               }
+            }
+         },
+         "erdene_description": {
+            "bulletin": {
+               "title": "i18n(stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.erdene_description.bulletin_title)",
+               "dialog_title": "i18n(stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.erdene_description.dialog_title)",
+               "portrait": "file(images/erdene.png)",
+               "message": [
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.erdene_description.bulletin_message.000)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.erdene_description.bulletin_message.001)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.erdene_description.bulletin_message.002)",
+                  "i18n(stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.erdene_description.bulletin_message.003)"
+               ],
+               "choices": {
+                  "stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.erdene_description.choice_000": {
+                     "out_edge": "unlock_windchimes",
+                     "next_node": "departure"
+                  },
+                  "stonehearth:data.gm.campaigns.goblin_war.erdenes_help.dialog_tree_info.dialog_nodes.erdene_description.choice_001": {
+                     "out_edge": "unlock_windchimes",                     
+                     "next_node": "departure"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

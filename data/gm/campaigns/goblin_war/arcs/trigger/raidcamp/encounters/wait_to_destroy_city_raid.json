@@ -1,0 +1,9 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "wait_to_destroy_city_raid",
+   "out_edge": "destroy_city_raid",
+   "wait_info": {
+      "duration": "2d+12h"
+   }
+}
