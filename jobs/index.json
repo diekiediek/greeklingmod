@@ -3,21 +3,24 @@
    "jobs": {
       "stonehearth:jobs:worker": {
          "description": "greeklingmod:jobs:worker"
-		},
+	},
 		"stonehearth:jobs:herbalist": {
          "description": "greeklingmod:jobs:herbalist"
-		},
+	},
 		"stonehearth:jobs:cook": {
          "description": "greeklingmod:jobs:cook"
-		},
+	},
 		"stonehearth:jobs:blacksmith": {
          "description": "greeklingmod:jobs:blacksmith"
-      },
+    },
 	  "stonehearth:jobs:carpenter": {
          "description": "greeklingmod:jobs:carpenter"
-      },
+    },
 	  "stonehearth:jobs:mason": {
-         "description": "greeklingmod:jobs:mason"
+         "description": "greeklingmod:jobs:mason",
+	},
+	  "stonehearth:jobs:weaver": {
+         "description": "greeklingmod:jobs:weaver"
       }
     }
 }

@@ -1,0 +1,55 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "armor",
+            "transparent": "false",
+            "models": [
+               "file(bronze_armour.qb)"
+            ]
+         },
+         "female": {
+            "layer": "armor",
+            "transparent": "false",
+            "models": [
+               "file(bronze_armour_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(bronze_armour_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "torso",
+         "render_type": "merge_with_model",
+         "ilevel": 5,
+         "required_job_level": 2,
+         "roles": "mail_wearer",
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 5
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 50,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(stonehearth:entities.armor.bronze_armour.display_name)",
+         "description": "i18n(stonehearth:entities.armor.bronze_armour.description)",
+         "icon": "file(bronze_armour.png)",
+         "category": "armor",
+         "material_tags": "bronze armor heavy_armor stockpile_equipment"
+      }
+   }
+}
