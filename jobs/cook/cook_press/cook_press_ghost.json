@@ -12,7 +12,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(cook_mill.qb)"
+               "file(cook_press.qb)"
             ]
          }
       },
@@ -23,9 +23,9 @@
    "entity_data": {
       "stonehearth:hide_child_entities_from_pathfinder": true,
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:jobs.cook.cook_mill.cook_mill_ghost.display_name)",
-         "description": "i18n(stonehearth:jobs.cook.cook_mill.cook_mill_ghost.description)",
-         "icon": "file(cook_mill.png)",
+         "display_name": "i18n(greeklingmod:jobs.cook.cook_press.cook_press_ghost.display_name)",
+         "description": "i18n(greeklingmod:jobs.cook.cook_press.cook_press_ghost.description)",
+         "icon": "file(cook_press.png)",
          "category": "workshops",
          "material_tags": "stockpile_tool"
       }

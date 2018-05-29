@@ -15,7 +15,7 @@
    ],
    "produces": [
       {
-         "item": "greeklingmod:cook:press"
+         "item": "greeklingmod:cook_press"
       }
    ]
 }

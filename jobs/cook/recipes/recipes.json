@@ -1,5 +1,5 @@
 {
-	"mixins": "/stonehearth/jobs/blacksmith/recipes/recipes.json",
+	"mixins": "/stonehearth/jobs/cook/recipes/recipes.json",
 	"craftable_recipes": {
 		"workbenches": {
 			"recipes" : {

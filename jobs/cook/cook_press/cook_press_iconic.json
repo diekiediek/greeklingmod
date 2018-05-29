@@ -5,7 +5,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(cook_mill_iconic.qb)"
+               "file(cook_press_iconic.qb)"
             ]
          }
       },

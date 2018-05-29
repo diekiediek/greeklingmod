@@ -1,0 +1,7 @@
+{
+   "type": "job",
+   "mixins": "stonehearth:jobs:weaver",
+   "crafter": {
+      "recipe_list": "/greeklingmod/jobs/weaver/recipes/recipes.json"
+   }
+}
