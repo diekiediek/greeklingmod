@@ -6,7 +6,7 @@
          "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
       },
       "render_info": {
-         "animation_table": "file(/data/rigs/jobs/cook/cook_mill/cook_mill.json)",
+         "animation_table": "/stonehearth/data/rigs/jobs/cook/cook_mill/cook_mill.json",
          "scale": 0.1
       },
       "model_variants": {
@@ -17,7 +17,7 @@
          }
       },
       "effect_list": {
-         "default": "file(/data/rigs/jobs/cook/cook_mill/effects/idle.json)"
+         "default": "/stonehearth/data/rigs/jobs/cook/cook_mill/effects/idle.json"
       }
    },
    "entity_data": {

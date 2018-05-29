@@ -25,7 +25,7 @@
       },
       "stonehearth:workshop": {
          "job_alias": "stonehearth:jobs:cook",
-         "workshop_effect": "file(/data/rigs/jobs/cook/cook_mill/effects/work.json)"
+         "workshop_effect": "/stonehearth/data/rigs/jobs/cook/cook_mill/effects/work.json"
       }
    },
    "entity_data": {
