@@ -113,7 +113,7 @@
             }
 					}
 		 },
-	"armour": {
+	"armor": {
 		"bronze_aspis": {
             "display_name": "Aspis",
             "description": "Useful for blocking attacks",
@@ -148,6 +148,15 @@
                "description": "Required to promote a hearthling into an Herbalist"
             }
          }
-				}
+				},
+	"blacksmith":{
+		"recipes": {
+			"bronze_aspis_recipe": {
+               "description": "A sturdy and shiny shield",
+               "flavor": "'Buck up, recruit! Better the shield dent than you!' -Threddius, Man at Arms",
+               "recipe_name": "Bronze Aspis"
+            }
+			}
 }				
+}
 }
