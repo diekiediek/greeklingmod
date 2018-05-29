@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 5,
+   "recipe_name": "i18n(greeklingmod:jobs.cook.recipes.cook_press_recipe.recipe_name)",
+   "description": "i18n(greeklingmod:jobs.cook.recipes.cook_press_recipe.description)",
+   "flavor": "",
+   "portrait": "/greeklingmod/jobs/cook/cook_press/cook_press.png",
+   "work_effect": "work",
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "greeklingmod:cook:press"
+      }
+   ]
+}

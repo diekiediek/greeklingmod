@@ -42,7 +42,8 @@
 	  "bronze_aspis"							: "file(entities/armor/bronze_aspis/bronze_aspis.json)",
 	  "wooden_aspis"							: "file(entities/armor/wooden_aspis/wooden_aspis.json)",
 	  "iron_aspis"								: "file(entities/armour/iron_aspisp/iron_aspis.json)",
-	  "stone_spear"								: "file(entities/weapons/stone_spear/stone_spear.json)"
+	  "stone_spear"								: "file(entities/weapons/stone_spear/stone_spear.json)",
+	  "olive_press"								: "file(jobs/cook/olive_press/olive_press.json)"
    }, 
    "mixintos" : {
       "stonehearth:playable_kingdom_index"							: "file(data/greeklings_playable_kingdom_index.json)",

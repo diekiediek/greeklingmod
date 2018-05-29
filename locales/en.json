@@ -132,14 +132,27 @@
                "flavor": "Management not acountable for failure",
                "recipe_name": "Wooden Aspis"
 		}
-					},
+		}
+		},
 	"cook": {
-		"olive_oil_recipe": {
+		"recipes":{
+			"olive_oil_recipe": {
                "description": "The oil pressed from olives",
                "recipe_name": "Olive Oil",
                "flavor": "Name me one thing you can't use olive oil for!"
+            },
+			"cook_press_recipe": {
+               "description": "For grinding olives into oil",
+               "recipe_name": "Olive Press"
             }
 			},
+		"cook_press": {
+            "cook_press_ghost": {
+               "display_name": "Olive Press",
+               "description": "Used by the cook to extract oil from olives."
+            }
+         },
+		 
 	"herbalist": {
 		"herbalist_staff": {
             "display_name": "Herbalist Staff",
