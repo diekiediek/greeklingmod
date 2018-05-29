@@ -1,0 +1,19 @@
+{
+	"mixins": "/stonehearth/jobs/blacksmith/recipes/recipes.json",
+	"craftable_recipes": {
+		"workbenches": {
+			"recipes" : {
+				"cook_press": {
+					"recipe": "file(cook_mill_recipe.json)"
+            }
+			}
+	},
+	 "food": {
+		"recipes" : {
+			"olive_oil" : {
+				"recipe": "file(olive_oil_recipe.json)"
+			}		
+		}
+		}
+	}
+}
