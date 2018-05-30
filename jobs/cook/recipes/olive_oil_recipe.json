@@ -6,11 +6,11 @@
    "description": "i18n(greeklingmod:jobs.cook.recipes.olive_oil_recipe.description)",
    "flavor": "i18n(greeklingmod:jobs.cook.recipes.olive_oil_recipe.flavor)",
    "portrait": "/greeklingmod/entities/food/olive_oil/olive_oil/olive_oil.png",
-   "workshop": "stonehearth:cook:olive_press",
+   "workshop": "greeklingmod:cook_press",
    "ingredients": [
       {
-         "material": "food_container raw_food vegetable",
-         "count": 3
+         "uri": "greeklingmod:food:olives:olive_basket",
+         "count": 2
       }
    ],
    "produces": [
