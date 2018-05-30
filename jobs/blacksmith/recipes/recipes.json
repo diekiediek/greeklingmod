@@ -13,6 +13,20 @@
 					"recipe": "file(steel_aspis_recipe.json)"
 				}
 			}
-		}				
+		},
+		"weapons": {
+			"recipe" : {
+				"bronze_spear": {
+					"recipe": "file(bronze_spear.json)"
+				},
+				"iron_spear": {
+					"recipe": "file(iron_spear.json)"
+				},
+				"steel_spear": {
+					"recipe": "file(steel_spear.json)"
+				}
+			}
+		}	
 	}
 }
+

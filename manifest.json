@@ -49,7 +49,7 @@
 	  "bronze_spear"							: "file(entities/weapons/bronze_spear/bronze_spear.json)",
 	  "iron_spear"								: "file(entities/weapons/iron_spear/iron_spear.json)",
 	  "steel_spear"								: "file(entities/weapons/steel_spear/steel_spear.json)",
-	  "cook_press"								: "file(jobs/cook/cook_press/cook_press.json)"
+	  "cook_press"								: "file(jobs/cook/cook_press/cook_press.json)",
 	  "cloth_armour"							: "file(entities/armor/cloth_armour/cloth_armour.json)",
 	  "leather_armour"							: "file(entities/armor/leather_armour/leather_armour.json)",
 	  "iron_armour"								: "file(entities/armor/iron_armour/iron_armour.json)",
