@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 120,
+   "work_units": 5,
+   "recipe_name": "i18n(greeklingmod:jobs.blacksmith.recipes.bronze_spear_recipe.recipe_name)",
+   "description": "i18n(greeklingmod:jobs.blacksmith.recipes.bronze_spear_recipe.description)",
+   "flavor": "i18n(greeklingmod:jobs.blacksmith.recipes.bronze_spear_recipe.flavor)",
+   "portrait": "/greeklingmod/entities/weapons/bronze_spear/bronze_spear.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:bronze_ingot",
+         "count": 1
+      },
+	  {
+         "material": "wood resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "greeklingmod:bronze_spear"
+      }
+   ]
+}
