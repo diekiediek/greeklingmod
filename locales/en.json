@@ -12,8 +12,8 @@
       }
 	  },
 "entities" : {
-	"furniture" : {},
-
+	"furniture" : {
+},
 	"gizmos": {
 		"greeklings_camp_standard": {
             "greeklings_camp_standard_ghost": {
@@ -54,8 +54,7 @@
                "description": "A shred from the Banner of Vitality, carrying along its magic."
             }
          }
-			},
-			
+	},
 	"food" : {
 		"olives" : {
 			"olive_basket" : {
@@ -220,8 +219,8 @@
                "description": "For poking bigger holes"
             }
          }
-		 }
-		 },
+	}
+},
 "jobs" : {
 	"carpenter": {
 		"recipes": {
@@ -276,8 +275,44 @@
                "description": "A sturdier and shinier shield",
                "flavor": "'Come back with your shield or on it again!' - Plutarch's Wife",
                "recipe_name": "Iron Aspis"
+			},
+			"steel_aspis_recipe": {
+               "description": "A strong and light shield",
+               "flavor": "'you dont want this shield, its much too good!' - Plutarch's Undertaker",
+               "recipe_name": "Steel Aspis"
+			},
+			"bronze_spear_recipe": {
+               "description": "A Bronze Spear",
+               "flavor": "flavourgoeshere",
+               "recipe_name": "Bronze Spear"
+			},
+			"iron_spear_recipe": {
+               "description": "An Iron Spear",
+               "flavor": "flavourgoeshere",
+               "recipe_name": "Iron Spear"
+			},
+			"steel_spear_recipe": {
+               "description": "A Steel Spear",
+               "flavor": "flavourgoeshere",
+               "recipe_name": "Steel Spear"
+			},
+			"bronze_armour_recipe": {
+               "description": "Bronze Armour",
+               "flavor": "flavourgoeshere",
+               "recipe_name": "Bronze Armour"
+			},
+			"iron_armour_recipe": {
+               "description": "Iron Armour",
+               "flavor": "flavourgoeshere",
+               "recipe_name": "Iron Armour"
+			},
+			"steel_armour_recipe": {
+               "description": "Steel Armour",
+               "flavor": "flavourgoeshere",
+               "recipe_name": "Steel Armour"
 			}
-},
+		}
+	},
 	"mason": {
 		"recipes": {
 			"stone_spear_recipe":{
@@ -286,8 +321,6 @@
                "recipe_name": "Stone Spear"
 								}
 					}
-			   }
-				}
-				}
-		}
+	}
+}
 }

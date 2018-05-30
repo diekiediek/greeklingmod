@@ -5,7 +5,7 @@
    "recipe_name": "i18n(greeklingmod:jobs.carpenter.recipes.wooden_shield_recipe.recipe_name)",
    "description": "i18n(greeklingmod:jobs.carpenter.recipes.wooden_shield_recipe.description)",
    "flavor": "i18n(greeklingmod:jobs.carpenter.recipes.wooden_shield_recipe.flavor)",
-   "portrait": "/greeklingmod/entities/armor/wooden_shield/wooden_shield.png",
+   "portrait": "/greeklingmod/entities/armor/wooden_aspis/wooden_aspis.png",
    "workshop": "stonehearth:carpenter:workbench",
    "level_requirement": 2,
    "ingredients": [
