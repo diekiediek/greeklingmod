@@ -5,7 +5,7 @@
    "recipe_name": "i18n(greeklingmod:jobs.mason.recipes.stone_spear_recipe.recipe_name)",
    "description": "i18n(greeklingmod:jobs.mason.recipes.stone_spear_recipe_recipe.description)",
    "flavor": "i18n(greeklingmod:jobs.mason.recipes.stone_spear_recipe.flavor)",
-   "portrait": "/stonehearth/entities/weapons/stone_spear/stone_spear.png",
+   "portrait": "/greeklingmod/entities/weapons/stone_spear/stone_spear.png",
    "workshop": "stonehearth:mason:workbench",
    "level_requirement": 2,
    "ingredients": [

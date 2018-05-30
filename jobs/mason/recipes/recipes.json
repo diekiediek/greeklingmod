@@ -1,4 +1,12 @@
 {
-	"mixins": "/stonehearth/jobs/carpenter/recipes/recipes.json",
-	"craftable_recipes": {}
+	"mixins": "/stonehearth/jobs/mason/recipes/recipes.json",
+	"craftable_recipes": {
+		"weapons" : {
+			"recipes" : {
+				"stone_spear": {
+					"recipe": "file(stone_spear_recipe.json)"
+				}
+			}
+		}
+	}
 }

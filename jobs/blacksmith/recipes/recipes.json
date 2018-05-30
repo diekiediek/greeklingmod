@@ -15,15 +15,15 @@
 			}
 		},
 		"weapons": {
-			"recipe" : {
+			"recipes" : {
 				"bronze_spear": {
-					"recipe": "file(bronze_spear.json)"
+					"recipe": "file(bronze_spear_recipe.json)"
 				},
 				"iron_spear": {
-					"recipe": "file(iron_spear.json)"
+					"recipe": "file(iron_spear_recipe.json)"
 				},
 				"steel_spear": {
-					"recipe": "file(steel_spear.json)"
+					"recipe": "file(steel_spear_recipe.json)"
 				}
 			}
 		}	
