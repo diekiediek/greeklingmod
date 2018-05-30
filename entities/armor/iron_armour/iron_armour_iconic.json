@@ -15,8 +15,8 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.armor.iron_armour.iron_armour_iconic.display_name)",
-         "description": "i18n(stonehearth:entities.armor.iron_armour.iron_armour_iconic.description)",
+         "display_name": "i18n(greeklingmod:entities.armor.iron_armour.iron_armour_iconic.display_name)",
+         "description": "i18n(greeklingmod:entities.armor.iron_armour.iron_armour_iconic.description)",
          "icon": "file(iron_armour.png)",
          "is_item": true,
          "category": "armor"

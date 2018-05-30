@@ -15,8 +15,8 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.armor.wooden_aspis.wooden_aspis_iconic.display_name)",
-         "description": "i18n(stonehearth:entities.armor.wooden_aspis.wooden_aspis_iconic.description)",
+         "display_name": "i18n(greeklingmod:entities.armor.wooden_aspis.wooden_aspis_iconic.display_name)",
+         "description": "i18n(greeklingmod:entities.armor.wooden_aspis.wooden_aspis_iconic.description)",
          "icon": "file(wooden_aspis.png)",
          "is_item": true,
          "category": "armor"
