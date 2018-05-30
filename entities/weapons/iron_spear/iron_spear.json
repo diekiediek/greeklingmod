@@ -53,7 +53,7 @@
          "description": "i18n(greeklingmod:entities.weapons.iron_spear.description)",
          "icon": "file(iron_spear.png)",
          "category": "weapons",
-         "material_tags": "metal melee_weapon crafted stockpile_weapon"
+         "material_tags": "melee_weapon crafted stockpile_weapon"
       }
    }
 }
