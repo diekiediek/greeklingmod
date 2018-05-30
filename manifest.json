@@ -46,7 +46,7 @@
 	  "iron_aspis"								: "file(entities/armor/iron_aspis/iron_aspis.json)",
 	  "steel_aspis"								: "file(entities/armor/steel_aspis/steel_aspis.json)",
 	  "stone_spear"								: "file(entities/weapons/stone_spear/stone_spear.json)",
-	  "bronze_spear"							: "file(entities/weapons/bronze_spear/bronze_spear.json)"
+	  "bronze_spear"							: "file(entities/weapons/bronze_spear/bronze_spear.json)",
 	  "iron_spear"								: "file(entities/weapons/iron_spear/iron_spear.json)",
 	  "steel_spear"								: "file(entities/weapons/steel_spear/steel_spear.json)",
 	  "cloth_armour"							: "file(entities/armor/cloth_armour/cloth_armour.json)",
