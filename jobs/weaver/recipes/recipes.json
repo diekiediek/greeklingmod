@@ -1,4 +1,15 @@
 {
 	"mixins": "/stonehearth/jobs/weaver/recipes/recipes.json",
-	"craftable_recipes": {}
+	"craftable_recipes": {
+		"clothing_armor": {
+			"recipes" : {
+				"leather_armour": {
+					"recipe": "file(leather_armour_recipe.json)"
+				},
+				"cloth_armour": {
+					"recipe": "file(cloth_armour_recipe.json)"
+				}
+			}
+		}
+	}
 }
