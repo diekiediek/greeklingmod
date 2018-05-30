@@ -19,14 +19,14 @@
             "stonehearth:combat",
             "stonehearth:patrol"
          ],
-         "ilevel": 11,
+         "ilevel": 16,
          "roles": "footman_job",
          "equip_effect": "stonehearth:effects:weapon_level_up"
       }
    },
    "entity_data": {
       "stonehearth:combat:weapon_data": {
-         "base_damage": 11,
+         "base_damage": 16,
          "reach": 2.0
       },
       "stonehearth:combat:melee_attacks": [
@@ -39,7 +39,7 @@
          }
       ],
       "stonehearth:net_worth": {
-         "value_in_gold": 14,
+         "value_in_gold": 1,
          "rarity": "common",
          "shop_info": {
             "buyable": true,

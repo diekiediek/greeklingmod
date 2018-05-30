@@ -19,14 +19,14 @@
             "stonehearth:combat",
             "stonehearth:patrol"
          ],
-         "ilevel": 11,
+         "ilevel": 14,
          "roles": "footman_job",
          "equip_effect": "stonehearth:effects:weapon_level_up"
       }
    },
    "entity_data": {
       "stonehearth:combat:weapon_data": {
-         "base_damage": 11,
+         "base_damage": 14,
          "reach": 2.0
       },
       "stonehearth:combat:melee_attacks": [
