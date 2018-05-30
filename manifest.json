@@ -43,9 +43,11 @@
 	  "plants:olive_tree:stem"					: "file(entities/plants/olive_tree/stem/olive_tree_stem.json)",
 	  "bronze_aspis"							: "file(entities/armor/bronze_aspis/bronze_aspis.json)",
 	  "wooden_aspis"							: "file(entities/armor/wooden_aspis/wooden_aspis.json)",
-	  "iron_aspis"								: "file(entities/armour/iron_aspisp/iron_aspis.json)",
+	  "iron_aspis"								: "file(entities/armor/iron_aspisp/iron_aspis.json)",
 	  "stone_spear"								: "file(entities/weapons/stone_spear/stone_spear.json)",
 	  "cook_press"								: "file(jobs/cook/cook_press/cook_press.json)"
+	  "cloth_armour"							: "file(entities/armor/cloth_armour/cloth_armour.json)",
+	  "leather_armour"							: "file(entities/armor/leather_armour/leather_armour.json)"
    }, 
    "mixintos" : {
       "stonehearth:playable_kingdom_index"							: "file(data/greeklings_playable_kingdom_index.json)",
