@@ -1,0 +1,22 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(bronze_spear.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(greeklingmod:entities.weapons.bronze_spear.bronze_spear_iconic.display_name)",
+         "description": "i18n(greeklingmod:entities.weapons.bronze_spear.bronze_spear_iconic.description)",
+         "icon": "file(bronze_spear.png)",
+         "is_item": true,
+         "category": "weapons"
+      }
+   }
+}

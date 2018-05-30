@@ -1,0 +1,22 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(steel_spear.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(greeklingmod:entities.weapons.steel_spear.steel_spear_iconic.display_name)",
+         "description": "i18n(greeklingmod:entities.weapons.steel_spear.steel_spear_iconic.description)",
+         "icon": "file(steel_spear.png)",
+         "is_item": true,
+         "category": "weapons"
+      }
+   }
+}
