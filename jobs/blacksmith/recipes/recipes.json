@@ -5,6 +5,12 @@
 			"recipes": {
 				"bronze_aspis": {
 					"recipe": "file(bronze_aspis_recipe.json)"
+				},
+				"iron_aspis": {
+					"recipe": "file(iron_aspis_recipe.json)"
+				},
+				"steel_aspis": {
+					"recipe": "file(steel_aspis_recipe.json)"
 				}
 			}
 		}				
