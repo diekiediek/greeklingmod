@@ -186,8 +186,7 @@
                "description": "If you die now it's really your problem"
             }
          }
-		 }
-			},
+		 },
 	"weapons": {
 		"stone_spear": {
             "display_name": "Stone Spear",
@@ -221,6 +220,7 @@
                "description": "For poking bigger holes"
             }
          }
+		 }
 		 },
 "jobs" : {
 	"carpenter": {
@@ -249,7 +249,8 @@
                "display_name": "Olive Press",
                "description": "Used by the cook to extract oil from olives."
             }
-         },
+         }
+		 },
 	"herbalist": {
 		"herbalist_staff": {
             "display_name": "Herbalist Staff",
