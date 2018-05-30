@@ -41,19 +41,19 @@
 	  "plants:olive_tree:seed"					: "file(entities/plants/olive_tree/seed/olive_tree_seed.json)",
 	  "plants:olive_tree:sprout"				: "file(entities/plants/olive_tree/sprout/olive_tree_sprout.json)",
 	  "plants:olive_tree:stem"					: "file(entities/plants/olive_tree/stem/olive_tree_stem.json)",
-	  "wooden_aspis"						: "file(entities/armor/wooden_aspis/wooden_aspis.json)",
-	  "bronze_aspis"						: "file(entities/armor/bronze_aspis/bronze_aspis.json)",
-	  "iron_aspis"							: "file(entities/armor/iron_aspisp/iron_aspis.json)",
-	  "steel_aspis"							: "file(entities/armor/steel_aspisp/steel_aspis.json)",
-	  "stone_spear"							: "file(entities/weapons/stone_spear/stone_spear.json)",
-	  "bronze_spear"						: "file(entities/weapons/bronze_spear/bronze_spear.json)",
-	  "iron_spear"							: "file(entities/weapons/iron_spear/iron_spear.json)",
-	  "steel_spear"							: "file(entities/weapons/steel_spear/steel_spear.json)",
-	  "cook_press"							: "file(jobs/cook/cook_press/cook_press.json)"
-	  "cloth_armour"						: "file(entities/armor/cloth_armour/cloth_armour.json)",
-	  "leather_armour"						: "file(entities/armor/leather_armour/leather_armour.json)",
-	  "iron_armour"							: "file(entities/armor/iron_armour/iron_armour.json)",
-	  "steel_armour"						: "file(entities/armor/steel_armour/steel_armour.json)"
+	  "wooden_aspis"							: "file(entities/armor/wooden_aspis/wooden_aspis.json)",
+	  "bronze_aspis"							: "file(entities/armor/bronze_aspis/bronze_aspis.json)",
+	  "iron_aspis"								: "file(entities/armor/iron_aspisp/iron_aspis.json)",
+	  "steel_aspis"								: "file(entities/armor/steel_aspisp/steel_aspis.json)",
+	  "stone_spear"								: "file(entities/weapons/stone_spear/stone_spear.json)",
+	  "bronze_spear"							: "file(entities/weapons/bronze_spear/bronze_spear.json)",
+	  "iron_spear"								: "file(entities/weapons/iron_spear/iron_spear.json)",
+	  "steel_spear"								: "file(entities/weapons/steel_spear/steel_spear.json)",
+	  "cook_press"								: "file(jobs/cook/cook_press/cook_press.json)"
+	  "cloth_armour"							: "file(entities/armor/cloth_armour/cloth_armour.json)",
+	  "leather_armour"							: "file(entities/armor/leather_armour/leather_armour.json)",
+	  "iron_armour"								: "file(entities/armor/iron_armour/iron_armour.json)",
+	  "steel_armour"							: "file(entities/armor/steel_armour/steel_armour.json)"
    }, 
    "mixintos" : {
       "stonehearth:playable_kingdom_index"							: "file(data/greeklings_playable_kingdom_index.json)",
