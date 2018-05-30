@@ -5,18 +5,22 @@
    "recipe_name": "i18n(greeklingmod:jobs.mason.recipes.stone_spear_recipe.recipe_name)",
    "description": "i18n(greeklingmod:jobs.mason.recipes.stone_spear_recipe_recipe.description)",
    "flavor": "i18n(greeklingmod:jobs.mason.recipes.stone_spear_recipe.flavor)",
-   "portrait": "/stonehearth/entities/weapons/stone_maul/stone_maul.png",
+   "portrait": "/stonehearth/entities/weapons/stone_spear/stone_spear.png",
    "workshop": "stonehearth:mason:workbench",
    "level_requirement": 2,
    "ingredients": [
       {
          "material": "stone resource",
-         "count": 2
+         "count": 1
+      },
+	  {
+         "material": "wood resource",
+         "count": 1
       }
    ],
    "produces": [
       {
-         "item": "greeklingmod:weapons:stone_maul"
+         "item": "greeklingmod:stone_spear"
       }
    ]
 }
