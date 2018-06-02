@@ -9,16 +9,16 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(head.qb)",
-               "file(body.qb)",
-               "file(eyes.qb)"
+               "/stonehearth/entities/humans/female/head.qb)",
+               "/greeklingmod/entities/humans/female/body.qb)",
+               "/stonehearth/entities/humans/female/eyes.qb)"
             ]
          }
       }
    },
    "entity_data": {
       "stonehearth:customization_variants": {
-         "customization_options": "stonehearth:humans:female:customizations",
+         "customization_options": "/stonehearth/entities/humans/female/female_customizations.json",
          "root": {
             "hair_and_skin_color": {
                "weights": {

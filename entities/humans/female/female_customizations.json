@@ -86,28 +86,28 @@
                "file": ""
             },
             "female_hair_1": {
-               "file": "file(hair_1.qb)"
+               "file": "/stonehearth/entities/humans/female/hair_1.qb"
             },
             "female_hair_2": {
-               "file": "file(hair_2.qb)"
+               "file": "/stonehearth/entities/humans/female/hair_2.qb"
             },
             "female_hair_3": {
-               "file": "file(hair_3.qb)"
+               "file": "/stonehearth/entities/humans/female/hair_3.qb"
             },
             "female_hair_4": {
-               "file": "file(hair_4.qb)"
+               "file": "/stonehearth/entities/humans/female/hair_4.qb"
             },
             "female_hair_5": {
-               "file": "file(hair_5.qb)"
+               "file": "/stonehearth/entities/humans/female/hair_5.qb"
             },
             "female_hair_6": {
-               "file": "file(hair_6.qb)"
+               "file": "/stonehearth/entities/humans/female/hair_6.qb"
             },
             "female_hair_7": {
-               "file": "file(hair_7.qb)"
+               "file": "/stonehearth/entities/humans/female/hair_7.qb"
             },
             "female_hair_8": {
-               "file": "file(hair_8.qb)"
+               "file": "/stonehearth/entities/humans/female/hair_8.qb"
             }
          }
       }

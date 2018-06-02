@@ -87,17 +87,17 @@
                "file": ""
             },
             "beard_chin": {
-               "file": "file(chin_beard.qb)"
+               "file": "/stonehearth/entities/humans/male/chin_beard.qb"
             },
             "chops": {
-               "file": "file(chops.qb)"
+               "file": "/stonehearth/entities/humans/male/chops.qb"
             },
             "beard": {
-               "file": "file(beard.qb)"
+               "file": "/stonehearth/entities/humans/male/beard.qb"
             },
             "beard_epic": {
                "hidden": true,
-               "file": "file(beard_epic.qb)"
+               "file": "/stonehearth/entities/humans/male/beard_epic.qb"
             }
          }
       },
@@ -108,7 +108,7 @@
                "file": ""
             },
             "straight_eyebrows": {
-               "file": "file(brows.qb)"
+               "file": "/stonehearth/entities/humans/male/brows.qb"
             }
          }
       },
@@ -119,22 +119,22 @@
                "file": ""
             },
             "male_hair_1": {
-               "file": "file(hair_1.qb)"
+               "file": "/stonehearth/entities/humans/male/hair_1.qb"
             },
             "male_hair_2": {
-               "file": "file(hair_2.qb)"
+               "file": "/stonehearth/entities/humans/male/hair_2.qb"
             },
             "male_hair_3": {
-               "file": "file(hair_3.qb)"
+               "file": "/stonehearth/entities/humans/male/hair_3.qb"
             },
             "male_hair_4": {
-               "file": "file(hair_4.qb)"
+               "file": "/stonehearth/entities/humans/male/hair_4.qb"
             },
             "male_hair_old_1": {
-               "file": "file(hair_old_1.qb)"
+               "file": "/stonehearth/entities/humans/male/hair_old_1.qb"
             },
             "male_hair_old_2": {
-               "file": "file(hair_old_2.qb)"
+               "file": "/stonehearth/entities/humans/male/hair_old_2.qb"
             },
             "male_head_bald_1": {
                "file": "rayyas_children/entities/humans/male_2/head_bald_1.qb"

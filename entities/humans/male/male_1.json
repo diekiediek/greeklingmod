@@ -8,16 +8,16 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(head.qb)",
-               "file(body.qb)",
-               "file(eyes.qb)"
+               "/stonehearth/entities/humans/male/head.qb",
+               "/stonehearth/entities/humans/male/body.qb",
+               "/stonehearth/entities/humans/male/eyes.qb"
             ]
          }
       }
    },
    "entity_data": {
       "stonehearth:customization_variants": {
-         "customization_options": "stonehearth:humans:male:customizations",
+         "customization_options": "/greeklingmod/entities/humans/male/male_customizations.json",
          "root": {
             "hair_and_skin_color": {
                "weights": {
