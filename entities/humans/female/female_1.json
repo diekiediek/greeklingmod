@@ -9,9 +9,9 @@
       "model_variants": {
          "default": {
             "models": [
-               "/stonehearth/entities/humans/female/head.qb)",
-               "/greeklingmod/entities/humans/female/body.qb)",
-               "/stonehearth/entities/humans/female/eyes.qb)"
+               "/stonehearth/entities/humans/female/head.qb",
+               "/greeklingmod/entities/humans/female/body.qb",
+               "/stonehearth/entities/humans/female/eyes.qb"
             ]
          }
       }
