@@ -41,6 +41,7 @@
 	  "plants:olive_tree:seed"					: "file(entities/plants/olive_tree/seed/olive_tree_seed.json)",
 	  "plants:olive_tree:sprout"				: "file(entities/plants/olive_tree/sprout/olive_tree_sprout.json)",
 	  "plants:olive_tree:stem"					: "file(entities/plants/olive_tree/stem/olive_tree_stem.json)",
+	  "bronze_helmet"							: "file(entities/armor/bronze_helmet/bronze_helmet.json)",
 	  "wooden_aspis"							: "file(entities/armor/wooden_aspis/wooden_aspis.json)",
 	  "bronze_aspis"							: "file(entities/armor/bronze_aspis/bronze_aspis.json)",
 	  "iron_aspis"								: "file(entities/armor/iron_aspis/iron_aspis.json)",
