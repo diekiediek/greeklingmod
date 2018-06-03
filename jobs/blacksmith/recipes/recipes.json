@@ -11,6 +11,9 @@
 				},
 				"steel_aspis": {
 					"recipe": "file(steel_aspis_recipe.json)"
+				},
+				"bronze_helmet": {
+					"recipe": "file(bronze_helmet_recipe.json)"
 				}
 			}
 		},

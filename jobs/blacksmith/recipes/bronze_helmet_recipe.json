@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 60,
+   "work_units": 5,
+   "recipe_name": "i18n(greeklingmod:jobs.blacksmith.recipes.bronze_helmet_recipe.recipe_name)",
+   "description": "i18n(greeklingmod:jobs.blacksmith.recipes.bronze_helmet_recipe.description)",
+   "flavor": "i18n(greeklingmod:jobs.blacksmith.recipes.bronze_helmet_recipe.flavor)",
+   "portrait": "/greeklingmod/entities/armor/bronze_helmet/bronze_helmet.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:bronze_ingot",
+         "count": 2
+      },
+      {
+         "material": "thread resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "greeklingmod:bronze_helmet"
+      }
+   ]
+}
