@@ -15,7 +15,7 @@
             ]
          }
       },
-	  "greeklingmodS:equipment_piece": {
+	  "greeklingmod:equipment_piece": {
          "slot": "torso",
          "render_type": "merge_with_model"
       }
