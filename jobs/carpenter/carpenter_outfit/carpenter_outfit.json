@@ -1,28 +1,33 @@
 {
-   "mixins": "/stonehearth/jobs/carpenter/carpenter_outfit/carpenter_outfit.json",
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
    "components": {
+      "render_info": {},
       "model_variants": {
          "default": {
             "layer": "clothing",
             "models": [
-               "file(carpenter_outfit.qb)"
+               "/greeklingmod/jobs/carpenter/carpenter_outfit/carpenter_outfit.qb"
             ]
          },
          "female": {
             "layer": "clothing",
+            "transparent": false,
             "models": [
-               "file(carpenter_outfit_female.qb)"
+               "/greeklingmod/jobs/carpenter/carpenter_outfit/carpenter_outfit_female.qb"
             ]
          }
       },
-	  "greeklingmod:equipment_piece": {
+      "stonehearth:equipment_piece": {
          "slot": "torso",
          "render_type": "merge_with_model"
       }
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "icon": "file(carpenter_outfit.png)"
+         "display_name": "i18n(greeklingmod:jobs.carpenter.carpenter_outfit.display_name)",
+         "description": "i18n(greeklingmod:jobs.carpenter.carpenter_outfit.description)",
+         "icon": "/greeklingmod/jobs/carpenter/carpenter_outfit/carpenter_outfit.png)"
       }
    }
 }
