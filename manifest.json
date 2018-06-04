@@ -13,6 +13,7 @@
 	  "farmer_initial_crops"					: "file(data/greeklings_initial_crops.json)",	  
 	  "jobs:index"								: "file(jobs/index.json)",
 	  "worker:outfit"							: "file(jobs/worker/worker_outfit)",
+	  "carpenter:outfit"						: "file(jobs/carpenter/carpenter_outfit)",
 	  "footman:outfit"							: "file(jobs/footman/footman_outfit/footman_outfit.json)",
 	  "herbalist:staff"							: "file(jobs/herbalist/herbalist_staff)",
 	  "jobs:worker"								: "file(jobs/worker/greeklings_worker_description.json)",

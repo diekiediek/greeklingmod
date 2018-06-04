@@ -1,0 +1,28 @@
+{
+   "mixins": "stonehearth:mixins:carpenter_outfit",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "models": [
+               "file(carpenter_outfit.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "models": [
+               "file(carpenter_outfit_female.qb)"
+            ]
+         }
+      },
+	  "greeklingmodS:equipment_piece": {
+         "slot": "torso",
+         "render_type": "merge_with_model"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "icon": "file(carpenter_outfit.png)"
+      }
+   }
+}

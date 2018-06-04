@@ -1,7 +1,11 @@
 {
    "type": "job",
    "mixins": "stonehearth:jobs:carpenter",
-   "crafter": {
+   "equipment": {
+      "torso": "file(carpenter_outfit)",
+      "mainhand": "stonehearth:carpenter:saw"
+   },
+  "crafter": {
       "recipe_list": "/greeklingmod/jobs/carpenter/recipes/recipes.json"
    }
 }
