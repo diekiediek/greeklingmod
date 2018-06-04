@@ -1,5 +1,5 @@
 {
-   "mixins": "stonehearth:mixins:carpenter_outfit",
+   "mixins": "/stonehearth/jobs/carpenter/carpenter_outfit/carpenter_outfit.json",
    "components": {
       "model_variants": {
          "default": {
