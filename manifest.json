@@ -14,6 +14,7 @@
 	  "jobs:index"								: "file(jobs/index.json)",
 	  "worker:outfit"							: "file(jobs/worker/worker_outfit)",
 	  "carpenter:outfit"						: "file(jobs/carpenter/carpenter_outfit)",
+	  "blacksmith:outfit"						: "file(jobs/blacksmith/blacksmith_outfit)", 
 	  "footman:outfit"							: "file(jobs/footman/footman_outfit/footman_outfit.json)",
 	  "herbalist:staff"							: "file(jobs/herbalist/herbalist_staff)",
 	  "jobs:worker"								: "file(jobs/worker/greeklings_worker_description.json)",
