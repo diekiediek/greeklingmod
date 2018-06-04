@@ -1,6 +1,11 @@
 {
    "type": "job",
    "mixins": "stonehearth:jobs:blacksmith",
+   
+   "equipment": {
+      "torso": "file(blacksmith_outfit)",
+      "mainhand": "stonehearth:blacksmith:hammer"
+   },
    "crafter": {
       "recipe_list": "/greeklingmod/jobs/blacksmith/recipes/recipes.json"
    }
