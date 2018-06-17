@@ -30,10 +30,10 @@
          ]
       },
       "stonehearth:renewable_resource_node": {
-         "resource": "greekmod:food:olives:olive_basket",
+         "resource": "greeklingmod:food:olives:olive_basket",
          "category": "harvest",
          "renewal_time": "22h+2h",
-         "unripe_description": "i18n(greekmod:entities.plants.olive_tree.unripe_description)",
+         "unripe_description": "i18n(greeklingmod:entities.plants.olive_tree.unripe_description)",
          "harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect",
          "resource_loot_table": {
             "entries": {
@@ -48,7 +48,7 @@
                         "weight": 4
                      },
                      "pelt": {
-                        "uri": "greekmod:plants:olive_tree:seed",
+                        "uri": "greeklingmod:plants:olive_tree:seed",
                         "weight": 1
                      }
                   }

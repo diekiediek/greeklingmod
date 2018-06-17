@@ -24,7 +24,7 @@
    "entity_data": {
       "stonehearth:food_container": {
          "effect": "fiddle",
-         "food": "greekmod:food:olives:olive_serving"
+         "food": "greeklingmod:food:olives:olive_serving"
       },
       "stonehearth:net_worth": {
          "value_in_gold": 2,
@@ -37,8 +37,8 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(greekmod:entities.food.olives.olive_basket.display_name)",
-         "description": "i18n(greekmod:entities.food.olives.olive_basket.description)",
+         "display_name": "i18n(greeklingmod:entities.food.olives.olive_basket.display_name)",
+         "description": "i18n(greeklingmod:entities.food.olives.olive_basket.description)",
          "icon": "file(olive_basket.png)",
          "is_item": true,
          "category": "food",

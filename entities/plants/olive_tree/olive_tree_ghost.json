@@ -19,8 +19,8 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(greekmod:entities.plants.olive_tree.display_name)",
-         "description": "i18n(greekmod:entities.plants.olive_tree.description)",
+         "display_name": "i18n(greeklingmod:entities.plants.olive_tree.display_name)",
+         "description": "i18n(greeklingmod:entities.plants.olive_tree.description)",
          "icon": "file(olive_tree.png)",
          "category": "plants",
          "material_tags": "plant stockpile_plant",

@@ -53,13 +53,13 @@
    },
    "entity_data": {
       "stonehearth:evolve_data": {
-         "next_stage": "greekmod:plants:olive_tree:stem",
+         "next_stage": "greeklingmod:plants:olive_tree:stem",
          "evolve_time": "15h+2h"
       },
       "stonehearth:catalog": {
          "material_tags": "stockpile_plant",
-         "display_name": "i18n(greekmod:entities.plants.olive_tree.sprout.olive_tree_sprout.display_name)",
-         "description": "i18n(greekmod:entities.plants.olive_tree.sprout.olive_tree_sprout.description)",
+         "display_name": "i18n(greeklingmod:entities.plants.olive_tree.sprout.olive_tree_sprout.display_name)",
+         "description": "i18n(greeklingmod:entities.plants.olive_tree.sprout.olive_tree_sprout.description)",
          "category": "plants"
       },
       "stonehearth:appeal": {

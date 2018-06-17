@@ -24,8 +24,8 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(greekmod:entities.plants.olive_tree.seed.olive_tree_seed_ghost.display_name)",
-         "description": "i18n(greekmod:entities.plants.olive_tree.seed.olive_tree_seed_ghost.description)",
+         "display_name": "i18n(greeklingmod:entities.plants.olive_tree.seed.olive_tree_seed_ghost.display_name)",
+         "description": "i18n(greeklingmod:entities.plants.olive_tree.seed.olive_tree_seed_ghost.description)",
          "icon": "file(olive_tree_seed.png)",
          "category": "seed"
       }
