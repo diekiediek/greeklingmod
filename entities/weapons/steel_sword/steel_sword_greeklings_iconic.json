@@ -1,0 +1,22 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(steel_sword_greekling.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.weapons.steel_sword_greekling.steel_sword_greekling_iconic.display_name)",
+         "description": "i18n(nordlingmod:entities.weapons.steel_sword_greekling.steel_sword_greekling_iconic.description)",
+         "icon": "file(steel_sword_greekling.png)",
+         "is_item": true,
+         "category": "weapons"
+      }
+   }
+}

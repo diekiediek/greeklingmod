@@ -1,0 +1,82 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(steel_sword_greekling_equipped.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(steel_sword_greekling_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "mainhand",
+		 "additional_equipment": {
+            "nordlingmod:sword_sheeth": true
+         },
+         "render_type": "attach_to_bone",
+         "postures": [
+            "stonehearth:combat",
+            "stonehearth:patrol"
+         ],
+         "ilevel": 18,
+         "roles": "footman_job",
+         "required_job_level": 1,
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:weapon_data": {
+         "base_damage": 18,
+         "reach": 1.8
+      },
+      "stonehearth:combat:melee_attacks": [
+         {
+            "name": "combat_1h_backhand",
+            "effect": "combat_1h_backhand",
+            "active_frame": 17,
+            "cooldown": 0,
+            "priority": 0,
+            "aggro_multiplier": 3.0
+         },
+         {
+            "name": "combat_1h_forehand",
+            "effect": "combat_1h_forehand",
+            "active_frame": 16,
+            "cooldown": 0,
+            "priority": 0,
+            "aggro_multiplier": 3.0
+         }
+      ],
+      "stonehearth:combat:melee_defenses": [
+         {
+            "name": "combat_1h_parry",
+            "effect": "combat_1h_parry",
+            "active_frame": 4,
+            "cooldown": 8000,
+            "priority": 0,
+            "chance_of_success": 0.75
+         }
+      ],
+      "stonehearth:net_worth": {
+         "value_in_gold": 70,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 3,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.weapons.steel_sword_greekling.display_name)",
+         "description": "i18n(nordlingmod:entities.weapons.steel_sword_greekling.description)",
+         "icon": "file(steel_sword_greekling.png)",
+         "category": "weapons",
+         "material_tags": "steel melee_weapon crafted stockpile_weapon"
+      }
+   }
+}
