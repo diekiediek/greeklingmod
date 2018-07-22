@@ -1,0 +1,33 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "render_info": {},
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "models": [
+               "/greeklingmod/jobs/shepherd/shepherd_outfit/shepherd_outfit.qb"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "transparent": false,
+            "models": [
+               "/greeklingmod/jobs/shepherd/shepherd_outfit/shepherd_outfit_female.qb"
+            ]
+         }
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "torso",
+         "render_type": "merge_with_model"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(greeklingmod:jobs.shepherd.shepherd_outfit.display_name)",
+         "description": "i18n(greeklingmod:jobs.shepherd.shepherd_outfit.description)",
+         "icon": "/greeklingmod/jobs/shepherd/shepherd_outfit/shepherd_outfit.png)"
+      }
+   }
+}

@@ -27,6 +27,15 @@
     },
 		"stonehearth:jobs:footman": {
          "description": "greeklingmod:jobs:footman"
+    },
+		"stonehearth:jobs:shepherd": {
+         "description": "greeklingmod:jobs:shepherd"
+    },
+		"stonehearth:jobs:trapper": {
+         "description": "greeklingmod:jobs:trapper"
+    },
+		"stonehearth:jobs:archer": {
+         "description": "greeklingmod:jobs:archer"
     }
     }
 }

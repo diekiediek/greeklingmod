@@ -1,0 +1,8 @@
+{
+   "type": "job",
+   "mixins": "stonehearth:jobs:archer",
+   "equipment": {
+      "torso": "file(archer_outfit)",
+      
+   }
+  }

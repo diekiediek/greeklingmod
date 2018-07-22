@@ -1,6 +1,11 @@
 {
    "type": "job",
    "mixins": "stonehearth:jobs:weaver",
+   
+   "equipment": {
+      "torso": "file(weaver_outfit)",
+	  },
+   
    "crafter": {
       "recipe_list": "/greeklingmod/jobs/weaver/recipes/recipes.json"
    }

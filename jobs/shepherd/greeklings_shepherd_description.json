@@ -1,0 +1,8 @@
+{
+   "type": "job",
+   "mixins": "stonehearth:jobs:shepherd",
+   "equipment": {
+      "torso": "file(shepherd_outfit)",
+   }
+  
+}
