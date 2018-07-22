@@ -58,8 +58,10 @@
 	  "leather_armour"							: "file(entities/armor/leather_armour/leather_armour.json)",
 	  "iron_armour"								: "file(entities/armor/iron_armour/iron_armour.json)",
 	  "steel_armour"							: "file(entities/armor/steel_armour/steel_armour.json)",
-	  "cook_press"								: "file(jobs/cook/cook_press/cook_press.json)"
-	  
+	  "cook_press"								: "file(jobs/cook/cook_press/cook_press.json)",
+	  "bronze_sword_greeklings"					: "file(entities/weapons/bronze_sword_greeklings/bronze_sword_greeklings.json)",
+	  "iron_sword_greeklings"					: "file(entities/weapons/iron_sword_greeklings/iron_sword_greeklings.json)",
+	  "steel_sword_greeklings"					: "file(entities/weapons/steel_sword_greeklings/steel_sword_greeklings.json)"
    }, 
    "mixintos" : {
       "stonehearth:playable_kingdom_index"							: "file(data/greeklings_playable_kingdom_index.json)",

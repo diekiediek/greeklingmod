@@ -5,12 +5,12 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(iron_sword_greekling_equipped.qb)"
+               "file(bronze_sword_greeklings_equipped.qb)"
             ]
          }
       },
       "stonehearth:entity_forms": {
-         "iconic_form": "file(iron_sword_greekling_iconic.json)"
+         "iconic_form": "file(bronze_sword_greeklings_iconic.json)"
       },
       "stonehearth:equipment_piece": {
          "slot": "mainhand",
@@ -72,11 +72,11 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(nordlingmod:entities.weapons.iron_sword_greekling.display_name)",
-         "description": "i18n(nordlingmod:entities.weapons.iron_sword_greekling.description)",
-         "icon": "file(iron_sword_greekling.png)",
+         "display_name": "i18n(nordlingmod:entities.weapons.bronze_sword_greeklings.display_name)",
+         "description": "i18n(nordlingmod:entities.weapons.bronze_sword_greeklings.description)",
+         "icon": "file(bronze_sword_greeklings.png)",
          "category": "weapons",
-         "material_tags": "iron melee_weapon crafted stockpile_weapon"
+         "material_tags": "bronze melee_weapon crafted stockpile_weapon"
       }
    }
 }

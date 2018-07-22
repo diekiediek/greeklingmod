@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 120,
+   "work_units": 5,
+   "recipe_name": "i18n(greeklingmod:jobs.blacksmith.recipes.steel_sword_greeklings.recipe_name)",
+   "description": "i18n(greeklingmod:jobs.blacksmith.recipes.steel_sword_greeklings.description)",
+   "flavor": "i18n(greeklingmod:jobs.blacksmith.recipes.steel_sword_greeklings.flavor)",
+   "portrait": "/greeklingmod/entities/weapons/steel_sword_greeklings/steel_sword_greeklings.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 3
+      }
+   ],
+   "produces": [
+      {
+         "item": "greeklingmod:steel_sword_greeklings"
+      }
+   ]
+}

@@ -22,20 +22,20 @@
 				"bronze_spear": {
 					"recipe": "file(bronze_spear_recipe.json)"
 				},
-				"bronze_sword_greekling": {
-					"recipe": "file(bronze_sword_greekling_recipe.json)"
+				"bronze_sword_greeklings": {
+					"recipe": "file(bronze_sword_greeklings_recipe.json)"
 				},
 				"iron_spear": {
 					"recipe": "file(iron_spear_recipe.json)"
 				},
-				"iron_sword_greekling": {
-					"recipe": "file(iron_sword_greekling_recipe.json)"
+				"iron_sword_greeklings": {
+					"recipe": "file(iron_sword_greeklings_recipe.json)"
 				},
 				"steel_spear": {
 					"recipe": "file(steel_spear_recipe.json)"
 				},
-				"steel_sword_greekling": {
-					"recipe": "file(steel_sword_greekling_recipe.json)"
+				"steel_sword_greeklings": {
+					"recipe": "file(steel_sword_greeklings_recipe.json)"
 				}
 			}
 		}	
