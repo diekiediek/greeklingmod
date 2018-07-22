@@ -16,6 +16,8 @@
 	  "carpenter:outfit"						: "file(jobs/carpenter/carpenter_outfit)",
 	  "blacksmith:outfit"						: "file(jobs/blacksmith/blacksmith_outfit)", 
 	  "footman:outfit"							: "file(jobs/footman/footman_outfit/footman_outfit.json)",
+	  "cook:outfit"								: "file(jobs/cook/cook_outfit/cook_outfit.json)",
+	  "herbalist:outfit"						: "file(jobs/herbalist/herbalist_outfit/herbalist_outfit.json)",
 	  "herbalist:staff"							: "file(jobs/herbalist/herbalist_staff)",
 	  "jobs:worker"								: "file(jobs/worker/greeklings_worker_description.json)",
 	  "jobs:carpenter"							: "file(jobs/carpenter/greeklings_carpenter_description.json)",

@@ -7,13 +7,14 @@
          "default": {
             "layer": "clothing",
             "models": [
-               "/greeklingmod/jobs/blacksmith/blacksmith_outfit/blacksmith_outfit.qb"
+               "/greeklingmod/jobs/herbalist/herbalist_outfit/herbalist_outfit.qb"
             ]
          },
          "female": {
             "layer": "clothing",
+            "transparent": false,
             "models": [
-               "/greeklingmod/jobs/blacksmith/blacksmith_outfit/blacksmith_outfit_female.qb"
+               "/greeklingmod/jobs/herbalist/herbalist_outfit/herbalist_outfit_female.qb"
             ]
          }
       },
@@ -24,9 +25,9 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(greeklingmod:jobs.blacksmith.blacksmith_outfit.display_name)",
-         "description": "i18n(greeklingmod:jobs.blacksmith.blacksmith_outfit.description)",
-         "icon": "/greeklingmod/jobs/blacksmith/blacksmith_outfit/blacksmith_outfit.png)"
+         "display_name": "i18n(greeklingmod:jobs.herbalist.herbalist_outfit.display_name)",
+         "description": "i18n(greeklingmod:jobs.herbalist.herbalist_outfit.description)",
+         "icon": "/greeklingmod/jobs/herbalist/herbalist_outfit/herbalist_outfit.png)"
       }
    }
 }

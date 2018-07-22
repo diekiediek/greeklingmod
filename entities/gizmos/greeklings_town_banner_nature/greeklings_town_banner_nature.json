@@ -36,13 +36,13 @@
       "stonehearth:net_worth": {
          "value_in_gold": 0,
          "rarity": "common",
-         "shop_info": {
+         "shop_info": {S
             "buyable": false,
             "sellable": false
          }
       },
       "stonehearth:appeal": {
-         "appeal": 0
+         "appeal": 2
       },
       "stonehearth:reembarkation": {
          "reembark_version": "greeklingmod:banner:vitality:token"
