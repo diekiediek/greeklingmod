@@ -17,10 +17,13 @@
          "description": "greeklingmod:jobs:carpenter"
     },
 	  "stonehearth:jobs:mason": {
-         "description": "greeklingmod:jobs:mason",
+         "description": "greeklingmod:jobs:mason"
 	},
 	  "stonehearth:jobs:weaver": {
          "description": "greeklingmod:jobs:weaver"
+	},	
+	  "stonehearth:jobs:farmer": {
+         "description": "greeklingmod:jobs:farmer"
       }
     }
 }

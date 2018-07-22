@@ -1,0 +1,11 @@
+{
+   "type": "job",
+   "mixins": "stonehearth:jobs:cleric",
+   "equipment": {
+      "torso": "file(cleric_outfit)",
+      "mainhand": "stonehearth:weapons:tome"
+   },
+  "crafter": {
+      "recipe_list": "/greeklingmod/jobs/cleric/recipes/recipes.json"
+   }
+}
