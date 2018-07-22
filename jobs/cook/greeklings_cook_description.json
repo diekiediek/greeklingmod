@@ -1,6 +1,10 @@
 {
    "type": "job",
    "mixins": "stonehearth:jobs:cook",
+   
+   "equipment": {
+      "torso": "file(cook_outfit)",
+   },
    "crafter": {
       "recipe_list": "/greeklingmod/jobs/cook/recipes/recipes.json"
    }

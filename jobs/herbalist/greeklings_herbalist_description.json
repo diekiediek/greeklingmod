@@ -1,6 +1,8 @@
 {
+	"type": "job",
    "mixins": "stonehearth:jobs:herbalist",
    "equipment": {
+		"torso": "file(herbalist_outfit)",
 	  "mainhand": "greeklingmod:herbalist:staff"
    }
 }
