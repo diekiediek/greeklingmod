@@ -1,6 +1,11 @@
 {
    "type": "job",
    "mixins": "stonehearth:jobs:mason",
+   
+   "equipment": {
+      "torso": "file(mason_outfit)"
+	},
+   
    "crafter": {
       "recipe_list": "/greeklingmod/jobs/mason/recipes/recipes.json"
    }

@@ -24,7 +24,10 @@
 	},	
 	  "stonehearth:jobs:farmer": {
          "description": "greeklingmod:jobs:farmer"
-      }
+    },
+		"stonehearth:jobs:footman": {
+         "description": "greeklingmod:jobs:footman"
+    }
     }
 }
 
