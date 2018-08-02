@@ -1,0 +1,113 @@
+{
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(grapevine_crop_4.qb)"
+            ]
+         },
+         "grapevine_crop_1": {
+            "models": [
+               "file(grapevine_crop_1.qb)"
+            ]
+         },
+         "grapevine_crop_2": {
+            "models": [
+               "file(grapevine_crop_2.qb)"
+            ]
+         },
+         "grapevine_crop_3": {
+            "models": [
+               "file(grapevine_crop_3.qb)"
+            ]
+         },
+         "grapevine_crop_4": {
+            "models": [
+               "file(grapevine_crop_4.qb)"
+            ]
+         },
+         "grapevine_crop_12": {
+            "models": [
+               "file(grapevine_crop_12.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.13
+      },
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": 0.05 },
+         "mob_collision_type": "clutter"
+      },
+      "stonehearth:crop": {
+         "resource_pairings": {
+            "grapevine_crop_4": "nordlingmod:food:grape:grape_basket",
+            "grapevine_crop_12": ""
+         },
+         "harvest_threshhold": "grapevine_crop_4",
+         "plant_overlay_effect": "stonehearth:effects:plant_crop_overlay_effect"
+      },
+      "stonehearth:growing": {
+         "growth_period": "18h",
+         "preferred_seasons": {
+            "stonehearth:biome:temperate": ["spring", "summer", "autumn"],
+            "stonehearth:biome:desert": ["spring", "summer", "autumn"],
+            "stonehearth:biome:arctic": ["summer"]
+         },
+         "growth_stages": [
+            {
+               "model_name": "grapevine_crop_1",
+               "name": "i18n(stonehearth:entities.crops.grapevine_crop.growth_stage.000.name)",
+               "description": "i18n(stonehearth:entities.crops.grapevine_crop.growth_stage.000.description)"
+            },
+            {
+               "model_name": "grapevine_crop_2",
+               "name": "i18n(stonehearth:entities.crops.grape_crop.growth_stage.001.name)",
+               "description": "i18n(stonehearth:entities.crops.grape_crop.growth_stage.001.description)"
+            },
+            {
+               "model_name": "grapevine_crop_3",
+               "name": "i18n(stonehearth:entities.crops.grape_crop.growth_stage.002.name)",
+               "description": "i18n(stonehearth:entities.crops.grape_crop.growth_stage.002.description)"
+            },
+            {
+               "model_name": "grapevine_crop_4",
+               "name": "i18n(stonehearth:entities.crops.grape_crop.growth_stage.003.name)",
+               "description": "i18n(stonehearth:entities.crops.grape_crop.growth_stage.003.description)"
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+               "model_name": "grapevine_crop_12",
+               "name": "i18n(stonehearth:entities.crops.grape_crop.growth_stage.011.name)",
+               "description": "i18n(stonehearth:entities.crops.grape_crop.growth_stage.011.description)"
+            }
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 2,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(stonehearth:entities.crops.grape_crop.display_name)",
+         "description": "i18n(stonehearth:entities.crops.grape_crop.description)",
+         "icon": "file(icon.png)",
+         "material_tags": "crop grape"
+      },
+      "stonehearth:appeal": {
+         "appeal": 1
+      }
+   }
+}

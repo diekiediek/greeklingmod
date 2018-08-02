@@ -1,0 +1,52 @@
+{
+   "mixins": "stonehearth:mixins:food_decay",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(grape_basket.qb)"
+            ]
+         },
+         "decay_1": {
+            "models": [
+               "file(grape_basket_rotting.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0.05 }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 3
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "effect": "fiddle",
+         "food": "stonehearth:food:grapes:grape_serving"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 2,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(stonehearth:entities.food.berries.grape_basket.display_name)",
+         "description": "i18n(stonehearth:entities.food.berries.grape_basket.description)",
+         "icon": "file(grape_basket.png)",
+         "is_item": true,
+         "category": "food",
+         "material_tags": "food_container raw_food fruit grape vegetarian stockpile_raw_food",
+         "subject_override": "nordlingmod:crops:grape_crop"
+      },
+      "stonehearth:appeal": {
+         "appeal": 0
+      }
+   }
+}
