@@ -1,27 +1,26 @@
 {
-"kingdom": {
+   "kingdom": {
       "kingdom_name": "Greeklings",
       "quote": "Small opportunities are often the beginning of great enterprises",
       "long_description": "The Greeklings as a great and varied people, trying to expand their civilisation all over this earth.",
       "post_selection_description": " A society of wise, brave Greeklings.",
       "initial_town_name": "Polis [str(town_number)]"
    },
- "data": {
+   "data": {
       "greeklings_population": {
          "display_name": "Greeklings"
       }
-	  },
-"entities" : {
-	"furniture" : {
-},
-	"gizmos": {
-		"greeklings_camp_standard": {
+   },
+   "entities": {
+      "furniture": {},
+      "gizmos": {
+         "greeklings_camp_standard": {
             "greeklings_camp_standard_ghost": {
                "display_name": "Camp Standard",
                "description": "Use to mark territory, civilizedly."
             }
-			},
-		"town_banner_guardian": {
+         },
+         "town_banner_guardian": {
             "town_banner_guardian_ghost": {
                "display_name": "Banner of Cunning",
                "description": "How you know you've come home.",
@@ -32,7 +31,7 @@
                "description": "A shred from the Banner of Cunning, carrying along its magic."
             }
          },
-		"town_banner_might": {
+         "town_banner_might": {
             "town_banner_might_ghost": {
                "display_name": "Banner of Strength",
                "description": "How you know you've come home",
@@ -43,7 +42,7 @@
                "description": "A shred from the Banner of Strength, carrying along its magic."
             }
          },
-		"town_banner_nature": {
+         "town_banner_nature": {
             "town_banner_nature_ghost": {
                "display_name": "Banner of Vitality",
                "description": "How you know you've come home",
@@ -54,23 +53,23 @@
                "description": "A shred from the Banner of Vitality, carrying along its magic."
             }
          }
-	},
-	"food" : {
-		"olives" : {
-			"olive_basket" : {
-				"display_name" : "Olive Basket",
-				"description" : "A basket full of olives",
-				"olive_basket_iconic": {
-					"display_name": "Olive Basket",
-					"description": "A basket full of olives"
-										}
-							},
-			"olive_serving": {
-				"display_name" : "Plate of Olives",
-				"description" : "A plate full of olives"
-							}
-					},
-		"olive_oil": {
+      },
+      "food": {
+         "olives": {
+            "olive_basket": {
+               "display_name": "Olive Basket",
+               "description": "A basket full of olives",
+               "olive_basket_iconic": {
+                  "display_name": "Olive Basket",
+                  "description": "A basket full of olives"
+               }
+            },
+            "olive_serving": {
+               "display_name": "Plate of Olives",
+               "description": "A plate full of olives"
+            }
+         },
+         "olive_oil": {
             "olive_oil": {
                "display_name": "Olive Oil",
                "description": "Use it to flavour your food or to style your hair!"
@@ -80,9 +79,9 @@
                "description": "Said to be very good for the digestion"
             }
          }
-			},
-	"plants" : {
-		"olive_tree": {
+      },
+      "plants": {
+         "olive_tree": {
             "display_name": "Olive  Tree",
             "description": "Harvestable for a tasty food supply.",
             "unripe_description": "Not yet ripe for harvest.",
@@ -110,10 +109,10 @@
                   "description": "Still growing!"
                }
             }
-					}
-		 },
-	"armor": {
-		"bronze_aspis": {
+         }
+      },
+      "armor": {
+         "bronze_aspis": {
             "display_name": "Bronze Aspis",
             "description": "Useful for blocking attacks",
             "bronze_aspis_iconic": {
@@ -121,7 +120,7 @@
                "description": "Useful for blocking attacks"
             }
          },
-		 "wooden_aspis": {
+         "wooden_aspis": {
             "display_name": "Wooden Aspis",
             "description": "Only a little useful for blocking attacks",
             "bronze_aspis_iconic": {
@@ -129,23 +128,31 @@
                "description": "Only a little useful for blocking attacks"
             }
          },
-		 "iron_aspis": {
+         "iron_aspis": {
             "display_name": "Iron Aspis",
             "description": "More useful for blocking attacks",
             "bronze_aspis_iconic": {
                "display_name": "Iron Shield",
                "description": "More Useful for blocking attacks"
+            },
+            "iron_aspis_iconic": {
+               "display_name": "Iron Aspis",
+               "description": "Iron Aspis. for protecting yourself with."
             }
          },
-		 "steel_aspis": {
+         "steel_aspis": {
             "display_name": "Steel Aspis",
             "description": "Very useful for blocking attacks",
             "bronze_aspis_iconic": {
                "display_name": "Steel Shield",
                "description": "Very useful for blocking attacks"
+            },
+            "steel_aspis_iconic": {
+               "display_name": "Steel Aspis",
+               "description": "Protective Steel dish, with a strap."
             }
          },
-		  "bronze_armor": {
+         "bronze_armor": {
             "display_name": "Bronze Armour",
             "description": "Armour",
             "bronze_breastplate_iconic": {
@@ -153,7 +160,7 @@
                "description": "Armourr"
             }
          },
-		 "cloth_armor": {
+         "cloth_armor": {
             "display_name": "Cloth Armour",
             "description": "It might not stop a sword but it will keep you warm",
             "cloth_armor_iconic": {
@@ -161,7 +168,7 @@
                "description": "It might not stop a sword but it will keep you warm"
             }
          },
-		 "iron_armor": {
+         "iron_armor": {
             "display_name": "Iron Armour",
             "description": "Armour that will really keep you safe",
             "iron_armor_iconic": {
@@ -169,7 +176,7 @@
                "description": "Armour that will really keep you safe"
             }
          },
-		  "leather_armor": {
+         "leather_armor": {
             "display_name": "Leather Armour",
             "description": "It will give you that post caveman feel",
             "leather_armor_iconic": {
@@ -177,7 +184,7 @@
                "description": "It will give you that post caveman feel"
             }
          },
-		 "steel_armor": {
+         "steel_armor": {
             "display_name": "Steel Armour",
             "description": "If you die now it's really your problem",
             "steel_armor_iconic": {
@@ -185,9 +192,9 @@
                "description": "If you die now it's really your problem"
             }
          }
-		 },
-	"weapons": {
-		"stone_spear": {
+      },
+      "weapons": {
+         "stone_spear": {
             "display_name": "Stone Spear",
             "description": "Perfect for close but not to close combat",
             "stone_spear_iconic": {
@@ -195,7 +202,7 @@
                "description": "For poking holes"
             }
          },
-		 "bronze_spear": {
+         "bronze_spear": {
             "display_name": "Bronze Spear",
             "description": "Perfect for close but not to close combat and ooh shiny!",
             "stone_spear_iconic": {
@@ -203,7 +210,7 @@
                "description": "For poking big holes"
             }
          },
-		 "steel_spear": {
+         "steel_spear": {
             "display_name": "Steel Spear",
             "description": "Perfect for close but not to close combat",
             "stone_spear_iconic": {
@@ -211,7 +218,7 @@
                "description": "For poking the biggest holes"
             }
          },
-		 "iron_spear": {
+         "iron_spear": {
             "display_name": "Iron Spear",
             "description": "Perfect for close but not to close combat",
             "iron_spear_iconic": {
@@ -219,39 +226,39 @@
                "description": "For poking bigger holes"
             }
          }
-	}
-},
-"jobs" : {
-	"carpenter": {
-		"recipes": {
-			"wooden_aspis_recipe": {
+      }
+   },
+   "jobs": {
+      "carpenter": {
+         "recipes": {
+            "wooden_aspis_recipe": {
                "description": "A typical Greek shield, it will protect you",
                "flavor": "Management not acountable for failure",
                "recipe_name": "Wooden Aspis"
-		}
-		}
-		},
-	"cook": {
-		"recipes":{
-			"olive_oil_recipe": {
+            }
+         }
+      },
+      "cook": {
+         "recipes": {
+            "olive_oil_recipe": {
                "description": "The oil pressed from olives",
                "recipe_name": "Olive Oil",
                "flavor": "Name me one thing you can't use olive oil for!"
             },
-			"cook_press_recipe": {
+            "cook_press_recipe": {
                "description": "For grinding olives into oil",
                "recipe_name": "Olive Press"
             }
-			},
-		"cook_press": {
+         },
+         "cook_press": {
             "cook_press_ghost": {
                "display_name": "Olive Press",
                "description": "Used by the cook to extract oil from olives."
             }
          }
-		 },
-	"herbalist": {
-		"herbalist_staff": {
+      },
+      "herbalist": {
+         "herbalist_staff": {
             "display_name": "Herbalist Staff",
             "description": "Required to promote a hearthling into an Herbalist",
             "herbalist_staff_iconic": {
@@ -263,64 +270,64 @@
                "description": "Required to promote a hearthling into an Herbalist"
             }
          }
-				},
-	"blacksmith":{
-		"recipes": {
-			"bronze_aspis_recipe": {
+      },
+      "blacksmith": {
+         "recipes": {
+            "bronze_aspis_recipe": {
                "description": "A sturdy and shiny shield",
                "flavor": "'Come back with your shield or on it' - Plutarch",
                "recipe_name": "Bronze Aspis"
             },
-			"iron_aspis_recipe": {
+            "iron_aspis_recipe": {
                "description": "A sturdier and shinier shield",
                "flavor": "'Come back with your shield or on it again!' - Plutarch's Wife",
                "recipe_name": "Iron Aspis"
-			},
-			"steel_aspis_recipe": {
+            },
+            "steel_aspis_recipe": {
                "description": "A strong and light shield",
                "flavor": "'you dont want this shield, its much too good!' - Plutarch's Undertaker",
                "recipe_name": "Steel Aspis"
-			},
-			"bronze_spear_recipe": {
+            },
+            "bronze_spear_recipe": {
                "description": "A Bronze Spear",
                "flavor": "flavourgoeshere",
                "recipe_name": "Bronze Spear"
-			},
-			"iron_spear_recipe": {
+            },
+            "iron_spear_recipe": {
                "description": "An Iron Spear",
                "flavor": "flavourgoeshere",
                "recipe_name": "Iron Spear"
-			},
-			"steel_spear_recipe": {
+            },
+            "steel_spear_recipe": {
                "description": "A Steel Spear",
                "flavor": "flavourgoeshere",
                "recipe_name": "Steel Spear"
-			},
-			"bronze_armour_recipe": {
+            },
+            "bronze_armour_recipe": {
                "description": "Bronze Armour",
                "flavor": "flavourgoeshere",
                "recipe_name": "Bronze Armour"
-			},
-			"iron_armour_recipe": {
+            },
+            "iron_armour_recipe": {
                "description": "Iron Armour",
                "flavor": "flavourgoeshere",
                "recipe_name": "Iron Armour"
-			},
-			"steel_armour_recipe": {
+            },
+            "steel_armour_recipe": {
                "description": "Steel Armour",
                "flavor": "flavourgoeshere",
                "recipe_name": "Steel Armour"
-			}
-		}
-	},
-	"mason": {
-		"recipes": {
-			"stone_spear_recipe":{
-				"description": "A stone spear",
+            }
+         }
+      },
+      "mason": {
+         "recipes": {
+            "stone_spear_recipe": {
+               "description": "A stone spear",
                "flavor": "For those who enjoy close combat but not to close",
                "recipe_name": "Stone Spear"
-								}
-					}
-	}
-}
+            }
+         }
+      }
+   }
 }
