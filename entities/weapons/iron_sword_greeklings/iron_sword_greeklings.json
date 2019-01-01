@@ -23,7 +23,7 @@
             "stonehearth:patrol"
          ],
          "ilevel": 18,
-         "roles": "footman_job",
+         "roles": ["footman_job"],
          "required_job_level": 1,
          "equip_effect": "stonehearth:effects:weapon_level_up"
       }
@@ -76,7 +76,12 @@
          "description": "i18n(nordlingmod:entities.weapons.iron_sword_greeklings.description)",
          "icon": "file(iron_sword_greeklings.png)",
          "category": "weapons",
-         "material_tags": "iron melee_weapon crafted stockpile_weapon"
+         "material_tags": [
+			"iron",
+			"melee_weapon",
+			"crafted",
+			"stockpile_weapon"
+		 ]
       }
    }
 }

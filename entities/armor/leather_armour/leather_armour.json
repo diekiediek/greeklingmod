@@ -25,7 +25,7 @@
          "render_type": "merge_with_model",
          "slot": "torso",
          "ilevel": 4,
-         "roles": "footman_job",
+         "roles": ["footman_job"],
          "equip_effect": "stonehearth:effects:weapon_level_up"
       }
    },
@@ -48,7 +48,12 @@
          "description": "i18n(stonehearth:entities.armor.leather_armour.description)",
          "icon": "file(leather_armour.png)",
          "category": "armor",
-         "material_tags": "armor light_armor leather stockpile_equipment"
+         "material_tags": [
+			"armor",
+			"light_armor",
+			"leather",
+			"stockpile_equipment"
+		 ]
       }
    }
 }

@@ -76,7 +76,12 @@
          "description": "i18n(nordlingmod:entities.weapons.steel_sword_greeklings.description)",
          "icon": "file(steel_sword_greeklings.png)",
          "category": "weapons",
-         "material_tags": "steel melee_weapon crafted stockpile_weapon"
+         "material_tags": [
+			"steel",
+			"melee_weapon",
+			"crafted",
+			"stockpile_weapon"
+		 ]
       }
    }
 }

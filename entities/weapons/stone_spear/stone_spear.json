@@ -53,7 +53,12 @@
          "description": "i18n(greeklingmod:entities.weapons.stone_spear.description)",
          "icon": "file(stone_spear.png)",
          "category": "weapons",
-         "material_tags": "stone melee_weapon crafted stockpile_weapon"
+         "material_tags": [
+			"stone",
+			"melee_weapon",
+			"crafted",
+			"stockpile_weapon"
+		 ]
       }
    }
 }

@@ -26,7 +26,7 @@
          "slot": "helmet",
          "ilevel": 3,
          "required_job_level": 3,
-         "roles": "mail_wearer",
+         "roles": ["mail_wearer"],
          "equip_effect": "stonehearth:effects:weapon_level_up"
       }
    },
@@ -49,7 +49,12 @@
          "description": "i18n(greeklingmod:entities.armor.bronze_helmet.description)",
          "icon": "file(bronze_helmet.png)",
          "category": "armor",
-         "material_tags": "iron armor heavy_armor stockpile_equipment"
+         "material_tags": [
+			"iron",
+			"armor",
+			"heavy_armor",
+			"stockpile_equipment"
+		 ]
       }
    }
 }
