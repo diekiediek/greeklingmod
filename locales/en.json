@@ -126,6 +126,10 @@
             "bronze_aspis_iconic": {
                "display_name": "Wooden Shield",
                "description": "Only a little useful for blocking attacks"
+            },
+            "wooden_aspis_iconic": {
+               "display_name": "A wooden shield",
+               "description": "A wooden shield, large and round"
             }
          },
          "iron_aspis": {
@@ -191,6 +195,42 @@
                "display_name": "Steel Armour",
                "description": "If you die now it's really your problem"
             }
+         },
+         "bronze_helmet": {
+            "display_name": "Bronze helmet",
+            "description": "A helmet to protect your head out of bronze "
+         },
+         "cloth_armour": {
+            "display_name": "Cloth armour",
+            "description": "Cloth armour, light and breezy ",
+            "cloth_armour_iconic": {
+               "display_name": "Cloth armour",
+               "description": "Cloth armour, light and breezy"
+            }
+         },
+         "leather_armour": {
+            "display_name": "Leather armour",
+            "description": "Leather armour, very durable",
+            "leather_armour_iconic": {
+               "display_name": "Leather armour",
+               "description": "Leather armour, very durable"
+            }
+         },
+         "iron_armour": {
+            "display_name": "Iron armour",
+            "description": "Iron armour, clank while you walk",
+            "iron_armour_iconic": {
+               "display_name": "Iron armour",
+               "description": "Iron armour, clank while you walk"
+            }
+         },
+         "steel_armour": {
+            "display_name": "Steel armour",
+            "description": "Steel armour",
+            "steel_armour_iconic": {
+               "display_name": "Steel armour",
+               "description": "Steel armour"
+            }
          }
       },
       "weapons": {
@@ -208,6 +248,10 @@
             "stone_spear_iconic": {
                "display_name": "Stone Spear",
                "description": "For poking big holes"
+            },
+            "bronze_spear_iconic": {
+               "display_name": "Bronze Spear",
+               "description": "Perfect for close but not to close combat and ooh shiny!"
             }
          },
          "steel_spear": {
@@ -216,6 +260,10 @@
             "stone_spear_iconic": {
                "display_name": "Stone Spear",
                "description": "For poking the biggest holes"
+            },
+            "steel_spear_iconic": {
+               "display_name": "Steel Spear",
+               "description": "Perfect for close but not to close combat"
             }
          },
          "iron_spear": {
@@ -224,6 +272,30 @@
             "iron_spear_iconic": {
                "display_name": "Iron Spear",
                "description": "For poking bigger holes"
+            }
+         },
+         "bronze_sword_greeklings": {
+            "display_name": "Bronze sword",
+            "description": "A traditional Greek bronze sword",
+            "bronze_sword_greeklings_iconic": {
+               "display_name": "A bronze sword",
+               "description": "A bronze curvy sword"
+            }
+         },
+         "iron_sword_greeklings": {
+            "display_name": "Iron sword",
+            "description": "A curvy blade out of iron",
+            "iron_sword_greeklings_iconic": {
+               "display_name": "Iron sword",
+               "description": "A curvy blade of iron"
+            }
+         },
+         "steel_sword_greeklings": {
+            "display_name": "Steel sword",
+            "description": "A curved sword made of steel",
+            "steel_sword_greeklings_iconic": {
+               "display_name": "Steel sword",
+               "description": "A curved sword made of steel"
             }
          }
       }
@@ -235,7 +307,16 @@
                "description": "A typical Greek shield, it will protect you",
                "flavor": "Management not acountable for failure",
                "recipe_name": "Wooden Aspis"
+            },
+            "wooden_shield_recipe": {
+               "recipe_name": "Wooden Aspis ",
+               "description": "A wooden shield, large and round",
+               "flavor": "This might prevent you from dying immediately"
             }
+         },
+         "carpenter_outfit": {
+            "display_name": "Carpenter outfit",
+            "description": "Carpenter outfit"
          }
       },
       "cook": {
@@ -255,6 +336,12 @@
                "display_name": "Olive Press",
                "description": "Used by the cook to extract oil from olives."
             }
+         },
+         "cook": {
+            "display_name": "Cook outfit"
+         },
+         "cook_outfit": {
+            "description": "Cook outfit"
          }
       },
       "herbalist": {
@@ -269,6 +356,10 @@
                "display_name": "Herbalist's Staff",
                "description": "Required to promote a hearthling into an Herbalist"
             }
+         },
+         "herbalist_outfit": {
+            "display_name": "Herbalist outfit",
+            "description": "Herbalist outfit"
          }
       },
       "blacksmith": {
@@ -317,7 +408,31 @@
                "description": "Steel Armour",
                "flavor": "flavourgoeshere",
                "recipe_name": "Steel Armour"
+            },
+            "bronze_helmet_recipe": {
+               "flavor": "WARNING: may cause helmet hair",
+               "recipe_name": "Bronze helmet ",
+               "description": "A hemelt to protect your head out of bronze "
+            },
+            "bronze_sword_greeklings": {
+               "recipe_name": "Bronze sword",
+               "description": "A bronze curved sword ",
+               "flavor": "A traditional greak weapon "
+            },
+            "iron_sword_greeklings": {
+               "recipe_name": "Iron sword",
+               "description": "A sword made out of iron",
+               "flavor": "Ideal for stabbing round corners"
+            },
+            "steel_sword_greeklings": {
+               "recipe_name": "Steel sword",
+               "description": "A sturdy sword made of steel",
+               "flavor": "Warning: stabbing may cause death"
             }
+         },
+         "blacksmith_outfit": {
+            "display_name": "Blacksmith Outfit",
+            "description": "Blacksmith Outfit"
          }
       },
       "mason": {
@@ -326,7 +441,68 @@
                "description": "A stone spear",
                "flavor": "For those who enjoy close combat but not to close",
                "recipe_name": "Stone Spear"
+            },
+            "stone_spear_recipe_recipe": {
+               "description": "A pointy spear made of stone, quite heavy"
             }
+         },
+         "mason_outfit": {
+            "display_name": "Mason Outfit",
+            "description": "Mason outfit"
+         }
+      },
+      "footman": {
+         "footman_outfit": {
+            "display_name": "Footman outfit",
+            "description": "Footman outfit"
+         }
+      },
+      "cleric": {
+         "cleric_outfit": {
+            "display_name": "Cleric Outfit",
+            "description": "Cleric Outfit"
+         }
+      },
+      "farmer": {
+         "farmer_outfit": {
+            "display_name": "Farner Outfit",
+            "description": "Farmer Outfit"
+         }
+      },
+      "shepherd": {
+         "shepherd_outfit": {
+            "display_name": "Shepherd outfit",
+            "description": "Shepherd outfit"
+         }
+      },
+      "trapper": {
+         "trapper_outfit": {
+            "display_name": "Trapper outfit",
+            "description": "Trapper outfit"
+         }
+      },
+      "weaver": {
+         "weaver_outfit": {
+            "display_name": "Weaver Outfit",
+            "description": "Wever Outfit"
+         },
+         "recipes": {
+            "cloth_padded_vest_recipe": {
+               "recipe_name": "Cloth armour",
+               "description": "Armour made of cloth, breazy and lightweight, ideal for hot summers. ",
+               "flavor": "WARNING: does not prevent stabbing"
+            },
+            "leather_vest_recipe": {
+               "recipe_name": "Leather armour",
+               "description": "Armour made of leather, very durable",
+               "flavor": "WARNING: not vegan proof"
+            }
+         }
+      },
+      "archer": {
+         "archer_outfit": {
+            "display_name": "Archer outfit",
+            "description": "Archer mod"
          }
       }
    }

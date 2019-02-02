@@ -14,7 +14,7 @@
       },
       "stonehearth:equipment_piece": {
          "slot": "mainhand",
-		 "additional_equipment": {
+         "additional_equipment": {
             "nordlingmod:sword_sheeth": true
          },
          "render_type": "attach_to_bone",
@@ -23,7 +23,9 @@
             "stonehearth:patrol"
          ],
          "ilevel": 18,
-         "roles": ["footman_job"],
+         "roles": [
+            "footman_job"
+         ],
          "required_job_level": 1,
          "equip_effect": "stonehearth:effects:weapon_level_up"
       }
@@ -72,16 +74,16 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(nordlingmod:entities.weapons.bronze_sword_greeklings.display_name)",
-         "description": "i18n(nordlingmod:entities.weapons.bronze_sword_greeklings.description)",
+         "display_name": "i18n(greeklingmod:entities.weapons.bronze_sword_greeklings.display_name)",
+         "description": "i18n(greeklingmod:entities.weapons.bronze_sword_greeklings.description)",
          "icon": "file(bronze_sword_greeklings.png)",
          "category": "weapons",
          "material_tags": [
-			"bronze",
-			"melee_weapon",
-			"crafted",
-			"stockpile_weapon"
-		 ]
+            "bronze",
+            "melee_weapon",
+            "crafted",
+            "stockpile_weapon"
+         ]
       }
    }
 }

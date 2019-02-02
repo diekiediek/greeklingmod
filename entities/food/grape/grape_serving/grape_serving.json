@@ -33,8 +33,8 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.food.berries.grape_serving.display_name)",
-         "description": "i18n(stonehearth:entities.food.berries.grape_serving.description)",
+         "display_name": "i18n(greeklingmod:entities.food.berries.grape_serving.display_name)",
+         "description": "i18n(greeklingmod:entities.food.berries.grape_serving.description)",
          "icon": "file(grape_serving.png)",
          "is_item": true,
          "category": "food",

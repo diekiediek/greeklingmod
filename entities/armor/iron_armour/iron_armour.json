@@ -24,7 +24,9 @@
          "render_type": "merge_with_model",
          "ilevel": 6,
          "required_job_level": 2,
-         "roles": ["mail_wearer"],
+         "roles": [
+            "mail_wearer"
+         ],
          "equip_effect": "stonehearth:effects:weapon_level_up"
       }
    },
@@ -43,16 +45,16 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.armor.iron_armour.display_name)",
-         "description": "i18n(stonehearth:entities.armor.iron_armour.description)",
+         "display_name": "i18n(greeklingmod:entities.armor.iron_armour.display_name)",
+         "description": "i18n(greeklingmod:entities.armor.iron_armour.description)",
          "icon": "file(iron_armour.png)",
          "category": "armor",
          "material_tags": [
-			"bronze", 
-			"armor", 
-			"heavy_armor", 
-			"stockpile_equipment"
-		 ]
+            "bronze",
+            "armor",
+            "heavy_armor",
+            "stockpile_equipment"
+         ]
       }
    }
 }

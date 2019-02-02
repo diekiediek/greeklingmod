@@ -12,8 +12,8 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(nordlingmod:entities.weapons.steel_sword_greeklings.steel_sword_greeklings_iconic.display_name)",
-         "description": "i18n(nordlingmod:entities.weapons.steel_sword_greeklings.steel_sword_greeklings_iconic.description)",
+         "display_name": "i18n(greeklingmod:entities.weapons.steel_sword_greeklings.steel_sword_greeklings_iconic.display_name)",
+         "description": "i18n(greeklingmod:entities.weapons.steel_sword_greeklings.steel_sword_greeklings_iconic.description)",
          "icon": "file(steel_sword_greeklings.png)",
          "is_item": true,
          "category": "weapons"

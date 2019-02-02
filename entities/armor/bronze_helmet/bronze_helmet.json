@@ -14,7 +14,7 @@
             "layer": "hat",
             "transparent": "false",
             "models": [
-               "file(bronze_helmet_female.qb)"
+               "file(bronze_helmet.qb)"
             ]
          }
       },
@@ -26,7 +26,9 @@
          "slot": "helmet",
          "ilevel": 3,
          "required_job_level": 3,
-         "roles": ["mail_wearer"],
+         "roles": [
+            "mail_wearer"
+         ],
          "equip_effect": "stonehearth:effects:weapon_level_up"
       }
    },
@@ -50,11 +52,11 @@
          "icon": "file(bronze_helmet.png)",
          "category": "armor",
          "material_tags": [
-			"iron",
-			"armor",
-			"heavy_armor",
-			"stockpile_equipment"
-		 ]
+            "iron",
+            "armor",
+            "heavy_armor",
+            "stockpile_equipment"
+         ]
       }
    }
 }
