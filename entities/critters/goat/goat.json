@@ -33,7 +33,7 @@
                         "weight": 2
                      },
                      "goat cheese": {
-                        "uri": "greeklingmod:entities:food:goat_cheese",
+                        "uri": "greeklingmod:food:goat_cheese",
                         "weight": 1
                      }
                   }
