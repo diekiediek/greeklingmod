@@ -1,0 +1,177 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:mob",
+   "player_id": "animals",
+   "components": {
+      "stonehearth:ai": {},
+      "stonehearth:trivial_death": {},
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(goat.qb)"
+            ]
+         },
+         "depleted": {
+            "models": [
+               "file(goat.qb)"
+            ]
+         }
+      },
+      "stonehearth:renewable_resource_node": {
+         "category": "herding",
+         "renewal_time": "36h",
+         "unripe_description": "i18n(greeklingmod:entities.critters.goat.unripe_description)",
+         "harvest_status_text": "i18n(greeklingmod:entities.critters.goat.renewable_harvest_status_text)",
+         "renew_effect": "stonehearth:effects:fursplosion_effect",
+         "check_owner": true,
+         "resource_loot_table": {
+            "entries": {
+               "goat product": {
+                  "items": {
+                     "wool": {
+                        "uri": "stonehearth:resources:fiber:wool_bundle",
+                        "weight": 2
+                     },
+                     "goat cheese": {
+                        "uri": "greeklingmod:entities:food:goat_cheese",
+                        "weight": 1
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "stonehearth:resource_node": {
+         "category": "herding",
+         "harvest_overlay_effect": "stonehearth:effects:chop_overlay_effect",
+         "harvester_effect": "fiddle",
+         "description": "harvest_animal",
+         "resource": "stonehearth:food:mutton",
+         "harvestable_by_harvest_tool": false,
+         "check_owner": true
+      },
+      "stonehearth:attributes": {
+         "max_health": {
+            "type": "basic",
+            "value": 50
+         },
+         "min_calories": {
+            "type": "basic",
+            "value": -30
+         },
+         "max_calories": {
+            "type": "basic",
+            "value": 30
+         },
+         "speed": {
+            "type": "basic",
+            "value": 40
+         },
+         "reproduction_rate_multiplier": {
+            "type": "basic",
+            "value": 1
+         },
+         "renewable_resource_rate_multiplier": {
+            "type": "basic",
+            "value": 1
+         },
+         "max_social_satisfaction": {
+            "type": "basic",
+            "value": 72
+         }
+      },
+      "stonehearth:expendable_resources": {
+         "resources": {
+            "calories": {
+               "min": {
+                  "linked_attribute": "min_calories"
+               },
+               "max": {
+                  "linked_attribute": "max_calories"
+               },
+               "initial_value": "max_value"
+            },
+            "social_satisfaction": {
+               "min": {
+                  "value": 0
+               },
+               "max": {
+                  "linked_attribute": "max_social_satisfaction"
+               },
+               "initial_value": {
+                  "type": "random_between",
+                  "min": 61,
+                  "max": "max_value"
+               }
+            }
+         }
+      },
+      "render_info": {
+         "animation_table": "stonehearth/data/rigs/entities/critters/sheep",
+         "scale": 0.12
+      }
+   },
+   "entity_data": {
+      "stonehearth:entity_radius": 0.75,
+      "stonehearth:species": {
+         "id": "goat",
+         "display_name": "i18n(greeklingmod:entities.critters.goat.species)"
+      },
+      "stonehearth:ai_packs": {
+         "packs": [
+            "stonehearth:ai_pack:critter",
+            "stonehearth:ai_pack:death",
+            "stonehearth:ai_pack:idle",
+            "stonehearth:ai_pack:idle:bored:idle_effects",
+            "stonehearth:ai_pack:idle:bored:wander"
+         ]
+      },
+      "stonehearth:idle_effects": {
+         "effects": [
+            {
+               "name": "idle",
+               "weight": 5
+            },
+            {
+               "name": "idle_breathe",
+               "weight": 5
+            },
+            {
+               "name": "idle_look_around",
+               "weight": 5
+            },
+            {
+               "name": "idle_make_noise",
+               "weight": 5
+            }
+         ]
+      },
+      "stonehearth:pasture_animal": {
+         "added_equipment": [
+            "stonehearth:pasture_equipment:adult_animal_collar"
+         ],
+         "food_material": "sheep_feed_edible",
+         "type": "stonehearth:sheep"
+      },
+      "stonehearth:calories": {
+         "hungry_threshold": 0,
+         "famished_threshold": 0,
+         "malnourished_threshold": -10,
+         "hourly_calorie_loss": 1
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 30,
+         "shop_info": {
+            "buyable": false,
+            "sellable": false
+         }
+      },
+      "stonehearth:conversation_type": "animal",
+      "stonehearth:catalog": {
+         "player_id": "animals",
+         "display_name": "i18n(greeklingmod:entities.critters.goat.display_name)",
+         "description": "i18n(greeklingmod:entities.critters.goat.description)",
+         "icon": "file(goat.png)"
+      }
+   }
+}

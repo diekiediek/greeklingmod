@@ -78,6 +78,12 @@
                "display_name": "A sprinkling of Olive Oil",
                "description": "Said to be very good for the digestion"
             }
+         },
+         "goat_cheese": {
+            "goat_cheese": {
+               "display_name": "Goat cheese",
+               "description": "A pungent but tasty cheese "
+            }
          }
       },
       "plants": {
@@ -296,6 +302,19 @@
             "steel_sword_greeklings_iconic": {
                "display_name": "Steel sword",
                "description": "A curved sword made of steel"
+            }
+         }
+      },
+      "critters": {
+         "goat": {
+            "unripe_description": "This goat has currently nothing to give. Come back later",
+            "renewable_harvest_status_text": "This goat looks like it wants to give something to you",
+            "species": "Goat",
+            "display_name": "Goat",
+            "description": "This wise critter will provide you with wool and cheese",
+            "goat_young": {
+               "display_name": "Baby goat",
+               "description": "A young goat, still growing"
             }
          }
       }

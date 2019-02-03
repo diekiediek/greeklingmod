@@ -1,0 +1,50 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(goat_cheese.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0.05 }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 3
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "effect": "fiddle",
+         "food": "greeklingmod:food:goat_cheese:goat_cheese_serving",
+         "stacks_per_serving": 1
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 30,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(greeklingmod:entities.food.goat_cheese.goat_cheese.display_name)",
+         "description": "i18n(greeklingmod:entities.food.goat_cheese.goat_cheese.description)",
+         "icon": "file(goat_cheese.png)",
+         "is_item": true,
+         "category": "food",
+         "material_tags": ["food_container", "prepared_food", "goat_cheese", "refined", "stockpile_prepared_food", "vegetarian"]
+      },
+      "stonehearth:appeal": {
+         "appeal": 1
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      }
+   }
+}

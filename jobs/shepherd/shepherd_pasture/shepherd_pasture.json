@@ -1,0 +1,20 @@
+{
+   "components": {
+      "stonehearth:shepherd_pasture": {
+         "pasture_data": {
+            "greeklingmod:critters:goat": {
+               "name": "i18n(greeklingmod:ui.game.zones_mode.pasture.goat_pasture_name)",
+               "description": "i18n(greeklingmod:ui.game.zones_mode.pasture.goat_pasture_description)",
+               "icon": "/greeklingmod/entities/critters/goat/goat.png",
+               "min_population": 2,
+               "reproduction_uri": "greeklingmod:critters:goat_young",
+               "max_num_per_10_square_unit": 1.5,
+               "base_reproduction_period": "48h",
+               "min_reproduction_period": "12h",
+               "feed_uri": "stonehearth:entities:food:sheep_feed"
+            }
+            
+         }
+      }
+   }
+}
