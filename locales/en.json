@@ -84,6 +84,16 @@
                "display_name": "Goat cheese",
                "description": "A pungent but tasty cheese "
             }
+         },
+         "berries": {
+            "grape_basket": {
+               "display_name": "A basket full of grapes",
+               "description": "Lovely and fruity, maybe with a slight hint of nut "
+            },
+            "grape_serving": {
+               "display_name": "A serving of grapes ",
+               "description": "Lovely grapes, ready for eating"
+            }
          }
       },
       "plants": {
@@ -316,6 +326,37 @@
                "display_name": "Baby goat",
                "description": "A young goat, still growing"
             }
+         }
+      },
+      "crops": {
+         "grapevine_crop": {
+            "growth_stage": {
+               "000": {
+                  "name": "Grape sprout",
+                  "description": "patience "
+               }
+            }
+         },
+         "grape_crop": {
+            "growth_stage": {
+               "001": {
+                  "name": "Grape stem",
+                  "description": "A small grape vine"
+               },
+               "002": {
+                  "name": "Grape vine ",
+                  "description": "Still growing"
+               },
+               "003": {
+                  "name": "Grape vine with small grapes ",
+                  "description": "Grapes are ready for harvest"
+               },
+               "004": {
+                  "name": "Grape vine "
+               }
+            },
+            "display_name": "Grapes",
+            "description": "A fruit that can have a wide variety of flavours"
          }
       }
    },

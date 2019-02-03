@@ -42,7 +42,7 @@
       },
       "stonehearth:crop": {
          "resource_pairings": {
-            "grapevine_crop_4": "nordlingmod:food:grape:grape_basket",
+            "grapevine_crop_4": "greeklingmod:food:grape:grape_basket",
             "grapevine_crop_12": ""
          },
          "harvest_threshhold": "grapevine_crop_4",
@@ -51,32 +51,46 @@
       "stonehearth:growing": {
          "growth_period": "18h",
          "preferred_seasons": {
-            "stonehearth:biome:temperate": ["spring", "summer", "autumn"],
-            "stonehearth:biome:desert": ["spring", "summer", "autumn"],
-            "stonehearth:biome:arctic": ["summer"]
+            "stonehearth:biome:temperate": [
+               "spring",
+               "summer",
+               "autumn"
+            ],
+            "stonehearth:biome:desert": [
+               "spring",
+               "summer",
+               "autumn"
+            ],
+            "stonehearth:biome:arctic": [
+               "summer"
+            ]
          },
          "growth_stages": [
             {
                "model_name": "grapevine_crop_1",
-               "name": "i18n(stonehearth:entities.crops.grapevine_crop.growth_stage.000.name)",
-               "description": "i18n(stonehearth:entities.crops.grapevine_crop.growth_stage.000.description)"
+               "name": "i18n(greeklingmod:entities.crops.grapevine_crop.growth_stage.000.name)",
+               "description": "i18n(greeklingmod:entities.crops.grapevine_crop.growth_stage.000.description)"
             },
             {
                "model_name": "grapevine_crop_2",
-               "name": "i18n(stonehearth:entities.crops.grape_crop.growth_stage.001.name)",
-               "description": "i18n(stonehearth:entities.crops.grape_crop.growth_stage.001.description)"
+               "name": "i18n(greeklingmod:entities.crops.grape_crop.growth_stage.001.name)",
+               "description": "i18n(greeklingmod:entities.crops.grape_crop.growth_stage.001.description)"
             },
             {
                "model_name": "grapevine_crop_3",
-               "name": "i18n(stonehearth:entities.crops.grape_crop.growth_stage.002.name)",
-               "description": "i18n(stonehearth:entities.crops.grape_crop.growth_stage.002.description)"
+               "name": "i18n(greeklingmod:entities.crops.grape_crop.growth_stage.002.name)",
+               "description": "i18n(greeklingmod:entities.crops.grape_crop.growth_stage.002.description)"
             },
             {
                "model_name": "grapevine_crop_4",
-               "name": "i18n(stonehearth:entities.crops.grape_crop.growth_stage.003.name)",
-               "description": "i18n(stonehearth:entities.crops.grape_crop.growth_stage.003.description)"
+               "name": "i18n(greeklingmod:entities.crops.grape_crop.growth_stage.003.name)",
+               "description": "i18n(greeklingmod:entities.crops.grape_crop.growth_stage.003.description)"
             },
-            {},
+            {
+               "model_name": "grapevine_crop_5",
+               "name": "i18n(greeklingmod:entities.crops.grape_crop.growth_stage.004.name)",
+               "description": "i18n(greeklingmod:entities.crops.grape_crop.growth_stage.003.description)"
+            },
             {},
             {},
             {},
@@ -85,8 +99,8 @@
             {},
             {
                "model_name": "grapevine_crop_12",
-               "name": "i18n(stonehearth:entities.crops.grape_crop.growth_stage.011.name)",
-               "description": "i18n(stonehearth:entities.crops.grape_crop.growth_stage.011.description)"
+               "name": "i18n(greeklingmod:entities.crops.grape_crop.growth_stage.011.name)",
+               "description": "i18n(greeklingmod:entities.crops.grape_crop.growth_stage.011.description)"
             }
          ]
       }
@@ -101,8 +115,8 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.crops.grape_crop.display_name)",
-         "description": "i18n(stonehearth:entities.crops.grape_crop.description)",
+         "display_name": "i18n(greeklingmod:entities.crops.grape_crop.display_name)",
+         "description": "i18n(greeklingmod:entities.crops.grape_crop.description)",
          "icon": "file(icon.png)",
          "material_tags": "crop grape"
       },

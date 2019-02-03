@@ -11,7 +11,8 @@
          "corn": true,
          "wheat": true,
          "oak_tree": true,
-         "juniper_tree": true
+         "juniper_tree": true,
+		 "grape": true
 		}
 	}
 }

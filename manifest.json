@@ -53,7 +53,9 @@
 	  "food:olive_oil:olive_oil_serving"		: "file(entities/food/olive_oil/olive_oil_serving/olive_oil_serving.json)",
 	  "food:olive_oil"							: "file(entities/food/olive_oil/olive_oil/olive_oil.json)",
 	  "food:goat_cheese"						: "file(entities/food/goat_cheese/goat_cheese.json)",
-	  "food:goat_cheese_serving"				: "file(entities/food/goat_cheese/goat_cheese_serving.json)",				
+	  "food:goat_cheese_serving"				: "file(entities/food/goat_cheese/goat_cheese_serving.json)",
+	  "food:grape:grape_basket"					: "file(entities/food/grape/grape_basket/grape_basket.json)",
+	  "food:grape:grape_serving"				: "file(entities/food/grape/grape_serving/grape_serving.json)",
 	  "plants:olive_tree"						: "file(entities/plants/olive_tree)",
 	  "plants:olive_tree:bud"					: "file(entities/plants/olive_tree/bud/olive_tree_bud.json)",
 	  "plants:olive_tree:seed"					: "file(entities/plants/olive_tree/seed/olive_tree_seed.json)",
@@ -77,11 +79,13 @@
 	  "iron_sword_greeklings"					: "file(entities/weapons/iron_sword_greeklings/iron_sword_greeklings.json)",
 	  "steel_sword_greeklings"					: "file(entities/weapons/steel_sword_greeklings/steel_sword_greeklings.json)",
 	  "critters:goat" 							: "file(entities/critters/goat/goat.json)",
-	  "critters:goat_young" 			     	: "file(entities/critters/goat/goat_young.json)"
+	  "critters:goat_young" 			     	: "file(entities/critters/goat/goat_young.json)",
+	  "crops:grape"								: "file(entities/crops/grape_crop/grapevine_crop.json)"
    }, 
    "mixintos" : {
       "stonehearth:playable_kingdom_index"							: "file(data/greeklings_playable_kingdom_index.json)",
 	  "stonehearth:farmer:initial_crops"							: "greeklingmod:farmer_initial_crops",
+	  "stoneheart:farmer:all_crops"									: "file(services/server/farming/data/all_crops.json)",
 	  "stonehearth/data/gm/gm_index.json"							: "greeklingmod:gm_index",
 	  "stonehearth/jobs/shepherd/shepherd_pasture/shepherd_pasture.json": "file(jobs/shepherd/shepherd_pasture/shepherd_pasture.json)"
    },

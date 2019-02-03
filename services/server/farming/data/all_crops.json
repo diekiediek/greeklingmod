@@ -1,0 +1,10 @@
+{
+	  "type" : "index",
+      "crops": {
+	  "grape": {
+         "crop_type": "greeklingmod:crops:grape",
+         "ordinal": 1.1,
+         "level_requirement": 0
+	  }
+   }
+}
