@@ -151,7 +151,7 @@
             "stonehearth:pasture_equipment:adult_animal_collar"
          ],
          "food_material": "sheep_feed_edible",
-         "type": "stonehearth:sheep"
+         "type": "greeklingmod:critters:goat"
       },
       "stonehearth:calories": {
          "hungry_threshold": 0,
