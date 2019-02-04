@@ -27,6 +27,11 @@
                "file(grapevine_crop_4.qb)"
             ]
          },
+		 "grapevine_crop_5": {
+            "models": [
+               "file(grapevine_crop_5.qb)"
+            ]
+         },
          "grapevine_crop_12": {
             "models": [
                "file(grapevine_crop_12.qb)"

@@ -86,7 +86,7 @@
    "mixintos" : {
       "stonehearth:playable_kingdom_index"							: "file(data/greeklings_playable_kingdom_index.json)",
 	  "stonehearth:farmer:initial_crops"							: "greeklingmod:farmer_initial_crops",
-	  "stoneheart:farmer:all_crops"									: "file(services/server/farming/data/all_crops.json)",
+	  "stonehearth:farmer:all_crops"								: "file(services/server/farming/data/all_crops.json)",
 	  "stonehearth/data/gm/gm_index.json"							: "greeklingmod:gm_index",
 	  "stonehearth/jobs/shepherd/shepherd_pasture/shepherd_pasture.json": "file(jobs/shepherd/shepherd_pasture/shepherd_pasture.json)"
    },
