@@ -31,11 +31,11 @@
       },
       "stonehearth:combat:melee_attacks": [
          {
-            "name": "combat_2h_attack",
-            "effect": "combat_2h_attack",
-            "active_frame": 21,
+            "name": "combat_1h_thrust",
+            "effect": "combat_1h_thrust",
+            "active_frame": 16,
             "cooldown": 0,
-            "priority": 2
+            "priority": 0
          }
       ],
       "stonehearth:net_worth": {
