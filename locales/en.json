@@ -2,7 +2,7 @@
    "kingdom": {
       "kingdom_name": "Greeklings",
       "quote": "Small opportunities are often the beginning of great enterprises",
-      "long_description": "The Greeklings as a great and varied people, trying to expand their civilisation all over this earth.",
+      "long_description": "The Greeklings are a great and varied people, trying to expand their civilisation to the furthest reaches.",
       "post_selection_description": " A society of wise, brave Greeklings.",
       "initial_town_name": "Polis [str(town_number)]"
    },
