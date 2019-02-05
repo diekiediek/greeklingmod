@@ -14,6 +14,12 @@
 				},
 				"bronze_helmet": {
 					"recipe": "file(bronze_helmet_recipe.json)"
+				},
+				"iron_helmet": {
+					"recipe": "file(iron_helmet_recipe.json)"
+				},
+				"steel_helmet": {
+					"recipe": "file(steel_helmet_recipe.json)"
 				}
 			}
 		},
