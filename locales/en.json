@@ -12,7 +12,14 @@
       }
    },
    "entities": {
-      "furniture": {},
+      "furniture": {
+         "marble_table": {
+            "marble_table_ghost": {
+               "display_name": "Marble table",
+               "description": "A simple marble table"
+            }
+         }
+      },
       "gizmos": {
          "greeklings_camp_standard": {
             "greeklings_camp_standard_ghost": {
@@ -247,6 +254,14 @@
                "display_name": "Steel armour",
                "description": "Steel armour"
             }
+         },
+         "iron_helmet": {
+            "display_name": "Iron helmet",
+            "description": "A sturdy helmet"
+         },
+         "steel_helmet": {
+            "display_name": "Steel helmet",
+            "description": "A sturdy and fashionable steel helmet"
          }
       },
       "weapons": {
@@ -357,6 +372,14 @@
             },
             "display_name": "Grapes",
             "description": "A fruit that can have a wide variety of flavours"
+         }
+      },
+      "consumables": {
+         "seeds": {
+            "grape_seeds": {
+               "display_name": "Grape seed",
+               "description": "Use this seed to start your own winery!"
+            }
          }
       }
    },
@@ -488,6 +511,16 @@
                "recipe_name": "Steel sword",
                "description": "A sturdy sword made of steel",
                "flavor": "Warning: stabbing may cause death"
+            },
+            "iron_helmet_recipe": {
+               "recipe_name": "Iron helmet",
+               "description": "A sturdy helmet",
+               "flavor": "I feel ironclad in this"
+            },
+            "steel_helmet_recipe": {
+               "recipe_name": "Steel helmet",
+               "description": "A very sturdy and shiny helmet",
+               "flavor": "The last word in stylish headgear"
             }
          },
          "blacksmith_outfit": {

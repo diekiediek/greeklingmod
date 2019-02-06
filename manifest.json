@@ -83,7 +83,8 @@
 	  "critters:goat" 							: "file(entities/critters/goat/goat.json)",
 	  "critters:goat_young" 			     	: "file(entities/critters/goat/goat_young.json)",
 	  "crops:grape"								: "file(entities/crops/grape_crop/grapevine_crop.json)",
-	  "seed:grape_seed"							: "file(entities/consumables/grape_seeds/grape_seeds.json)"
+	  "seed:grape_seed"							: "file(entities/consumables/grape_seeds/grape_seeds.json)",
+	  "furniture:marble_table"					: "file(entities/furniture/marble_table/marble_table.json)"
    }, 
    "mixintos" : {
       "stonehearth:playable_kingdom_index"							: "file(data/greeklings_playable_kingdom_index.json)",

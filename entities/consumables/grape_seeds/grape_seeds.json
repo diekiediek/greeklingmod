@@ -40,8 +40,8 @@
          "crop": "beans"
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(greekmod:entities.consumables.seeds.grape_seeds.display_name)",
-         "description": "i18n(greekmod:entities.consumables.seeds.grape_seeds.description)",
+         "display_name": "i18n(greeklingmod:entities.consumables.seeds.grape_seeds.display_name)",
+         "description": "i18n(greeklingmod:entities.consumables.seeds.grape_seeds.description)",
          "icon": "file(grape_seeds.png)",
          "category": "consumable",
          "material_tags": [

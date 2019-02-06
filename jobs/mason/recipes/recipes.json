@@ -5,8 +5,16 @@
 			"recipes" : {
 				"stone_spear": {
 					"recipe": "file(stone_spear_recipe.json)"
+				
 				}
 			}
-		}
+		},
+		 "furniture": {
+			"recipes": {
+				"marble_table": { 
+					"recipe": "file(marble_table_recipe.json)"
+					}
+				}
+		 }
 	}
 }

@@ -1,0 +1,26 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(marble_table.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(greeklingmod:entities.furniture.marble_table.marble_table_ghost.display_name)",
+         "description": "i18n(greeklingmod:entities.furniture.marble_table.marble_table_ghost.description)",
+         "icon": "file(marble_table.png)",
+         "category": "furniture",
+         "material_tags": ["stone", "furniture", "crafted", "stockpile_furniture"]
+      }
+   }
+}

@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 10,
+   "work_units": 5,
+   "recipe_name": "i18n(greeklingmod:jobs.mason.recipes.marble_table_recipe.recipe_name)",
+   "description": "i18n(greeklingmod:jobs.mason.recipes.marble_table_recipe.description)",
+   "flavor": "i18n(greeklingmod:jobs.mason.recipes.marble_table_recipe.flavor)",
+   "portrait": "/greeklingmod/entities/furniture/marble_table/marble_table.png",
+   "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:furniture:marble_table"
+      }
+   ]
+}
