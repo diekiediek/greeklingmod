@@ -16,7 +16,7 @@
    ],
    "produces": [
       {
-         "item": "stonehearth:furniture:marble_table"
+         "item": "greeklingmod:furniture:marble_table"
       }
    ]
 }
