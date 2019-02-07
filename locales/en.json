@@ -537,6 +537,11 @@
             },
             "stone_spear_recipe_recipe": {
                "description": "A pointy spear made of stone, quite heavy"
+            },
+            "marble_table_recipe": {
+               "recipe_name": "Marble table",
+               "description": "Marble table",
+               "flavor": "Marble table flavor goes here"
             }
          },
          "mason_outfit": {
