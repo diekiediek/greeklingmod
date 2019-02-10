@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 3,
+   "work_units": 1,
+   "recipe_name": "i18n(greeklingmod:jobs.cook.recipes.sheep_feed_recipe.recipe_name)",
+   "description": "i18n(greeklingmod:jobs.cook.recipes.sheep_feed_recipe.description)",
+   "flavor": "",
+   "portrait": "/greeklingmod/entities/food/goat_feed/goat_feed.png",
+   "workshop": "stonehearth:cook:mill",
+   "level_requirement": 0,
+   "ingredients": [
+      {
+         "uri": "stonehearth:food:wheat:wheat_bale",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "greeklingmod:food:goat_feed"
+      }
+   ]
+}

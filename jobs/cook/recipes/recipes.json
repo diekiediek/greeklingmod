@@ -7,13 +7,20 @@
 					"recipe": "file(cook_press_recipe.json)"
             }
 			}
-	},
-	 "food": {
-		"recipes" : {
-			"olive_oil" : {
-				"recipe": "file(olive_oil_recipe.json)"
-			}		
-		}
-		}
-	}
+		},
+		"food": {
+			"recipes" : {
+				"olive_oil" : {
+					"recipe": "file(olive_oil_recipe.json)"
+				}		
+			}
+		},
+		"animal_feed": {
+			"recipes": {
+				"goat_feed": {
+					"recipe": "file(goat_feed_recipe.json)"
+				}
+            }
+        }
+    }
 }

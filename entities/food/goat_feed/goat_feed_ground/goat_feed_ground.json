@@ -1,0 +1,38 @@
+{
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(goat_feed_ground.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "mob_collision_type": "tiny"
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 6
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(greeklingmod:entities.food.goat_feed.goat_feed_ground.display_name)",
+         "description": "i18n(greeklingmod:entities.food.goat_feed.goat_feed_ground.description)",
+         "icon": "file(../goat_feed.png)",
+         "material_tags": [
+            "animal_feed",
+            "goat_feed_edible",
+            "goat_feed_ground"
+         ],
+         "subject_override": "greeklingmod:food:goat_feed"
+      },
+      "stonehearth:animal_feed": {
+         "calorie_gain": 30,
+         "effect_loops": 4
+      },
+      "stonehearth:appeal": {
+         "appeal": 0
+      }
+   }
+}

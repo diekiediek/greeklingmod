@@ -11,7 +11,7 @@
                "max_num_per_10_square_unit": 1.5,
                "base_reproduction_period": "48h",
                "min_reproduction_period": "12h",
-               "feed_uri": "stonehearth:entities:food:sheep_feed"
+               "feed_uri": "greeklingmod:food:goat_feed"
             }
             
          }

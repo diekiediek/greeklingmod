@@ -61,6 +61,10 @@
 	  "plants:olive_tree:seed"					: "file(entities/plants/olive_tree/seed/olive_tree_seed.json)",
 	  "plants:olive_tree:sprout"				: "file(entities/plants/olive_tree/sprout/olive_tree_sprout.json)",
 	  "plants:olive_tree:stem"					: "file(entities/plants/olive_tree/stem/olive_tree_stem.json)",
+	  "crops:grape"								: "file(entities/crops/grape_crop/grapevine_crop.json)",
+	  "seed:grape_seed"							: "file(entities/consumables/grape_seeds/grape_seeds.json)",
+	  "food:goat_feed"							: "file(entities/food/goat_feed/goat_feed.json)",
+	  "food:goat_feed:ground"					: "file(entities/food/goat_feed/goat_feed_ground/goat_feed_ground.json)",
 	  "wooden_aspis"							: "file(entities/armor/wooden_aspis/wooden_aspis.json)",
 	  "cloth_armour"							: "file(entities/armor/cloth_armour/cloth_armour.json)",
 	  "leather_armour"							: "file(entities/armor/leather_armour/leather_armour.json)",
@@ -83,8 +87,6 @@
 	  "cook_press"								: "file(jobs/cook/cook_press/cook_press.json)",
 	  "critters:goat" 							: "file(entities/critters/goat/goat.json)",
 	  "critters:goat_young" 			     	: "file(entities/critters/goat/goat_young.json)",
-	  "crops:grape"								: "file(entities/crops/grape_crop/grapevine_crop.json)",
-	  "seed:grape_seed"							: "file(entities/consumables/grape_seeds/grape_seeds.json)",
 	  "furniture:marble_table"					: "file(entities/furniture/marble_table/marble_table.json)"
    }, 
    "mixintos" : {
@@ -97,7 +99,7 @@
 	"overrides" : {
 		"stonehearth/data/rigs/entities/humans/animations/male/combat_1h_thrust.json": "file(data/rigs/entities/humans/animations/male/combat_1h_thrust.json)",
 		"stonehearth/data/rigs/entities/humans/animations/female/combat_1h_thrust.json": "file(data/rigs/entities/humans/animations/female/combat_1h_thrust.json)",
-		"stonehearth/data/rigs/entities/humans/effects/combat_1h_thrust.json": "file(data/rigs/entities/humans/effects/combat_1h_thrust.json)",
+		"stonehearth/data/rigs/entities/humans/effects/combat_1h_thrust.json": "file(data/rigs/entities/humans/effects/combat_1h_thrust.json)"
 	},
 	"components" : {},
 	"controllers" : {}

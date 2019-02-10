@@ -101,6 +101,14 @@
                "display_name": "A serving of grapes ",
                "description": "Lovely grapes, ready for eating"
             }
+         },
+         "goat_feed": {
+            "display_name": "Goat Feed",
+            "description": "it feeds goats, duh",
+            "goat_feed_ground": {
+               "display_name": "Goat feed",
+               "description": "this feeds goats."
+            }
          }
       },
       "plants": {
@@ -412,6 +420,10 @@
             "cook_press_recipe": {
                "description": "For grinding olives into oil",
                "recipe_name": "Olive Press"
+            },
+            "sheep_feed_recipe": {
+               "recipe_name": "Goat Feed",
+               "description": "Feeds your goats. probably. it was a rush job ok?"
             }
          },
          "cook_press": {
