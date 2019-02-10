@@ -20,6 +20,15 @@
 				},
 				"steel_helmet": {
 					"recipe": "file(steel_helmet_recipe.json)"
+				},
+				"bronze_armour": {
+					"recipe": "file(bronze_armour_recipe.json)"
+				},
+				"iron_armour": {
+					"recipe": "file(iron_armour_recipe.json)"
+				},
+				"steel_armour": {
+					"recipe": "file(steel_armour_recipe.json)"
 				}
 			}
 		},

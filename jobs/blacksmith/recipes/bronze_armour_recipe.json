@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 35,
+   "work_units": 5,
+   "recipe_name": "i18n(greeklingmod:jobs.blacksmith.recipes.bronze_armour_recipe.recipe_name)",
+   "description": "i18n(greeklingmod:jobs.blacksmith.recipes.bronze_armour_recipe.description)",
+   "flavor": "i18n(greeklingmod:jobs.blacksmith.recipes.bronze_armour_recipe.flavor)",
+   "portrait": "/greeklingmod/entities/armor/bronze_armour/bronze_armour.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:bronze_ingot",
+         "count": 3
+      },
+      {
+         "material": "cloth resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "greeklingmod:bronze_armour"
+      }
+   ]
+}

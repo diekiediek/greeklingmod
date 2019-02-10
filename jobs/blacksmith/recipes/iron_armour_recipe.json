@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 40,
+   "work_units": 5,
+   "recipe_name": "i18n(greeklingmod:jobs.blacksmith.recipes.iron_armour_recipe.recipe_name)",
+   "description": "i18n(greeklingmod:jobs.blacksmith.recipes.iron_armour_recipe.description)",
+   "flavor": "i18n(greeklingmod:jobs.blacksmith.recipes.iron_armour_recipe.flavor)",
+   "portrait": "/greeklingmod/entities/armor/iron_armour/iron_armour.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 4,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 3
+      },
+      {
+         "material": "cloth resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "greeklingmod:iron_armour"
+      }
+   ]
+}
