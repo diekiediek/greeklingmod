@@ -24,7 +24,7 @@
    "entity_data": {
       "stonehearth:food_container": {
          "effect": "fiddle",
-         "food": "greeklingmod:food:grapes:grape_serving"
+         "food": "greeklingmod:food:grape:grape_serving"
       },
       "stonehearth:net_worth": {
          "value_in_gold": 2,
@@ -43,7 +43,7 @@
          "is_item": true,
          "category": "food",
          "material_tags": "food_container raw_food fruit grape vegetarian stockpile_raw_food",
-         "subject_override": "greeklingmod:crops:grape_crop"
+         "subject_override": "greeklingmod:crops:grape"
       },
       "stonehearth:appeal": {
          "appeal": 0
