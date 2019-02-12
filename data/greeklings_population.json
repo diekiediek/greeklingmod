@@ -1,4 +1,5 @@
 {
+   "type": "kingdom",
    "display_name": "i18n(greeklingmod:data.greeklings_population.display_name)",
    "kingdom_id": "greeklings",
    "favored_biome": "stonehearth:biome:temperate",
@@ -11,8 +12,10 @@
    "starting_resource": "stonehearth:resources:wood:oak_log",
    "initial_town_name": "i18n(greeklingmod:kingdom.initial_town_name)",
    "camp_standard": "greeklingmod:camp_standard",
+   "trappable_animals": "stonehearth:data:trapping:all_trappable_animals",
    "job_index": "greeklingmod:jobs:index",
    "inventory_capacity_equation": "math.max(num_citizens * 150, 1200)",
+   "ordinal": 1.3,
    "roles": {
       "default": {
          "male": {
