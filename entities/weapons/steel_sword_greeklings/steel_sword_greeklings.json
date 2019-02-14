@@ -14,9 +14,6 @@
       },
       "stonehearth:equipment_piece": {
          "slot": "mainhand",
-         "additional_equipment": {
-            "nordlingmod:sword_sheeth": true
-         },
          "render_type": "attach_to_bone",
          "postures": [
             "stonehearth:combat",
